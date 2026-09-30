@@ -1,0 +1,322 @@
+{
+  "package": "Reference-LAPACK",
+  "version": "3.12.1",
+  "git_tag": "v3.12.1",
+  "git_commit": "6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca",
+  "git_tag_object": "5ebe92156143a341ab7b14bf76560d30093cfc54",
+  "repository": "https://github.com/Reference-LAPACK/lapack",
+  "archive": {
+    "url": "https://github.com/Reference-LAPACK/lapack/archive/refs/tags/v3.12.1.tar.gz",
+    "sha256": "2ca6407a001a474d4d4d35f3a61550156050c48016d949f0da0529c0aa052422",
+    "bytes": 8067087
+  },
+  "subset_entry": [
+    "DSYEV",
+    "DGESV"
+  ],
+  "upstream_files_modified": false,
+  "license": "BSD-3-Clause",
+  "license_sha256": "978539245c405775bf347b1256c36df4daf8b69a64b099e94b1d53742201621e",
+  "files": [
+    {
+      "path": "SRC/dsyev.f",
+      "sha256": "39bb4e6841c1bc8c2c9225f28da7ada66095de2f1ffd96d0395db3c2c8eac6c6",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dsyev.f"
+    },
+    {
+      "path": "INSTALL/dlamch.f",
+      "sha256": "d532bb8ee8e3b9ffe29bf91eba98f4a304dfb599009dc105279ba1e028b96db0",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/INSTALL/dlamch.f"
+    },
+    {
+      "path": "SRC/dlansy.f",
+      "sha256": "4536c2ee50fec9dfb3b2c57960d42f60b82c76d74581a8c35b9b448eddf36ca5",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlansy.f"
+    },
+    {
+      "path": "SRC/dlascl.f",
+      "sha256": "cf80c113575e104256c0351e0b33eb2943bb7faede556dfa4617130792aa7920",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlascl.f"
+    },
+    {
+      "path": "SRC/dorgtr.f",
+      "sha256": "f79999c37c0d06a15786d262b70cb4979fdf89a9d3f1913d263dca0e48874b19",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dorgtr.f"
+    },
+    {
+      "path": "BLAS/SRC/dscal.f",
+      "sha256": "ea3794ad26c4f1dc852a52c0aee10edb25b0e7f0d12a61c91656144f139c221c",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dscal.f"
+    },
+    {
+      "path": "SRC/dsteqr.f",
+      "sha256": "b7217ddd5638195b6800faeeb582d8751d7a82513e45adb0246625947e1a8605",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dsteqr.f"
+    },
+    {
+      "path": "SRC/dsterf.f",
+      "sha256": "4c5c6b2c445299eb8b6ef40c669dca01c926d5607330557798bc1145a89044e5",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dsterf.f"
+    },
+    {
+      "path": "SRC/dsytrd.f",
+      "sha256": "7b008b9afa2952872bedc37cc12ceff87e2934dd60ff5f62edcd557d4d5faa36",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dsytrd.f"
+    },
+    {
+      "path": "SRC/ilaenv.f",
+      "sha256": "39638f3650b9b342a47e8dfc2bc67b606f51fff6bcbe2d5eb7f8205fee4582ba",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/ilaenv.f"
+    },
+    {
+      "path": "BLAS/SRC/lsame.f",
+      "sha256": "c876ce7fb72a52c3875fb5de55348140bfc8ce5bb42c86a95d36f66d36ae2ed7",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/lsame.f"
+    },
+    {
+      "path": "SRC/xerbla.f",
+      "sha256": "079bf0f9aa0b47a52d93fa784a630400e23d14bf0784a50a878b8b2503f70c3e",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/xerbla.f"
+    },
+    {
+      "path": "SRC/disnan.f",
+      "sha256": "781881a6f42e246bcf4d4fd588cf46a784c476e697659ae9019458097d15c897",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/disnan.f"
+    },
+    {
+      "path": "SRC/dlae2.f",
+      "sha256": "77a4118c9698040e3ee8ce260690b5df3b3a5086c312db5a71e173f730435a27",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlae2.f"
+    },
+    {
+      "path": "SRC/dlaev2.f",
+      "sha256": "d304ab646cc159ec22f3a77ef1bc4c79cf00ce76218278ab966aeae7f9b4e0d9",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlaev2.f"
+    },
+    {
+      "path": "SRC/dlanst.f",
+      "sha256": "59e578880b57bf3c140eedf4a483c3787ed011a6dfc96490cce4fcd52e0f4872",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlanst.f"
+    },
+    {
+      "path": "SRC/dlapy2.f",
+      "sha256": "274638b08ffe1c6f7bde140f6c9bf8bfab9087731c761f35a0b668f6d5251565",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlapy2.f"
+    },
+    {
+      "path": "SRC/la_constants.f90",
+      "sha256": "1d9bdd0fad20e76f6c418b0d5405aa7a256d89cfe57eba2a36a9c301c5ce7d1b",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/la_constants.f90"
+    },
+    {
+      "path": "SRC/dlartg.f90",
+      "sha256": "c5fbb9c2035f0314933b47e4247dfd8f1944f671d7764be2cc8fb15439e4be0c",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlartg.f90"
+    },
+    {
+      "path": "SRC/dlaset.f",
+      "sha256": "85d603b4ace0f14d757548eb1f2eff8d51b4111b81a2a629c31606d4a8b7db73",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlaset.f"
+    },
+    {
+      "path": "SRC/dlasr.f",
+      "sha256": "14581c9f0a17a21144408719b0362240cc69d948357824f0c7252d408bcd7ffb",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlasr.f"
+    },
+    {
+      "path": "SRC/dlasrt.f",
+      "sha256": "8dca73c61cd8b606822883e9aaf147485c01a77bafc0ffb72c38dbd5d6c3b4c8",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlasrt.f"
+    },
+    {
+      "path": "SRC/la_xisnan.F90",
+      "sha256": "99708155c08c456f1622b0892acca71bbc925e10ca1f71e9e343e343b9c01657",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/la_xisnan.F90"
+    },
+    {
+      "path": "SRC/dlassq.f90",
+      "sha256": "84cd1d0035b3b82374f8a591fce1a2a4a7ef7a11e57cae15a84a22de5738a3d5",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlassq.f90"
+    },
+    {
+      "path": "SRC/dlatrd.f",
+      "sha256": "30e9e78fbcbe88c3292a55eec060877eba296047bded41ca5e11ed31b8b0c7d4",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlatrd.f"
+    },
+    {
+      "path": "SRC/dorgql.f",
+      "sha256": "f5ce6eeba79451e0e65a46d36c41c43b27f7ff1c6c514b4be3cd82d21ac5681a",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dorgql.f"
+    },
+    {
+      "path": "SRC/dorgqr.f",
+      "sha256": "a7273d4dd708e220f20d32c003c543fd7f63c25cb31864cb5158e2a937577868",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dorgqr.f"
+    },
+    {
+      "path": "BLAS/SRC/dswap.f",
+      "sha256": "cb29b27f67c436340bfc6be497de96aa9ccfaf4a8ae4d7e63d7a7603fdc100ed",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dswap.f"
+    },
+    {
+      "path": "BLAS/SRC/dsyr2k.f",
+      "sha256": "919b547652504bd1a183a3f3a51b9e4526d37c10f571b822978bc4901a20fd2d",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dsyr2k.f"
+    },
+    {
+      "path": "SRC/dsytd2.f",
+      "sha256": "89372c3ebf336b5d8864f0bff69c54a811e99c512b1b45546dd991a05eff08f1",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dsytd2.f"
+    },
+    {
+      "path": "SRC/ieeeck.f",
+      "sha256": "5680e4847bb6bfaaf6ccba18a240f8b64be2d9cebf0bad8ffad6fcf867dcc3c2",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/ieeeck.f"
+    },
+    {
+      "path": "SRC/iparmq.f",
+      "sha256": "21899be95170338c6c217508261387c49ce81d88e4a13d87534de4abf36724e5",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/iparmq.f"
+    },
+    {
+      "path": "BLAS/SRC/daxpy.f",
+      "sha256": "6d978fe749ad22249d05a230b9c0ba07e6afccbcc59b746f198e285487811af1",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/daxpy.f"
+    },
+    {
+      "path": "BLAS/SRC/ddot.f",
+      "sha256": "8983346c864ecb34ef9da011a5d141c68a7329d9bc71fceb5acf2c1949b5bb4f",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/ddot.f"
+    },
+    {
+      "path": "BLAS/SRC/dgemv.f",
+      "sha256": "2320b9024e296f2a78882dd84c1b96be0af985dc177f2f373cb122f86f5d925d",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dgemv.f"
+    },
+    {
+      "path": "SRC/dlaisnan.f",
+      "sha256": "2d704d97de2f31446e8615602e5e4d1d5fd7a688695b4c1775ffd9cedd0f230c",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlaisnan.f"
+    },
+    {
+      "path": "SRC/dlarfb.f",
+      "sha256": "b3fdbed7c1ae39e11f943e415d4a6ca5f14ef8726ee8fa685c4e015604b3012d",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlarfb.f"
+    },
+    {
+      "path": "SRC/dlarfg.f",
+      "sha256": "2e6f99fe4c695860699362b5206f205952d598ffcb0e6ef62eb0f31954e311cb",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlarfg.f"
+    },
+    {
+      "path": "SRC/dlarft.f",
+      "sha256": "4e18d394192878a594362abf6b3eab51f18101568836a807a7d80e5699f91196",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlarft.f"
+    },
+    {
+      "path": "SRC/dorg2l.f",
+      "sha256": "e0c0c260877b5901306a06a62873c8dd459f535f914c957b9c26b9d5a8c0b20b",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dorg2l.f"
+    },
+    {
+      "path": "SRC/dorg2r.f",
+      "sha256": "15b212557a43409d7f31a55473052054f0f5da9840ee3f7c32c90ded4072ede2",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dorg2r.f"
+    },
+    {
+      "path": "BLAS/SRC/dsymv.f",
+      "sha256": "7b92e184a558dc2c36261bef29009c6614a33e59d4c1562b77ad7f9ccd827fa1",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dsymv.f"
+    },
+    {
+      "path": "BLAS/SRC/dsyr2.f",
+      "sha256": "d2a1f05aca3763d1d6688bcd0631deb6f43cb908bae7db98fb4d1fa7438b8cdf",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dsyr2.f"
+    },
+    {
+      "path": "BLAS/SRC/dcopy.f",
+      "sha256": "fc821bf4413f81d371f6678eb9888622008ed44819576cbc6d13fa66df3e1672",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dcopy.f"
+    },
+    {
+      "path": "BLAS/SRC/dgemm.f",
+      "sha256": "aa22f67c2c3ef9b0b0cf42fcd6c4080076948d5f4b8b4d982a78eb6e33f9e191",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dgemm.f"
+    },
+    {
+      "path": "SRC/dlacpy.f",
+      "sha256": "00a07a6244d34435e247cb4b037dcf512d10c27177c8f96410d325e9554c7c18",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlacpy.f"
+    },
+    {
+      "path": "SRC/dlarf1f.f",
+      "sha256": "a09860405adf9e56c42d51a107abc764b51367c3864102e83c0710d5cec48738",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlarf1f.f"
+    },
+    {
+      "path": "SRC/dlarf1l.f",
+      "sha256": "aa82686d354f1114acf9b22d53dc04b54dc9e1d171f6269d20d02b04302fcc8c",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlarf1l.f"
+    },
+    {
+      "path": "BLAS/SRC/dnrm2.f90",
+      "sha256": "2a5bc5ec9ab8077da1f81e2169a3868df1629e39f36ba969ada1f491a3b94979",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dnrm2.f90"
+    },
+    {
+      "path": "BLAS/SRC/dtrmm.f",
+      "sha256": "513df446fa739ebbf328f133b31f4b575ffc61143c770e8badfb71007e9296a1",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dtrmm.f"
+    },
+    {
+      "path": "BLAS/SRC/dger.f",
+      "sha256": "6da9a924d4eed5fca0ea42d34237c2ff8b75296ce17bcacfd2b9a829a9e47f4f",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dger.f"
+    },
+    {
+      "path": "SRC/iladlc.f",
+      "sha256": "48d06e17c656c37a50e223634d188ecab415fac39f3f3e21cecf929b1fc10fab",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/iladlc.f"
+    },
+    {
+      "path": "SRC/iladlr.f",
+      "sha256": "0f3f0ed30ba918673589cdb963f23719903b91b6e1ac0e1e4535fd978502d003",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/iladlr.f"
+    },
+    {
+      "path": "SRC/dgesv.f",
+      "sha256": "0179d91ee67735647b427cfb2773648b1fdb17490b4b7d15c011a5d0d809bba4",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dgesv.f"
+    },
+    {
+      "path": "SRC/dgetrf.f",
+      "sha256": "5f3d37bbfc3c509708fc3c45bf62e55cfab73ea945de522e208c651175945ebc",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dgetrf.f"
+    },
+    {
+      "path": "SRC/dgetrf2.f",
+      "sha256": "b3431df86dc051eeef0b3fe753709eb5f5ff1747016173ce883b3923200c98a4",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dgetrf2.f"
+    },
+    {
+      "path": "SRC/dgetrs.f",
+      "sha256": "171e13264833ac7ce9007015cb721eaba71d78400af45dd59db72635a5762318",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dgetrs.f"
+    },
+    {
+      "path": "SRC/dlaswp.f",
+      "sha256": "8f50f034f7c1c075db12dcb277e743fdd4938d788fde864a1adcca70fedbc102",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/SRC/dlaswp.f"
+    },
+    {
+      "path": "BLAS/SRC/idamax.f",
+      "sha256": "05e6970ea232fceb382f20be73f222c2a83e9cd8872e930a210e7e208d5ca3e4",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/idamax.f"
+    },
+    {
+      "path": "BLAS/SRC/dtrsm.f",
+      "sha256": "08dd17ab70986fabda036ed11bcb1a0892cceeb69cd2c28d7dd0a37c49c1d560",
+      "source_url": "https://raw.githubusercontent.com/Reference-LAPACK/lapack/6ec7f2bc4ecf4c4a93496aa2fa519575bc0e39ca/BLAS/SRC/dtrsm.f"
+    }
+  ]
+}

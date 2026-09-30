@@ -1,0 +1,11 @@
+version=0.3.0
+calculation=np_scattering
+system=np
+interaction=EM500
+started_date=20260929
+started_time=160332.517
+started_zone=+0200
+finished_date=20260929
+finished_time=160350.674
+finished_zone=+0200
+status=completed

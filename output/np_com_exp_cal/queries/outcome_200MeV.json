@@ -1,0 +1,1175 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 200.0
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "41209",
+      "subentry": "41209002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "PART-DET": [
+          "(N,P) neutrons detected at 67.5deg and less, recoil\nprotons at 67.5 deg and greater (c.m.s)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,TOT),,SIG)"
+        ],
+        "MONIT-REF": [
+          "(41209003,Yu.M.Kazarinov+,J,JET,16,24,1963)"
+        ],
+        "REL-REF": [
+          "(N,11055001,G.Guernsey+,J,PR,88,15,1952)\nData used for comparison on Fig.2"
+        ],
+        "CORRECTION": [
+          "For detection efficiency."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes statistical and errors in\ndetermination of the relative efficiency ( 2% and 6%\nfor recoil and scattered protons, respectively)."
+        ],
+        "STATUS": [
+          "(SCSRS)\nSource of data is not clear - from authors or Fig.2\ndigitized."
+        ],
+        "HISTORY": [
+          "(19970219U)  Energy moved to SAN 001\n(20241212A)  DATA -> DATA-CM"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Scattering of 200 MeV neutrons by protons"
+        ],
+        "AUTHOR": [
+          "(Yu.M.Kazarinov,Yu.N.Simonov)"
+        ],
+        "REFERENCE": [
+          "(J,JET,16,24,1963)  English translation of ZET 43 35\n(J,ZET,43,35,1962)  Graph is given"
+        ],
+        "INSTITUTE": [
+          "(4ZZZDUB)"
+        ],
+        "FACILITY": [
+          "(SYNCY,4ZZZDUB)    Synchro-cyclotron"
+        ],
+        "METHOD": [
+          "(REC)      Proton recoil method"
+        ],
+        "SAMPLE": [
+          "Polyethylene C-H2, thickness 59 gram/cm2\nand graphite, thickness 54 gram/cm2"
+        ],
+        "DETECTOR": [
+          "(TELES)  Three scintillation counters telescope\n.For proton detection, 5 scintillation counters\n.Telescope with convertor for neutron detection"
+        ],
+        "ANALYSIS": [
+          "Cross-section was determined by the difference between\nscattering in polyethylene and graphite"
+        ],
+        "HISTORY": [
+          "(19960815T) Converted from ENTRY 80308 in CJD\nwith addition of some BIB-information in SAN 001\n(19970219U)  Energy moved to SAN 001;\nPART-DET keyword deleted in SAN 001\n(20241212U) M.M. Upper -> lower case correction.\nDates were corrected for 4-digits year.\nSTATUS information was updated.\nBIB information was added."
+        ]
+      },
+      "source": {
+        "relative_path": "412/41209.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "ANG-RSL",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "NO-DIM",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "9.9450E-01",
+                "value": 0.9945
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "9.5000E+00",
+                "value": 9.5
+              },
+              {
+                "raw": "2.5000E+00",
+                "value": 2.5
+              }
+            ],
+            [
+              {
+                "raw": "9.8480E-01",
+                "value": 0.9848
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "8.3000E+00",
+                "value": 8.3
+              },
+              {
+                "raw": "8.0000E-01",
+                "value": 0.8
+              }
+            ],
+            [
+              {
+                "raw": "9.3360E-01",
+                "value": 0.9336
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "4.7000E+00",
+                "value": 4.7
+              },
+              {
+                "raw": "7.0000E-01",
+                "value": 0.7
+              }
+            ],
+            [
+              {
+                "raw": "8.5720E-01",
+                "value": 0.8572
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "4.1000E+00",
+                "value": 4.1
+              },
+              {
+                "raw": "5.0000E-01",
+                "value": 0.5
+              }
+            ],
+            [
+              {
+                "raw": "7.4310E-01",
+                "value": 0.7431
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "3.0000E+00",
+                "value": 3.0
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "4.6950E-01",
+                "value": 0.4695
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "2.4000E+00",
+                "value": 2.4
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "3.8270E-01",
+                "value": 0.3827
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.2000E+00",
+                "value": 2.2
+              },
+              {
+                "raw": "2.0000E-01",
+                "value": 0.2
+              }
+            ],
+            [
+              {
+                "raw": "2.2500E-01",
+                "value": 0.225
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "1.9000E+00",
+                "value": 1.9
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "5.2300E-02",
+                "value": 0.0523
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "1.9000E+00",
+                "value": 1.9
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "-1.2190E-01",
+                "value": -0.1219
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.2000E+00",
+                "value": 2.2
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "-3.2560E-01",
+                "value": -0.3256
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.8000E+00",
+                "value": 2.8
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-4.6950E-01",
+                "value": -0.4695
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "3.2000E+00",
+                "value": 3.2
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-6.4280E-01",
+                "value": -0.6428
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "3.8000E+00",
+                "value": 3.8
+              },
+              {
+                "raw": "2.0000E-01",
+                "value": 0.2
+              }
+            ],
+            [
+              {
+                "raw": "-7.7710E-01",
+                "value": -0.7771
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "4.7000E+00",
+                "value": 4.7
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-8.6600E-01",
+                "value": -0.866
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "5.5000E+00",
+                "value": 5.5
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-9.3970E-01",
+                "value": -0.9397
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "7.0000E+00",
+                "value": 7.0
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-9.6130E-01",
+                "value": -0.9613
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "8.1000E+00",
+                "value": 8.1
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.7030E-01",
+                "value": -0.9703
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "9.3000E+00",
+                "value": 9.3
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.8480E-01",
+                "value": -0.9848
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.0300E+01",
+                "value": 10.3
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.9450E-01",
+                "value": -0.9945
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.1300E+01",
+                "value": 11.3
+              },
+              {
+                "raw": "3.0000E-01",
+                "value": 0.3
+              }
+            ],
+            [
+              {
+                "raw": "-1.0000E+00",
+                "value": -1.0
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.1400E+01",
+                "value": 11.4
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "MONIT",
+                "MONIT-ERR"
+              ],
+              "units": [
+                "MB",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "42.7",
+                    "value": 42.7
+                  },
+                  {
+                    "raw": "0.9",
+                    "value": 0.9
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "EN",
+                "EN-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "200.",
+                    "value": 200.0
+                  },
+                  {
+                    "raw": "40.",
+                    "value": 40.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "41209",
+      "subentry": "41209002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "PART-DET": [
+          "(N,P) neutrons detected at 67.5deg and less, recoil\nprotons at 67.5 deg and greater (c.m.s)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,TOT),,SIG)"
+        ],
+        "MONIT-REF": [
+          "(41209003,Yu.M.Kazarinov+,J,JET,16,24,1963)"
+        ],
+        "REL-REF": [
+          "(N,11055001,G.Guernsey+,J,PR,88,15,1952)\nData used for comparison on Fig.2"
+        ],
+        "CORRECTION": [
+          "For detection efficiency."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes statistical and errors in\ndetermination of the relative efficiency ( 2% and 6%\nfor recoil and scattered protons, respectively)."
+        ],
+        "STATUS": [
+          "(SCSRS)\nSource of data is not clear - from authors or Fig.2\ndigitized."
+        ],
+        "HISTORY": [
+          "(19970219U)  Energy moved to SAN 001\n(20241212A)  DATA -> DATA-CM"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Scattering of 200 MeV neutrons by protons"
+        ],
+        "AUTHOR": [
+          "(Yu.M.Kazarinov,Yu.N.Simonov)"
+        ],
+        "REFERENCE": [
+          "(J,JET,16,24,1963)  English translation of ZET 43 35\n(J,ZET,43,35,1962)  Graph is given"
+        ],
+        "INSTITUTE": [
+          "(4ZZZDUB)"
+        ],
+        "FACILITY": [
+          "(SYNCY,4ZZZDUB)    Synchro-cyclotron"
+        ],
+        "METHOD": [
+          "(REC)      Proton recoil method"
+        ],
+        "SAMPLE": [
+          "Polyethylene C-H2, thickness 59 gram/cm2\nand graphite, thickness 54 gram/cm2"
+        ],
+        "DETECTOR": [
+          "(TELES)  Three scintillation counters telescope\n.For proton detection, 5 scintillation counters\n.Telescope with convertor for neutron detection"
+        ],
+        "ANALYSIS": [
+          "Cross-section was determined by the difference between\nscattering in polyethylene and graphite"
+        ],
+        "HISTORY": [
+          "(19960815T) Converted from ENTRY 80308 in CJD\nwith addition of some BIB-information in SAN 001\n(19970219U)  Energy moved to SAN 001;\nPART-DET keyword deleted in SAN 001\n(20241212U) M.M. Upper -> lower case correction.\nDates were corrected for 4-digits year.\nSTATUS information was updated.\nBIB information was added."
+        ]
+      },
+      "source": {
+        "relative_path": "412/41209.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "ANG-RSL",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "NO-DIM",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "9.9450E-01",
+                "value": 0.9945
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "9.5000E+00",
+                "value": 9.5
+              },
+              {
+                "raw": "2.5000E+00",
+                "value": 2.5
+              }
+            ],
+            [
+              {
+                "raw": "9.8480E-01",
+                "value": 0.9848
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "8.3000E+00",
+                "value": 8.3
+              },
+              {
+                "raw": "8.0000E-01",
+                "value": 0.8
+              }
+            ],
+            [
+              {
+                "raw": "9.3360E-01",
+                "value": 0.9336
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "4.7000E+00",
+                "value": 4.7
+              },
+              {
+                "raw": "7.0000E-01",
+                "value": 0.7
+              }
+            ],
+            [
+              {
+                "raw": "8.5720E-01",
+                "value": 0.8572
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "4.1000E+00",
+                "value": 4.1
+              },
+              {
+                "raw": "5.0000E-01",
+                "value": 0.5
+              }
+            ],
+            [
+              {
+                "raw": "7.4310E-01",
+                "value": 0.7431
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "3.0000E+00",
+                "value": 3.0
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "4.6950E-01",
+                "value": 0.4695
+              },
+              {
+                "raw": "3.",
+                "value": 3.0
+              },
+              {
+                "raw": "2.4000E+00",
+                "value": 2.4
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "3.8270E-01",
+                "value": 0.3827
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.2000E+00",
+                "value": 2.2
+              },
+              {
+                "raw": "2.0000E-01",
+                "value": 0.2
+              }
+            ],
+            [
+              {
+                "raw": "2.2500E-01",
+                "value": 0.225
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "1.9000E+00",
+                "value": 1.9
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "5.2300E-02",
+                "value": 0.0523
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "1.9000E+00",
+                "value": 1.9
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "-1.2190E-01",
+                "value": -0.1219
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.2000E+00",
+                "value": 2.2
+              },
+              {
+                "raw": "1.0000E-01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "-3.2560E-01",
+                "value": -0.3256
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "2.8000E+00",
+                "value": 2.8
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-4.6950E-01",
+                "value": -0.4695
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "3.2000E+00",
+                "value": 3.2
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-6.4280E-01",
+                "value": -0.6428
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "3.8000E+00",
+                "value": 3.8
+              },
+              {
+                "raw": "2.0000E-01",
+                "value": 0.2
+              }
+            ],
+            [
+              {
+                "raw": "-7.7710E-01",
+                "value": -0.7771
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "4.7000E+00",
+                "value": 4.7
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-8.6600E-01",
+                "value": -0.866
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "5.5000E+00",
+                "value": 5.5
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-9.3970E-01",
+                "value": -0.9397
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              },
+              {
+                "raw": "7.0000E+00",
+                "value": 7.0
+              },
+              {
+                "raw": "1.5000E-01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-9.6130E-01",
+                "value": -0.9613
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "8.1000E+00",
+                "value": 8.1
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.7030E-01",
+                "value": -0.9703
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "9.3000E+00",
+                "value": 9.3
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.8480E-01",
+                "value": -0.9848
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.0300E+01",
+                "value": 10.3
+              },
+              {
+                "raw": "2.5000E-01",
+                "value": 0.25
+              }
+            ],
+            [
+              {
+                "raw": "-9.9450E-01",
+                "value": -0.9945
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.1300E+01",
+                "value": 11.3
+              },
+              {
+                "raw": "3.0000E-01",
+                "value": 0.3
+              }
+            ],
+            [
+              {
+                "raw": "-1.0000E+00",
+                "value": -1.0
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              },
+              {
+                "raw": "1.1400E+01",
+                "value": 11.4
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "MONIT",
+                "MONIT-ERR"
+              ],
+              "units": [
+                "MB",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "42.7",
+                    "value": 42.7
+                  },
+                  {
+                    "raw": "0.9",
+                    "value": 0.9
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "EN",
+                "EN-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "200.",
+                    "value": 200.0
+                  },
+                  {
+                    "raw": "40.",
+                    "value": 40.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 1,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

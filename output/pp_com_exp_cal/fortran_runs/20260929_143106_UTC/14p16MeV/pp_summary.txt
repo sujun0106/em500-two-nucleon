@@ -1,0 +1,27 @@
+EM500 Fortran pp scattering v0.4.0
+calculation = pp_scattering
+system = proton incident on stationary proton
+interaction = EM2003 Idaho N3LO500 pp + point Coulomb
+coulomb_method = Vincent-Phatak finite-radius matching
+kinematics = relativistic
+energy_lab_MeV =   1.4160000000000000E+001
+q_MeV =   8.1504391047354005E+001
+eta =   4.2477205763758963E-002
+pmax_MeV =   1.0000000000000000E+003
+coulomb_radius_fm =   1.6000000000000000E+001
+n_grid = 160
+J_max = 32
+n_coulomb_points = 192
+number_of_blocks = 50
+maximum_reciprocity_error_relative =   7.3588240669075739E-016
+coulomb_parameter_convention = relativistic effective alpha(q); static nonrelativistic LS propagator
+maximum_residual_relative =   1.3573372301757724E-015
+maximum_unitarity_error =   9.9920072216264089E-016
+theta_reflection_relative_error =   4.4831292652747960E-016
+angle_definition = outgoing proton, center-of-mass frame
+identical_particles = singlet symmetric and triplet antisymmetric; no 1/2 in point differential cross section
+full_solid_angle_integral = divergent for point Coulomb; no finite optical-total closure asserted
+nuclear_s_basis = radial_rephased, Coulomb-relative; observables add Coulomb phases and exchange
+not_included = additional two-photon, vacuum-polarization, magnetic-moment electromagnetic corrections; pion-production channels
+Compiler = GCC version 11.4.0
+Compiler options = -I app -mtune=generic -march=x86-64 -O2 -fno-fast-math -ffp-contract=off -ffree-line-length-none -frecursive -J app -fpre-include=/usr/include/finclude/math-vector-fortran.h

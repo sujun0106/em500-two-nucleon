@@ -1,0 +1,385 @@
+{
+  "retrieved_at_utc": "2026-09-25T02:45:36.586491+00:00",
+  "status": "experimental_data_downloaded_no_model_calculation",
+  "sources": [
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Search&r=2&xx=1&tmin=270&tmax=320&obs1=DSG&sort=2",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Search&r=2&xx=1&tmin=270&tmax=320&obs1=DSG&sort=2",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 14524,
+      "sha256": "5a6758b3651578a153ce76019eb02397f74bb658e8b0902c4cc1a89535c3af56",
+      "historical_file": "raw/nn_online_np_DSG_270_320_search.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#historical"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2250",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2250",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 10719,
+      "sha256": "946c6eb920484037276207a092814ab5d9b0a6d95c97c399fc4f01b2f495bd4c",
+      "historical_file": "raw/nn_online_FR00_g2250.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#franz"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2251",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2251",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 11193,
+      "sha256": "6f910b0bfc079de96079cc02de701103f37748577dbe381cc848c042de730aa3",
+      "historical_file": "raw/nn_online_FR00_g2251.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#franz"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2252",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2252",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 10719,
+      "sha256": "4bc905b3b4052372eb623baeadfdb5c581162b2943500b2ee362e4073320e869",
+      "historical_file": "raw/nn_online_FR00_g2252.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#franz"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2253",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2253",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 10482,
+      "sha256": "c70cad01e55d060c956244d2d48d1f06e5fa9c45cdf6fe3eeb9ffaa3a18e15e6",
+      "historical_file": "raw/nn_online_FR00_g2253.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#franz"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2074",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2074",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 9175,
+      "sha256": "fed630a09e105ea9e714efa977e143b456cd236a81bb7a1cf79630c605041523",
+      "historical_file": "raw/nn_online_KE82_g2074.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#historical"
+    },
+    {
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2075",
+      "final_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2075",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 13654,
+      "sha256": "c3ab22238cd74ef2c7b1a4b7474ccb9400aea27a1fc8941aa5b39f38e4115f4a",
+      "historical_file": "raw/nn_online_KE82_g2075.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#historical"
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/0004253",
+      "final_url": "https://arxiv.org/pdf/hep-ph/0004253",
+      "status": 200,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 17 Jan 2023 20:10:27 GMT",
+      "bytes": 305829,
+      "sha256": "152176be58d7bf82509e3d74d985038ceb275e29c4454f7f897042c85f554a13",
+      "historical_file": "raw/Franz2000_hep-ph_0004253.pdf",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#franz"
+    },
+    {
+      "url": "https://nn-online.org/NN/help/index.php?page=browse-out",
+      "final_url": "https://nn-online.org/NN/help/index.php?page=browse-out",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": null,
+      "bytes": 10245,
+      "sha256": "f960ca113476e3771bfc0753833a988cec7ec814cd62a58548f22d9fe1b6aaf6",
+      "historical_file": "raw/nn_online_help_browse_out.html",
+      "distribution_status": "upstream_reference_not_bundled",
+      "source_links": "../SOURCE_LINKS.md#historical"
+    }
+  ],
+  "datasets": [
+    {
+      "group_id": "2250",
+      "reference_code": "FR00",
+      "csv_file": "tables/FR00_g2250.csv",
+      "rows": 27,
+      "theta_cm_min_deg": 152.0,
+      "theta_cm_max_deg": 178.8,
+      "source_value_kind": "dimensionless_relative",
+      "historical_raw_html": "raw/nn_online_FR00_g2250.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2250",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    },
+    {
+      "group_id": "2251",
+      "reference_code": "FR00",
+      "csv_file": "tables/FR00_g2251.csv",
+      "rows": 33,
+      "theta_cm_min_deg": 145.1,
+      "theta_cm_max_deg": 179.2,
+      "source_value_kind": "dimensionless_relative",
+      "historical_raw_html": "raw/nn_online_FR00_g2251.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2251",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    },
+    {
+      "group_id": "2252",
+      "reference_code": "FR00",
+      "csv_file": "tables/FR00_g2252.csv",
+      "rows": 27,
+      "theta_cm_min_deg": 129.8,
+      "theta_cm_max_deg": 157.4,
+      "source_value_kind": "dimensionless_relative",
+      "historical_raw_html": "raw/nn_online_FR00_g2252.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2252",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    },
+    {
+      "group_id": "2253",
+      "reference_code": "FR00",
+      "csv_file": "tables/FR00_g2253.csv",
+      "rows": 24,
+      "theta_cm_min_deg": 79.8,
+      "theta_cm_max_deg": 126.7,
+      "source_value_kind": "dimensionless_relative",
+      "historical_raw_html": "raw/nn_online_FR00_g2253.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2253",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    },
+    {
+      "group_id": "2074",
+      "reference_code": "KE82",
+      "csv_file": "tables/KE82_g2074.csv",
+      "rows": 7,
+      "theta_cm_min_deg": 11.13,
+      "theta_cm_max_deg": 94.52,
+      "source_value_kind": "mb/sr",
+      "historical_raw_html": "raw/nn_online_KE82_g2074.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2074",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    },
+    {
+      "group_id": "2075",
+      "reference_code": "KE82",
+      "csv_file": "tables/KE82_g2075.csv",
+      "rows": 64,
+      "theta_cm_min_deg": 66.73,
+      "theta_cm_max_deg": 177.02,
+      "source_value_kind": "mb/sr",
+      "historical_raw_html": "raw/nn_online_KE82_g2075.html",
+      "raw_source_url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2075",
+      "raw_source_distribution_status": "upstream_reference_not_bundled",
+      "csv_bundled": true
+    }
+  ],
+  "absolute_reconstruction": {
+    "reference": "J. Franz et al., Physica Scripta T87 (2000) 14–21, Table I column 10, arXiv:hep-ph/0004253 p.6",
+    "energy_lab_MeV": 300.2,
+    "theta_normalization_cm_deg": 179.2,
+    "scale_mb_sr": 10.63,
+    "scale_relative_uncertainty": 0.031,
+    "formula": "absolute_i = relative_i * 10.63 mb/sr; point_error_i = relative_point_error_i * 10.63 mb/sr",
+    "caution": "3.1% normalization is shared, not an independent error for each datum; full relative-dataset covariance and exact energy weight profile are not supplied here."
+  },
+  "scientific_limits": [
+    "These are free np elastic-scattering measurements using neutron beams and hydrogen targets, not quasi-free extraction from deuteron breakup.",
+    "At 300–319 MeV pion-production channels are open: purely elastic, nucleon-only Hermitian NN calculations are a limited model comparison, not a complete channel description.",
+    "EM2003 fit range ends at 290 MeV; this is a beyond-fit-range stress test.",
+    "Do not replace original experimental records by PWA-normalized or evaluated cross sections.",
+    "Full response-weighted energy averaging and full covariance require additional information."
+  ],
+  "keeler_crosscheck": {
+    "role": "secondary_database_comparison_not_ready_for_primary_fit",
+    "EXFOR_subentries_reported_by_project_tool": [
+      "12884003",
+      "12884004"
+    ],
+    "project_tool_outputs": null,
+    "pending": "Cross-check original/PWA renormalization history before using in fit.",
+    "historical_project_tool_outputs_label": "exfor_high_energy",
+    "archive_note": "Historical project cross-check materials are not included in this package and are not required for the 300.2 MeV comparison or offline plotting."
+  },
+  "Franz_energy_binning": {
+    "nominal_lab_energy_MeV": 300.2,
+    "bin_width_MeV": 20.0,
+    "exact_edges": null,
+    "event_weight_distribution": null,
+    "source": "Franz2000 section4.1"
+  },
+  "normalization_visual_verified": true,
+  "keeler_original_publication": "https://doi.org/10.1016/0375-9474(82)90054-9",
+  "historical_download_files": [
+    {
+      "file": "README.md",
+      "bytes": 4810,
+      "sha256": "3d0d478932031e65565ef44318e01db39eb48ed0dfeef5c0890e0d6c7420280c"
+    },
+    {
+      "file": "raw/Franz2000_TableI_page6.png",
+      "bytes": 442729,
+      "sha256": "defaaabaf2f69beffe3ecbefc3242f8bc1d88ddfe5503b0dfbc33b54e81fa943",
+      "url": "https://arxiv.org/pdf/hep-ph/0004253"
+    },
+    {
+      "file": "raw/Franz2000_hep-ph_0004253.pdf",
+      "bytes": 305829,
+      "sha256": "152176be58d7bf82509e3d74d985038ceb275e29c4454f7f897042c85f554a13",
+      "url": "https://arxiv.org/pdf/hep-ph/0004253"
+    },
+    {
+      "file": "raw/nn_online_FR00_g2250.html",
+      "bytes": 10719,
+      "sha256": "946c6eb920484037276207a092814ab5d9b0a6d95c97c399fc4f01b2f495bd4c",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2250"
+    },
+    {
+      "file": "raw/nn_online_FR00_g2251.html",
+      "bytes": 11193,
+      "sha256": "6f910b0bfc079de96079cc02de701103f37748577dbe381cc848c042de730aa3",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2251"
+    },
+    {
+      "file": "raw/nn_online_FR00_g2252.html",
+      "bytes": 10719,
+      "sha256": "4bc905b3b4052372eb623baeadfdb5c581162b2943500b2ee362e4073320e869",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2252"
+    },
+    {
+      "file": "raw/nn_online_FR00_g2253.html",
+      "bytes": 10482,
+      "sha256": "c70cad01e55d060c956244d2d48d1f06e5fa9c45cdf6fe3eeb9ffaa3a18e15e6",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2253"
+    },
+    {
+      "file": "raw/nn_online_KE82_g2074.html",
+      "bytes": 9175,
+      "sha256": "fed630a09e105ea9e714efa977e143b456cd236a81bb7a1cf79630c605041523",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2074"
+    },
+    {
+      "file": "raw/nn_online_KE82_g2075.html",
+      "bytes": 13654,
+      "sha256": "c3ab22238cd74ef2c7b1a4b7474ccb9400aea27a1fc8941aa5b39f38e4115f4a",
+      "url": "https://nn-online.org/NN/nn.php?program=Showdata&c=221&g=2075"
+    },
+    {
+      "file": "raw/nn_online_help_browse_out.html",
+      "bytes": 10245,
+      "sha256": "f960ca113476e3771bfc0753833a988cec7ec814cd62a58548f22d9fe1b6aaf6",
+      "url": "https://nn-online.org/NN/help/index.php?page=browse-out"
+    },
+    {
+      "file": "raw/nn_online_np_DSG_270_320_search.html",
+      "bytes": 14524,
+      "sha256": "5a6758b3651578a153ce76019eb02397f74bb658e8b0902c4cc1a89535c3af56",
+      "url": "https://nn-online.org/NN/nn.php?program=Search&r=2&xx=1&tmin=270&tmax=320&obs1=DSG&sort=2"
+    },
+    {
+      "file": "tables/FR00_300p2_absolute_derived.csv",
+      "bytes": 13141,
+      "sha256": "97f557ca91799f0adf74b16e34d619b76f8be067ed2069cb89c9ae4c18e42a3f"
+    },
+    {
+      "file": "tables/FR00_g2250.csv",
+      "bytes": 3146,
+      "sha256": "86e85fe5e9b3037604209aa4be7d96916933627b1c88e4da5e7a01db02b2468e"
+    },
+    {
+      "file": "tables/FR00_g2251.csv",
+      "bytes": 3812,
+      "sha256": "0828fd1269d70ad70245f26f0c6190ffb547dc3eb68473021f3ee9d4df2815ac"
+    },
+    {
+      "file": "tables/FR00_g2252.csv",
+      "bytes": 3143,
+      "sha256": "f136750e24d238003ff780db45a5518ea85310b6e98645f767e768680ccb1034"
+    },
+    {
+      "file": "tables/FR00_g2253.csv",
+      "bytes": 2802,
+      "sha256": "218116de32339d6bed3b075169291fbeab09952175dc22d01ea0b06ee175f71e"
+    },
+    {
+      "file": "tables/KE82_g2074.csv",
+      "bytes": 724,
+      "sha256": "71cbd0515b7f36e9fd02acaf5b57c20a3b069ef8acf68a45b37f40ea616a80cd"
+    },
+    {
+      "file": "tables/KE82_g2075.csv",
+      "bytes": 3996,
+      "sha256": "65837a994a0406ebee83b113955f94b91515106eb2306bf6c3ee3bd0289e7992"
+    }
+  ],
+  "historical_download_files_note": "Names, byte counts and hashes of the historical research download snapshot; not an inventory or integrity assertion for files in this public package.",
+  "public_distribution": {
+    "third_party_originals": "source_links_only",
+    "source_links": "../SOURCE_LINKS.md",
+    "offline_plotting": "uses retained CSV/JSON and Fortran output; no upstream paper or HTML required"
+  },
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 5437,
+      "sha256": "7c575026aa6241358706099f1a3e00e576dd16dc5a29ee193ff2f7b5bc94feb7"
+    },
+    {
+      "file": "prepared_panel.json",
+      "bytes": 97108,
+      "sha256": "9143725ba871184e1f23b61f19f70f9423c4f09747cdaf1c122bf75dc11adcfc"
+    },
+    {
+      "file": "tables/FR00_300p2_absolute_derived.csv",
+      "bytes": 13141,
+      "sha256": "97f557ca91799f0adf74b16e34d619b76f8be067ed2069cb89c9ae4c18e42a3f"
+    },
+    {
+      "file": "tables/FR00_g2250.csv",
+      "bytes": 3146,
+      "sha256": "86e85fe5e9b3037604209aa4be7d96916933627b1c88e4da5e7a01db02b2468e"
+    },
+    {
+      "file": "tables/FR00_g2251.csv",
+      "bytes": 3812,
+      "sha256": "0828fd1269d70ad70245f26f0c6190ffb547dc3eb68473021f3ee9d4df2815ac"
+    },
+    {
+      "file": "tables/FR00_g2252.csv",
+      "bytes": 3143,
+      "sha256": "f136750e24d238003ff780db45a5518ea85310b6e98645f767e768680ccb1034"
+    },
+    {
+      "file": "tables/FR00_g2253.csv",
+      "bytes": 2802,
+      "sha256": "218116de32339d6bed3b075169291fbeab09952175dc22d01ea0b06ee175f71e"
+    },
+    {
+      "file": "tables/KE82_g2074.csv",
+      "bytes": 724,
+      "sha256": "71cbd0515b7f36e9fd02acaf5b57c20a3b069ef8acf68a45b37f40ea616a80cd"
+    },
+    {
+      "file": "tables/KE82_g2075.csv",
+      "bytes": 3996,
+      "sha256": "65837a994a0406ebee83b113955f94b91515106eb2306bf6c3ee3bd0289e7992"
+    }
+  ]
+}

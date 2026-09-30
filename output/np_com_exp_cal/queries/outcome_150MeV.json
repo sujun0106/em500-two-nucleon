@@ -1,0 +1,767 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 150.0
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "11123",
+      "subentry": "11123003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,TOT),,SIG)      PHASE SHIFT ANALYSIS IN BULL.\nAM.PHYS.SOC.9,378(1964) WITH TOTAL=50.3MB."
+        ],
+        "INC-SPECT": [
+          "ENERGY SPREAD 6.0MEV. PEAK ENERGY 150.8+-1.0 MEV."
+        ],
+        "DETECTOR": [
+          "(SCIN)  PLASTIC SCINTILLATOR COUNTING PROTON RECOILS."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USAHRV)"
+        ],
+        "REFERENCE": [
+          "(J,PR,142,584,66)"
+        ],
+        "AUTHOR": [
+          "(D.F.MEASDAY)"
+        ],
+        "TITLE": [
+          "NEUTRON-PROTON DIFFERENTIAL CROSS SECTION AT 129 AND\n150 MEV."
+        ],
+        "STATUS": [
+          "(SCSRS)"
+        ],
+        "HISTORY": [
+          "(760628T) TRANSLATED FROM SCISRS\n(800814A) CONVERTED TO REACTION FORMALISM"
+        ]
+      },
+      "source": {
+        "relative_path": "111/11123.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "DATA-ERR"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "0.45090",
+                "value": 0.4509
+              },
+              {
+                "raw": "2.56   +00",
+                "value": 2.56
+              },
+              {
+                "raw": "1.2    -01",
+                "value": 0.12
+              }
+            ],
+            [
+              {
+                "raw": "0.37620",
+                "value": 0.3762
+              },
+              {
+                "raw": "2.39   +00",
+                "value": 2.39
+              },
+              {
+                "raw": "1.0    -01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "0.21130",
+                "value": 0.2113
+              },
+              {
+                "raw": "2.11   +00",
+                "value": 2.11
+              },
+              {
+                "raw": "8.     -02",
+                "value": 0.08
+              }
+            ],
+            [
+              {
+                "raw": "0.03840",
+                "value": 0.0384
+              },
+              {
+                "raw": "2.16   +00",
+                "value": 2.16
+              },
+              {
+                "raw": "7.     -02",
+                "value": 0.07
+              }
+            ],
+            [
+              {
+                "raw": "-0.1357",
+                "value": -0.1357
+              },
+              {
+                "raw": "2.49   +00",
+                "value": 2.49
+              },
+              {
+                "raw": "6.     -02",
+                "value": 0.06
+              }
+            ],
+            [
+              {
+                "raw": "-0.3074",
+                "value": -0.3074
+              },
+              {
+                "raw": "2.96   +00",
+                "value": 2.96
+              },
+              {
+                "raw": "7.     -02",
+                "value": 0.07
+              }
+            ],
+            [
+              {
+                "raw": "-0.4695",
+                "value": -0.4695
+              },
+              {
+                "raw": "3.70   +00",
+                "value": 3.7
+              },
+              {
+                "raw": "1.2    -01",
+                "value": 0.12
+              }
+            ],
+            [
+              {
+                "raw": "-0.6184",
+                "value": -0.6184
+              },
+              {
+                "raw": "4.78   +00",
+                "value": 4.78
+              },
+              {
+                "raw": "1.5    -01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-0.7490",
+                "value": -0.749
+              },
+              {
+                "raw": "5.82   +00",
+                "value": 5.82
+              },
+              {
+                "raw": "1.8    -01",
+                "value": 0.18
+              }
+            ],
+            [
+              {
+                "raw": "-0.8563",
+                "value": -0.8563
+              },
+              {
+                "raw": "6.62   +00",
+                "value": 6.62
+              },
+              {
+                "raw": "2.2    -01",
+                "value": 0.22
+              }
+            ],
+            [
+              {
+                "raw": "-0.8988",
+                "value": -0.8988
+              },
+              {
+                "raw": "7.20   +00",
+                "value": 7.2
+              },
+              {
+                "raw": "1.7    -01",
+                "value": 0.17
+              }
+            ],
+            [
+              {
+                "raw": "-0.9342",
+                "value": -0.9342
+              },
+              {
+                "raw": "8.08   +00",
+                "value": 8.08
+              },
+              {
+                "raw": "1.3    -01",
+                "value": 0.13
+              }
+            ],
+            [
+              {
+                "raw": "-0.9613",
+                "value": -0.9613
+              },
+              {
+                "raw": "9.27   +00",
+                "value": 9.27
+              },
+              {
+                "raw": "1.9    -01",
+                "value": 0.19
+              }
+            ],
+            [
+              {
+                "raw": "-0.9823",
+                "value": -0.9823
+              },
+              {
+                "raw": "1.046  +01",
+                "value": 10.46
+              },
+              {
+                "raw": "4.7    -01",
+                "value": 0.47
+              }
+            ],
+            [
+              {
+                "raw": "-0.9945",
+                "value": -0.9945
+              },
+              {
+                "raw": "1.159  +01",
+                "value": 11.59
+              },
+              {
+                "raw": "7.5    -01",
+                "value": 0.75
+              }
+            ],
+            [
+              {
+                "raw": "-0.9984",
+                "value": -0.9984
+              },
+              {
+                "raw": "1.116  +01",
+                "value": 11.16
+              },
+              {
+                "raw": "7.3    -01",
+                "value": 0.73
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "ANG-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV",
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.500  +02",
+                    "value": 150.0
+                  },
+                  {
+                    "raw": "1.0    +00",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "8.0",
+                    "value": 8.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "11123",
+      "subentry": "11123003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,TOT),,SIG)      PHASE SHIFT ANALYSIS IN BULL.\nAM.PHYS.SOC.9,378(1964) WITH TOTAL=50.3MB."
+        ],
+        "INC-SPECT": [
+          "ENERGY SPREAD 6.0MEV. PEAK ENERGY 150.8+-1.0 MEV."
+        ],
+        "DETECTOR": [
+          "(SCIN)  PLASTIC SCINTILLATOR COUNTING PROTON RECOILS."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USAHRV)"
+        ],
+        "REFERENCE": [
+          "(J,PR,142,584,66)"
+        ],
+        "AUTHOR": [
+          "(D.F.MEASDAY)"
+        ],
+        "TITLE": [
+          "NEUTRON-PROTON DIFFERENTIAL CROSS SECTION AT 129 AND\n150 MEV."
+        ],
+        "STATUS": [
+          "(SCSRS)"
+        ],
+        "HISTORY": [
+          "(760628T) TRANSLATED FROM SCISRS\n(800814A) CONVERTED TO REACTION FORMALISM"
+        ]
+      },
+      "source": {
+        "relative_path": "111/11123.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "DATA-ERR"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "0.45090",
+                "value": 0.4509
+              },
+              {
+                "raw": "2.56   +00",
+                "value": 2.56
+              },
+              {
+                "raw": "1.2    -01",
+                "value": 0.12
+              }
+            ],
+            [
+              {
+                "raw": "0.37620",
+                "value": 0.3762
+              },
+              {
+                "raw": "2.39   +00",
+                "value": 2.39
+              },
+              {
+                "raw": "1.0    -01",
+                "value": 0.1
+              }
+            ],
+            [
+              {
+                "raw": "0.21130",
+                "value": 0.2113
+              },
+              {
+                "raw": "2.11   +00",
+                "value": 2.11
+              },
+              {
+                "raw": "8.     -02",
+                "value": 0.08
+              }
+            ],
+            [
+              {
+                "raw": "0.03840",
+                "value": 0.0384
+              },
+              {
+                "raw": "2.16   +00",
+                "value": 2.16
+              },
+              {
+                "raw": "7.     -02",
+                "value": 0.07
+              }
+            ],
+            [
+              {
+                "raw": "-0.1357",
+                "value": -0.1357
+              },
+              {
+                "raw": "2.49   +00",
+                "value": 2.49
+              },
+              {
+                "raw": "6.     -02",
+                "value": 0.06
+              }
+            ],
+            [
+              {
+                "raw": "-0.3074",
+                "value": -0.3074
+              },
+              {
+                "raw": "2.96   +00",
+                "value": 2.96
+              },
+              {
+                "raw": "7.     -02",
+                "value": 0.07
+              }
+            ],
+            [
+              {
+                "raw": "-0.4695",
+                "value": -0.4695
+              },
+              {
+                "raw": "3.70   +00",
+                "value": 3.7
+              },
+              {
+                "raw": "1.2    -01",
+                "value": 0.12
+              }
+            ],
+            [
+              {
+                "raw": "-0.6184",
+                "value": -0.6184
+              },
+              {
+                "raw": "4.78   +00",
+                "value": 4.78
+              },
+              {
+                "raw": "1.5    -01",
+                "value": 0.15
+              }
+            ],
+            [
+              {
+                "raw": "-0.7490",
+                "value": -0.749
+              },
+              {
+                "raw": "5.82   +00",
+                "value": 5.82
+              },
+              {
+                "raw": "1.8    -01",
+                "value": 0.18
+              }
+            ],
+            [
+              {
+                "raw": "-0.8563",
+                "value": -0.8563
+              },
+              {
+                "raw": "6.62   +00",
+                "value": 6.62
+              },
+              {
+                "raw": "2.2    -01",
+                "value": 0.22
+              }
+            ],
+            [
+              {
+                "raw": "-0.8988",
+                "value": -0.8988
+              },
+              {
+                "raw": "7.20   +00",
+                "value": 7.2
+              },
+              {
+                "raw": "1.7    -01",
+                "value": 0.17
+              }
+            ],
+            [
+              {
+                "raw": "-0.9342",
+                "value": -0.9342
+              },
+              {
+                "raw": "8.08   +00",
+                "value": 8.08
+              },
+              {
+                "raw": "1.3    -01",
+                "value": 0.13
+              }
+            ],
+            [
+              {
+                "raw": "-0.9613",
+                "value": -0.9613
+              },
+              {
+                "raw": "9.27   +00",
+                "value": 9.27
+              },
+              {
+                "raw": "1.9    -01",
+                "value": 0.19
+              }
+            ],
+            [
+              {
+                "raw": "-0.9823",
+                "value": -0.9823
+              },
+              {
+                "raw": "1.046  +01",
+                "value": 10.46
+              },
+              {
+                "raw": "4.7    -01",
+                "value": 0.47
+              }
+            ],
+            [
+              {
+                "raw": "-0.9945",
+                "value": -0.9945
+              },
+              {
+                "raw": "1.159  +01",
+                "value": 11.59
+              },
+              {
+                "raw": "7.5    -01",
+                "value": 0.75
+              }
+            ],
+            [
+              {
+                "raw": "-0.9984",
+                "value": -0.9984
+              },
+              {
+                "raw": "1.116  +01",
+                "value": 11.16
+              },
+              {
+                "raw": "7.3    -01",
+                "value": 0.73
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "ANG-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV",
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.500  +02",
+                    "value": 150.0
+                  },
+                  {
+                    "raw": "1.0    +00",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "8.0",
+                    "value": 8.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 1,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

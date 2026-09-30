@@ -1,0 +1,101 @@
+{
+  "kind": "Fortran deuteron migration references; historical outputs and old-API kernel samples",
+  "historical_bound_state_commit": "57713f32c18f0bebb840c027e081c096fdac22cc",
+  "historical_bound_state_tag": "v0.1.0-alpha.1",
+  "reference_generation_tool_head": "026aef24f4cc0d57fbabf6f4f9f5c4e23fda58a5",
+  "upstream_commit": "30338ac0eaf968b6db2edfa8380410651a56267b",
+  "potential_generation": {
+    "implementation": "original fewbody_research.em500.EM500.matrix with pre-existing library",
+    "N_cases": 12,
+    "channels": {
+      "S": 1,
+      "J": 1,
+      "T": 0,
+      "Tz": 0,
+      "coupled": true
+    },
+    "matrix_order": [
+      "SS",
+      "SD",
+      "DS",
+      "DD"
+    ],
+    "native_components_1_based": [
+      4,
+      6,
+      5,
+      3
+    ],
+    "pout_is_first_argument": true,
+    "measure": "dp*p^2; no extra 2/pi",
+    "phase": "radial_rephased",
+    "mass_parameter_MeV": 938.9182046406256
+  },
+  "source_files": [
+    {
+      "workspace_path": "projects/含时量子多体调研/cases/01_deuteron/runs/em500_v0.1/momentum_wavefunction.csv",
+      "sha256": "1d71a23647a12afbf04dd7119cc54e7a1e651a27e062f79e590e40e1a335b627"
+    },
+    {
+      "workspace_path": "projects/含时量子多体调研/cases/01_deuteron/runs/em500_v0.1/convergence.csv",
+      "sha256": "2b6614cbe9e740759834ad3ae8febcd3920619456b529f6f8fe032c9e79dcf66"
+    },
+    {
+      "workspace_path": "projects/含时量子多体调研/cases/01_deuteron/runs/em500_v0.1/result.json",
+      "sha256": "1bb7a4167b9c8bd8c7454926bd35b96278ccd78f2c9d7c57a341e611a4916bb8"
+    },
+    {
+      "workspace_path": "projects/含时量子多体调研/cases/01_deuteron/runs/em500_v0.1/provenance.json",
+      "sha256": "df101443816f2c01d4f52764b518114e18ca932f1d5bdd0310fda5e71ecee5e5"
+    },
+    {
+      "workspace_path": "tools/fewbody_research/src/fewbody_research/em500.py",
+      "sha256": "60adfa422ea8b6d2acddfa90c40abe19545b94af685e7fc04c5d26ed3c242569"
+    },
+    {
+      "workspace_path": "tools/fewbody_research/src/fewbody_research/bound_state.py",
+      "sha256": "3acf5eedf9a8d4965bc702b111d80122949d604c2a50f8771a57d5ff2e445299"
+    },
+    {
+      "workspace_path": "tools/fewbody_research/native/em500_bridge.f90",
+      "sha256": "62e8968e1b55922a7b495550c8b2705235d2e7b005979b60d7d609dd2ab81bf4"
+    },
+    {
+      "workspace_path": "tools/fewbody_research/configs/em500.json",
+      "sha256": "6c1e4abd7b26e51a9b8b86a625897e24783c58eca3ede5e2474c1e9af99a8e55"
+    },
+    {
+      "workspace_path": "tools/fewbody_research/build/release/libfewbody_em500.so",
+      "sha256": "1802efa540ce843e165033afbaa382c33acd8b13c042d9df1d4ec6a38ad75ad6"
+    }
+  ],
+  "files": [
+    {
+      "file": "historical_convergence.csv",
+      "sha256": "2b6614cbe9e740759834ad3ae8febcd3920619456b529f6f8fe032c9e79dcf66"
+    },
+    {
+      "file": "momentum_wavefunction_N100_pmax1000.csv",
+      "sha256": "1d71a23647a12afbf04dd7119cc54e7a1e651a27e062f79e590e40e1a335b627"
+    },
+    {
+      "file": "reference_bound_states.dat",
+      "sha256": "a19469c2cd0ce798f6abb7a243894d98f7ef835827854f2b47035e808c9e38ab"
+    },
+    {
+      "file": "reference_potential.dat",
+      "sha256": "bfa4e9b93ecabc0ebfb481bb58b42cc9c4fd6b44e1930a3f8a406302903cda25"
+    }
+  ],
+  "generator": {
+    "workspace_path": "projects/含时量子多体调研/runs/fortran_deuteron_2026-09-29/reference_audit/prepare_reference.py",
+    "sha256": "3b8c80a9cd6acbb700046975085ef1eacede4549c62916fabc2505f3eec53aa5"
+  },
+  "limitations": [
+    "Agreement is a migration regression test, not an independent proof of EM500 physics.",
+    "Wavefunction is radial_rephased momentum representation; compare global sign consistently.",
+    "D probability is representation dependent.",
+    "Parameter 500 MeV is a smooth regulator scale, not pmax; preserve upstream exact-zero guard above 1000 MeV.",
+    "Bound-state energy is part of the original interaction calibration, not a new out-of-sample prediction."
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "codata2022_allascii.txt",
+    "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "bytes": 40801,
+    "sha256": "77fb90e66c40db3e6eb16630bc9c88e4c7c8beddbe5e71be406f2f26e3f67e67",
+    "distribution_status": "bundled_scientific_data_table"
+  },
+  {
+    "file": "ame2020_mass_1.mas20.txt",
+    "url": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt",
+    "bytes": 472648,
+    "sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+    "distribution_status": "bundled_scientific_data_table"
+  },
+  {
+    "file": "pdg2025_neutron.pdf",
+    "url": "https://pdg.lbl.gov/2025/listings/rpp2025-list-n.pdf",
+    "bytes": 201479,
+    "sha256": "1b6c8d581fc88667d24259377fab5ef2ce890bedc500c19f88bebe6497ad9ef8",
+    "distribution_status": "upstream_reference_not_bundled",
+    "file_record_meaning": "historical research archive filename and upstream download hash; obtain original from url",
+    "source_links": "../SOURCE_LINKS.md#papers"
+  },
+  {
+    "file": "puchalski2020_quadrupole.pdf",
+    "url": "https://arxiv.org/pdf/2010.06888",
+    "bytes": 343163,
+    "sha256": "b6e180723a1b524129a95464100408a84749808cb48cc6b54a69e6e944be5b34",
+    "distribution_status": "upstream_reference_not_bundled",
+    "file_record_meaning": "historical research archive filename and upstream download hash; obtain original from url",
+    "source_links": "../SOURCE_LINKS.md#papers"
+  },
+  {
+    "file": "filin2021_form_factors.pdf",
+    "url": "https://arxiv.org/pdf/2009.08911",
+    "bytes": 1553043,
+    "sha256": "70a43cf4bbbac057450f1b27df6f5863109e2d5bc3f174f21ec96587e13ddea8",
+    "distribution_status": "upstream_reference_not_bundled",
+    "file_record_meaning": "historical research archive filename and upstream download hash; obtain original from url",
+    "source_links": "../SOURCE_LINKS.md#papers"
+  },
+  {
+    "file": "deswart1995_low_energy.pdf",
+    "url": "https://arxiv.org/pdf/nucl-th/9509032",
+    "bytes": 120992,
+    "sha256": "efc653c30ab56baca3ab1b6633174a79013a980f6c62e1bc0b0bc7eb748c1a44",
+    "distribution_status": "upstream_reference_not_bundled",
+    "file_record_meaning": "historical research archive filename and upstream download hash; obtain original from url",
+    "source_links": "../SOURCE_LINKS.md#papers"
+  }
+]

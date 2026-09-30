@@ -1,0 +1,20 @@
+{
+  "reaction": {
+    "projectile": "n",
+    "target": "H-1",
+    "channel": "EL"
+  },
+  "observable": "differential_cross_section",
+  "incident_energy": {
+    "value": 300.2,
+    "unit": "MeV",
+    "mode": "exact"
+  },
+  "kinematics": {},
+  "selection": {
+    "dataset_policy": "all"
+  },
+  "presentation": {
+    "table": true
+  }
+}

@@ -1,0 +1,975 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "P",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 50.06
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "A0637",
+      "subentry": "A0637002",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          "(TABLE).Table 1 of J,JP/G,12,L133,1986"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "The differential cross section of elastic proton-proton\nscattering at 50 MeV."
+        ],
+        "AUTHOR": [
+          "(A.Berdoz, F.Foroughi, C.Nussbaum)"
+        ],
+        "INSTITUTE": [
+          "(2SWTNEU)"
+        ],
+        "REFERENCE": [
+          "(J,JP/G,12,L133,1986)"
+        ],
+        "SAMPLE": [
+          "Solid target consisting of a small pastille (diameter=\n2mm  and 7 mumeters thick) of polyethylene deposited on\na self-supporting thin carbon foil.  The polyethylene\nis pure to better than 0.2%.\nin order to subtract the background due to the C(p,2p)x\nreaction a carbon target (100 mu-gramm/cm-sq) was\nmeasured also."
+        ],
+        "DETECTOR": [
+          "(SOLST) 3mm and 1mm thick silicon superconductor detect\nused as transmission counters."
+        ],
+        "FACILITY": [
+          "(CYCLO,2SWTNEU)"
+        ],
+        "METHOD": [
+          "(COINC) the outgoing protons.  Both the forward and the\nrecoil were detected in coincidence.\n(SITA) see sample\n(EXTB) the beam divergence was less than 0.1 Degree."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) errors are statistical only and include errors\ndue to background subtraction and to the monitoring.\n(ERR-1) an additional common error is due to the\nnormalization uncertainty.\n(EN-ERR) beam energy uncertainty."
+        ],
+        "HISTORY": [
+          "(19990608C) by F.C.\n(19990621A) date is corrected\n(20120412A) BIB section upgrated\nCorrection was made according M.Bossant comments and\nnew exfor rules. Status was added."
+        ]
+      },
+      "source": {
+        "relative_path": "A06/A0637.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "DATA-CM",
+            "ERR-S"
+          ],
+          "units": [
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "14.",
+                "value": 14.0
+              },
+              {
+                "raw": "9.225",
+                "value": 9.225
+              },
+              {
+                "raw": "0.027",
+                "value": 0.027
+              }
+            ],
+            [
+              {
+                "raw": "16.",
+                "value": 16.0
+              },
+              {
+                "raw": "7.81",
+                "value": 7.81
+              },
+              {
+                "raw": "0.023",
+                "value": 0.023
+              }
+            ],
+            [
+              {
+                "raw": "18.",
+                "value": 18.0
+              },
+              {
+                "raw": "7.444",
+                "value": 7.444
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "20.",
+                "value": 20.0
+              },
+              {
+                "raw": "7.472",
+                "value": 7.472
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "22.",
+                "value": 22.0
+              },
+              {
+                "raw": "7.632",
+                "value": 7.632
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "25.",
+                "value": 25.0
+              },
+              {
+                "raw": "7.903",
+                "value": 7.903
+              },
+              {
+                "raw": "0.023",
+                "value": 0.023
+              }
+            ],
+            [
+              {
+                "raw": "28.",
+                "value": 28.0
+              },
+              {
+                "raw": "8.151",
+                "value": 8.151
+              },
+              {
+                "raw": "0.024",
+                "value": 0.024
+              }
+            ],
+            [
+              {
+                "raw": "30.",
+                "value": 30.0
+              },
+              {
+                "raw": "8.299",
+                "value": 8.299
+              },
+              {
+                "raw": "0.024",
+                "value": 0.024
+              }
+            ],
+            [
+              {
+                "raw": "32.",
+                "value": 32.0
+              },
+              {
+                "raw": "8.442",
+                "value": 8.442
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "35.",
+                "value": 35.0
+              },
+              {
+                "raw": "8.564",
+                "value": 8.564
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "38.",
+                "value": 38.0
+              },
+              {
+                "raw": "8.681",
+                "value": 8.681
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "40.",
+                "value": 40.0
+              },
+              {
+                "raw": "8.714",
+                "value": 8.714
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "42.",
+                "value": 42.0
+              },
+              {
+                "raw": "8.747",
+                "value": 8.747
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "45.",
+                "value": 45.0
+              },
+              {
+                "raw": "8.771",
+                "value": 8.771
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "48.",
+                "value": 48.0
+              },
+              {
+                "raw": "8.787",
+                "value": 8.787
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "50.",
+                "value": 50.0
+              },
+              {
+                "raw": "8.812",
+                "value": 8.812
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "55.",
+                "value": 55.0
+              },
+              {
+                "raw": "8.779",
+                "value": 8.779
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "60.",
+                "value": 60.0
+              },
+              {
+                "raw": "8.778",
+                "value": 8.778
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "65.",
+                "value": 65.0
+              },
+              {
+                "raw": "8.716",
+                "value": 8.716
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "70.",
+                "value": 70.0
+              },
+              {
+                "raw": "8.719",
+                "value": 8.719
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "75.",
+                "value": 75.0
+              },
+              {
+                "raw": "8.695",
+                "value": 8.695
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "80.",
+                "value": 80.0
+              },
+              {
+                "raw": "8.66",
+                "value": 8.66
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "85.",
+                "value": 85.0
+              },
+              {
+                "raw": "8.677",
+                "value": 8.677
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "90.",
+                "value": 90.0
+              },
+              {
+                "raw": "8.661",
+                "value": 8.661
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "ERR-1"
+              ],
+              "units": [
+                "MEV",
+                "MEV",
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "50.06",
+                    "value": 50.06
+                  },
+                  {
+                    "raw": "0.04",
+                    "value": 0.04
+                  },
+                  {
+                    "raw": "1.6",
+                    "value": 1.6
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "A0637",
+      "subentry": "A0637002",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          "(TABLE).Table 1 of J,JP/G,12,L133,1986"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "The differential cross section of elastic proton-proton\nscattering at 50 MeV."
+        ],
+        "AUTHOR": [
+          "(A.Berdoz, F.Foroughi, C.Nussbaum)"
+        ],
+        "INSTITUTE": [
+          "(2SWTNEU)"
+        ],
+        "REFERENCE": [
+          "(J,JP/G,12,L133,1986)"
+        ],
+        "SAMPLE": [
+          "Solid target consisting of a small pastille (diameter=\n2mm  and 7 mumeters thick) of polyethylene deposited on\na self-supporting thin carbon foil.  The polyethylene\nis pure to better than 0.2%.\nin order to subtract the background due to the C(p,2p)x\nreaction a carbon target (100 mu-gramm/cm-sq) was\nmeasured also."
+        ],
+        "DETECTOR": [
+          "(SOLST) 3mm and 1mm thick silicon superconductor detect\nused as transmission counters."
+        ],
+        "FACILITY": [
+          "(CYCLO,2SWTNEU)"
+        ],
+        "METHOD": [
+          "(COINC) the outgoing protons.  Both the forward and the\nrecoil were detected in coincidence.\n(SITA) see sample\n(EXTB) the beam divergence was less than 0.1 Degree."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) errors are statistical only and include errors\ndue to background subtraction and to the monitoring.\n(ERR-1) an additional common error is due to the\nnormalization uncertainty.\n(EN-ERR) beam energy uncertainty."
+        ],
+        "HISTORY": [
+          "(19990608C) by F.C.\n(19990621A) date is corrected\n(20120412A) BIB section upgrated\nCorrection was made according M.Bossant comments and\nnew exfor rules. Status was added."
+        ]
+      },
+      "source": {
+        "relative_path": "A06/A0637.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "DATA-CM",
+            "ERR-S"
+          ],
+          "units": [
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "14.",
+                "value": 14.0
+              },
+              {
+                "raw": "9.225",
+                "value": 9.225
+              },
+              {
+                "raw": "0.027",
+                "value": 0.027
+              }
+            ],
+            [
+              {
+                "raw": "16.",
+                "value": 16.0
+              },
+              {
+                "raw": "7.81",
+                "value": 7.81
+              },
+              {
+                "raw": "0.023",
+                "value": 0.023
+              }
+            ],
+            [
+              {
+                "raw": "18.",
+                "value": 18.0
+              },
+              {
+                "raw": "7.444",
+                "value": 7.444
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "20.",
+                "value": 20.0
+              },
+              {
+                "raw": "7.472",
+                "value": 7.472
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "22.",
+                "value": 22.0
+              },
+              {
+                "raw": "7.632",
+                "value": 7.632
+              },
+              {
+                "raw": "0.022",
+                "value": 0.022
+              }
+            ],
+            [
+              {
+                "raw": "25.",
+                "value": 25.0
+              },
+              {
+                "raw": "7.903",
+                "value": 7.903
+              },
+              {
+                "raw": "0.023",
+                "value": 0.023
+              }
+            ],
+            [
+              {
+                "raw": "28.",
+                "value": 28.0
+              },
+              {
+                "raw": "8.151",
+                "value": 8.151
+              },
+              {
+                "raw": "0.024",
+                "value": 0.024
+              }
+            ],
+            [
+              {
+                "raw": "30.",
+                "value": 30.0
+              },
+              {
+                "raw": "8.299",
+                "value": 8.299
+              },
+              {
+                "raw": "0.024",
+                "value": 0.024
+              }
+            ],
+            [
+              {
+                "raw": "32.",
+                "value": 32.0
+              },
+              {
+                "raw": "8.442",
+                "value": 8.442
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "35.",
+                "value": 35.0
+              },
+              {
+                "raw": "8.564",
+                "value": 8.564
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "38.",
+                "value": 38.0
+              },
+              {
+                "raw": "8.681",
+                "value": 8.681
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "40.",
+                "value": 40.0
+              },
+              {
+                "raw": "8.714",
+                "value": 8.714
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "42.",
+                "value": 42.0
+              },
+              {
+                "raw": "8.747",
+                "value": 8.747
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "45.",
+                "value": 45.0
+              },
+              {
+                "raw": "8.771",
+                "value": 8.771
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "48.",
+                "value": 48.0
+              },
+              {
+                "raw": "8.787",
+                "value": 8.787
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "50.",
+                "value": 50.0
+              },
+              {
+                "raw": "8.812",
+                "value": 8.812
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "55.",
+                "value": 55.0
+              },
+              {
+                "raw": "8.779",
+                "value": 8.779
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "60.",
+                "value": 60.0
+              },
+              {
+                "raw": "8.778",
+                "value": 8.778
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "65.",
+                "value": 65.0
+              },
+              {
+                "raw": "8.716",
+                "value": 8.716
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "70.",
+                "value": 70.0
+              },
+              {
+                "raw": "8.719",
+                "value": 8.719
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "75.",
+                "value": 75.0
+              },
+              {
+                "raw": "8.695",
+                "value": 8.695
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "80.",
+                "value": 80.0
+              },
+              {
+                "raw": "8.66",
+                "value": 8.66
+              },
+              {
+                "raw": "0.026",
+                "value": 0.026
+              }
+            ],
+            [
+              {
+                "raw": "85.",
+                "value": 85.0
+              },
+              {
+                "raw": "8.677",
+                "value": 8.677
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ],
+            [
+              {
+                "raw": "90.",
+                "value": 90.0
+              },
+              {
+                "raw": "8.661",
+                "value": 8.661
+              },
+              {
+                "raw": "0.025",
+                "value": 0.025
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06,
+            50.06
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "ERR-1"
+              ],
+              "units": [
+                "MEV",
+                "MEV",
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "50.06",
+                    "value": 50.06
+                  },
+                  {
+                    "raw": "0.04",
+                    "value": 0.04
+                  },
+                  {
+                    "raw": "1.6",
+                    "value": 1.6
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 54,
+    "returned_subentries": 1,
+    "excluded": [
+      {
+        "subentry": "E1830002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

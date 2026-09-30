@@ -1,0 +1,2 @@
+# Only needed when converting Markdown; --from-tex uses the Python standard library.
+markdown-it-py>=3.0,<5

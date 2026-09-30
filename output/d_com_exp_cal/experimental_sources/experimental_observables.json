@@ -1,0 +1,241 @@
+{
+  "retrieved_on": "2026-09-29",
+  "scope": "Source audit; this file contains no newly computed deuteron solution.",
+  "rows": [
+    {
+      "id": "binding_energy",
+      "name_zh": "氘核结合能",
+      "value": 2.2245662,
+      "uncertainty": 4e-07,
+      "unit": "MeV",
+      "display": "2.2245662(4)",
+      "status": "experimental_evaluation",
+      "source": "AME2020",
+      "note": "Twice binding energy/A, uncertainty also doubled. Experimental nuclear binding convention; source rounding retained."
+    },
+    {
+      "id": "binding_fit_target_historical",
+      "name_zh": "EM500历史结合能拟合目标",
+      "value": 2.224575,
+      "uncertainty": 9e-06,
+      "unit": "MeV",
+      "display": "2.224575(9)",
+      "status": "historical_fit_target_not_new_prediction",
+      "source": "deSwart1995;Epelbaum2015",
+      "note": "Do not silently replace force parameter or claim independent prediction. Modern value differs by 8.8 eV."
+    },
+    {
+      "id": "charge_radius",
+      "name_zh": "氘核电荷均方根半径",
+      "value": 2.12778,
+      "uncertainty": 0.00027,
+      "unit": "fm",
+      "display": "2.12778(27)",
+      "status": "experimental_adjustment_with_atomic_theory",
+      "source": "CODATA2022",
+      "note": "Combined electronic/muonic spectroscopy and isotope-shift adjustment. Not point-nucleon matter radius."
+    },
+    {
+      "id": "quadrupole",
+      "name_zh": "氘核电四极矩",
+      "value": 0.285699,
+      "uncertainty": null,
+      "uncertainty_theory": 1.5e-05,
+      "uncertainty_experiment": 1.8e-05,
+      "unit": "fm^2",
+      "display": "0.285699(15)(18)",
+      "status": "experiment_plus_molecular_theory_extraction",
+      "source": "Puchalski2020",
+      "note": "1st error missing molecular relativistic/QED contributions, 2nd experimental molecular beam magnetic resonance error. IA nuclear estimate omits two-body currents and relativistic corrections."
+    },
+    {
+      "id": "magnetic_moment",
+      "name_zh": "氘核磁矩",
+      "value": 0.8574382335,
+      "uncertainty": 2.2e-09,
+      "unit": "mu_N",
+      "display": "0.8574382335(22)",
+      "status": "experimental_adjustment",
+      "source": "CODATA2022",
+      "note": "Free-deuteron magnetic moment. Nuclear impulse approximation is not full electromagnetic operator."
+    },
+    {
+      "id": "asymptotic_s",
+      "name_zh": "S波渐近归一化系数",
+      "value": 0.8845,
+      "uncertainty": 0.0008,
+      "unit": "fm^-1/2",
+      "display": "0.8845(8)",
+      "status": "empirical_nn_pwa_extraction",
+      "source": "deSwart1995",
+      "note": "Empirical low-energy np analysis with estimated total error, not a direct density measurement. Other literature uses0.8846(8/9); do not combine averages."
+    },
+    {
+      "id": "asymptotic_ds_ratio",
+      "name_zh": "渐近D/S比",
+      "value": 0.0256,
+      "uncertainty": 0.0004,
+      "unit": "1",
+      "display": "0.0256(4)",
+      "status": "reaction_extraction",
+      "source": "Rodning1990;deSwart1995",
+      "note": "Sub-Coulomb(d,p) tensor analyzing powers; distinct from D probability."
+    },
+    {
+      "id": "matter_radius",
+      "name_zh": "点核子物质均方根半径",
+      "value": null,
+      "uncertainty": null,
+      "unit": "fm",
+      "display": "无可直接对照的模型无关数值",
+      "status": "wavefunction_quantity",
+      "source": "Filin2021",
+      "note": "r_m^2=1/4 integral r^2(u^2+w^2)dr in equal-mass midpoint convention. Not charge radius; historical structure-radius extraction includes assumptions/current corrections."
+    },
+    {
+      "id": "density",
+      "name_zh": "自旋平均点核子密度",
+      "value": null,
+      "uncertainty": null,
+      "unit": "fm^-3",
+      "display": "不能视为逐点实验观测量",
+      "status": "wavefunction_quantity",
+      "source": "Filin2021",
+      "note": "Density from specified wavefunction/operator is resolution/convention dependent. Electron scattering constrains electromagnetic form factors, not directly |psi|^2."
+    },
+    {
+      "id": "d_probability",
+      "name_zh": "D态概率",
+      "value": null,
+      "uncertainty": null,
+      "unit": "percent",
+      "display": "非观测量",
+      "status": "not_observable",
+      "source": "deSwart1995;Filin2021",
+      "note": "Basis/potential dependent; no experimental P_D comparator. May appear separately as wavefunction diagnostic."
+    },
+    {
+      "id": "proton_charge_radius",
+      "name_zh": "输入：质子电荷半径",
+      "value": 0.84075,
+      "uncertainty": 0.00064,
+      "unit": "fm",
+      "display": "0.84075(64)",
+      "status": "input_experimental_adjustment",
+      "source": "CODATA2022",
+      "note": "For approximate folding, not an EM500 fit parameter."
+    },
+    {
+      "id": "neutron_charge_radius_squared",
+      "name_zh": "输入：中子均方电荷半径",
+      "value": -0.1155,
+      "uncertainty": 0.0017,
+      "unit": "fm^2",
+      "display": "-0.1155(17)",
+      "status": "input_experimental_evaluation",
+      "source": "PDG2025",
+      "note": "Negative mean square electric radius is physical because net neutron charge is zero; not negative matter radius. Supersedes often-cited -0.1161(22)."
+    },
+    {
+      "id": "proton_magnetic_moment",
+      "name_zh": "输入：质子磁矩",
+      "value": 2.79284734463,
+      "uncertainty": 8.2e-10,
+      "unit": "mu_N",
+      "display": "2.79284734463(82)",
+      "status": "input_experimental_adjustment",
+      "source": "CODATA2022",
+      "note": ""
+    },
+    {
+      "id": "neutron_magnetic_moment",
+      "name_zh": "输入：中子磁矩",
+      "value": -1.91304276,
+      "uncertainty": 4.5e-07,
+      "unit": "mu_N",
+      "display": "-1.91304276(45)",
+      "status": "input_experimental_adjustment",
+      "source": "CODATA2022",
+      "note": ""
+    },
+    {
+      "id": "proton_mass_energy",
+      "name_zh": "输入：质子质量能量",
+      "value": 938.27208943,
+      "uncertainty": 2.9e-07,
+      "unit": "MeV",
+      "display": "938.27208943(29)",
+      "status": "input_experimental_adjustment",
+      "source": "CODATA2022",
+      "note": "Use only for external current correction. Do not overwrite EM500 original masses silently."
+    }
+  ],
+  "sources": {
+    "AME2020": {
+      "title": "The AME2020 atomic mass evaluation, Part II, Chinese Physics C 45, 030003 (2021)",
+      "url": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt",
+      "location": "2H row: binding energy/A =1112.2831 +/-0.0002 keV"
+    },
+    "CODATA2022": {
+      "title": "CODATA recommended values of fundamental physical constants: 2022 (published 2025)",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "article_url": "https://physics.nist.gov/cuu/pdf/JPCRD2022CODATA.pdf"
+    },
+    "PDG2025": {
+      "title": "Particle Data Group, neutron listing, 2025 update",
+      "url": "https://pdg.lbl.gov/2025/listings/rpp2025-list-n.pdf",
+      "location": "mean-square charge radius listing"
+    },
+    "Puchalski2020": {
+      "title": "Puchalski, Komasa, Pachucki, Hyperfine Structure ... and the Deuteron Quadrupole Moment, PRL 125,253001 (2020)",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.253001",
+      "open_url": "https://arxiv.org/pdf/2010.06888",
+      "location": "Eq24; Table II; first uncertainty molecular theory, second experiment"
+    },
+    "deSwart1995": {
+      "title": "de Swart, Terheggen, Stoks, The Low-Energy np Scattering Parameters and the Deuteron (1995)",
+      "url": "https://arxiv.org/pdf/nucl-th/9509032",
+      "location": "Section9; recommended A_S=0.8845(8), low-energy PWA extraction; total uncertainty an educated estimate"
+    },
+    "Rodning1990": {
+      "title": "Rodning and Knutson, Asymptotic D-state to S-state ratio of the deuteron, PRC41,898 (1990)",
+      "url": "https://doi.org/10.1103/PhysRevC.41.898",
+      "open_url": "https://uw.physics.wisc.edu/~knutson/papers/prc90nlr.pdf",
+      "location": "sub-Coulomb (d,p) tensor analyzing power measurement, eta=0.0256(4)"
+    },
+    "Filin2021": {
+      "title": "Filin et al., High-accuracy calculation of the deuteron charge and quadrupole form factors in chiral effective field theory, PRC103,024313 (2021)",
+      "url": "https://doi.org/10.1103/PhysRevC.103.024313",
+      "open_url": "https://arxiv.org/pdf/2009.08911",
+      "location": "Eq49–52; Appendix A EqsA1–A7,A8; distinction of matter, structure, charge radii"
+    },
+    "Entem2003": {
+      "title": "Entem and Machleidt, Accurate charge-dependent nucleon-nucleon potential at fourth order of chiral perturbation theory, PRC68,041001(R) (2003)",
+      "url": "https://doi.org/10.1103/PhysRevC.68.041001",
+      "open_url": "https://arxiv.org/pdf/nucl-th/0304018"
+    },
+    "Epelbaum2015": {
+      "title": "Epelbaum, Krebs, Meissner, Improved chiral nucleon-nucleon potential up to next-to-next-to-next-to-leading order, EPJA51,53(2015)",
+      "url": "https://doi.org/10.1140/epja/i2015-15053-8",
+      "open_url": "https://www.epj.org/images/stories/news/2015/10.1140--epja--i2015-15053-8.pdf",
+      "location": "Table5, IdahoN3LO500 column, B_d marked fitted; other values rounded theoretical benchmark"
+    },
+    "Kessler1999": {
+      "title": "Kessler et al., The deuteron binding energy and the neutron mass, Physics Letters A255,221–229(1999)",
+      "url": "https://doi.org/10.1016/S0375-9601(99)00078-X",
+      "nist_record": "https://www.nist.gov/publications/deuteron-binding-energy-and-neutron-mass-0",
+      "notes": "Original measured binding mass 2.38817007(42) x10^-3 u; use AME2020 value for final comparator to avoid inconsistent old u->MeV conversion."
+    }
+  },
+  "charge_radius_relation": "r_ch^2 = r_m^2 + r_p^2 + <r_n^2> + r_DF^2 + delta_SO + delta_boost + delta_2body; r_DF^2=3/4*(hbarc/(m_p c^2))^2",
+  "historical_em500_theory_benchmark": {
+    "source": "Epelbaum2015",
+    "binding_MeV": 2.2246,
+    "asymptotic_s_fm_minus_half": 0.8843,
+    "eta": 0.0256,
+    "matter_radius_fm": 1.975,
+    "quadrupole_IA_fm2": 0.275,
+    "d_probability_percent": 4.51,
+    "note": "Rounded published theory, not experimental values; no exchange currents or relativistic corrections in radius/Q."
+  }
+}

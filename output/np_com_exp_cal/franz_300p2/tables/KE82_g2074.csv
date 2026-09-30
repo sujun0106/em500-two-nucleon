@@ -1,0 +1,8 @@
+group_id,record_code,energy_lab_MeV,theta_cm_deg,value,point_uncertainty,unit,normalization_fraction,normalization_treatment
+2074,KE82,319.0,11.13,5.117,0.42,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,16.42,4.845,0.184,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,32.43,3.957,0.106,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,48.33,3.096,0.08,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,62.98,2.331,0.049,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,74.32,1.934,0.1,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA
+2074,KE82,319.0,94.52,1.585,0.156,mb/sr,0.02,quoted_0.02_but_floated_in_NNOnline_PWA

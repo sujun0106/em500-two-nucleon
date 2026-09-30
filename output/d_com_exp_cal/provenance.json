@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-09-29T15:34:03.266622+00:00",
+  "status": "completed",
+  "code_version": "0.5.0",
+  "calculation": "fixed EM500 NN deuteron bound state + Fortran wavefunction observables",
+  "run": "fortran_runs/20260929_153213_UTC",
+  "input_sha256": "5e671d7e571ae3bf8a4e7d3f7444c624c896b02cd8131160f7f393716ac9f072",
+  "executable_sha256": "93023e8ac2b91c927177cb1b42030a33a37f698f0d81acb2e63256f2293da6df",
+  "source_hash_record": "fortran_runs/20260929_153213_UTC/source_files.sha256",
+  "code_release_manifest_sha256": "c7379a90af1fc015adbe4734c26db680e4ccdba84b809e9378a97c9d9b171960",
+  "report_pdf_sha256": "6e465e7058e2ef7621d09f9bd4992d0b286588f4541364fa5f54b8998dd64b66",
+  "force_refitted": false,
+  "experimental_data_used_to_correct_outputs": false,
+  "experimental_sources": "experimental_sources/experimental_observables.json",
+  "validation": "validation/summary.json",
+  "production_language": "Fortran",
+  "report_language": "Python + XeLaTeX",
+  "limitations": [
+    "Point density is not experimental charge density.",
+    "Charge radius contains finite nucleon sizes + Darwin-Foldy only; complete charge operators are absent.",
+    "Quadrupole/magnetic moments are one-body impulse estimates.",
+    "Binding energy is historical calibration input."
+  ],
+  "report_revision": {
+    "updated_utc": "2026-09-29T15:40:44.945079+00:00",
+    "description": "6-row comparison; units merged into observable labels; concise remarks with detail in prose",
+    "calculation_rerun": false
+  }
+}

@@ -1,0 +1,16 @@
+display,id,name_zh,note,source,status,uncertainty,uncertainty_experiment,uncertainty_theory,unit,value
+2.2245662(4),binding_energy,氘核结合能,"Twice binding energy/A, uncertainty also doubled. Experimental nuclear binding convention; source rounding retained.",AME2020,experimental_evaluation,4e-07,,,MeV,2.2245662
+2.224575(9),binding_fit_target_historical,EM500历史结合能拟合目标,Do not silently replace force parameter or claim independent prediction. Modern value differs by 8.8 eV.,deSwart1995;Epelbaum2015,historical_fit_target_not_new_prediction,9e-06,,,MeV,2.224575
+2.12778(27),charge_radius,氘核电荷均方根半径,Combined electronic/muonic spectroscopy and isotope-shift adjustment. Not point-nucleon matter radius.,CODATA2022,experimental_adjustment_with_atomic_theory,0.00027,,,fm,2.12778
+0.285699(15)(18),quadrupole,氘核电四极矩,"1st error missing molecular relativistic/QED contributions, 2nd experimental molecular beam magnetic resonance error. IA nuclear estimate omits two-body currents and relativistic corrections.",Puchalski2020,experiment_plus_molecular_theory_extraction,,1.8e-05,1.5e-05,fm^2,0.285699
+0.8574382335(22),magnetic_moment,氘核磁矩,Free-deuteron magnetic moment. Nuclear impulse approximation is not full electromagnetic operator.,CODATA2022,experimental_adjustment,2.2e-09,,,mu_N,0.8574382335
+0.8845(8),asymptotic_s,S波渐近归一化系数,"Empirical low-energy np analysis with estimated total error, not a direct density measurement. Other literature uses0.8846(8/9); do not combine averages.",deSwart1995,empirical_nn_pwa_extraction,0.0008,,,fm^-1/2,0.8845
+0.0256(4),asymptotic_ds_ratio,渐近D/S比,"Sub-Coulomb(d,p) tensor analyzing powers; distinct from D probability.",Rodning1990;deSwart1995,reaction_extraction,0.0004,,,1,0.0256
+无可直接对照的模型无关数值,matter_radius,点核子物质均方根半径,r_m^2=1/4 integral r^2(u^2+w^2)dr in equal-mass midpoint convention. Not charge radius; historical structure-radius extraction includes assumptions/current corrections.,Filin2021,wavefunction_quantity,,,,fm,
+不能视为逐点实验观测量,density,自旋平均点核子密度,"Density from specified wavefunction/operator is resolution/convention dependent. Electron scattering constrains electromagnetic form factors, not directly |psi|^2.",Filin2021,wavefunction_quantity,,,,fm^-3,
+非观测量,d_probability,D态概率,Basis/potential dependent; no experimental P_D comparator. May appear separately as wavefunction diagnostic.,deSwart1995;Filin2021,not_observable,,,,percent,
+0.84075(64),proton_charge_radius,输入：质子电荷半径,"For approximate folding, not an EM500 fit parameter.",CODATA2022,input_experimental_adjustment,0.00064,,,fm,0.84075
+-0.1155(17),neutron_charge_radius_squared,输入：中子均方电荷半径,Negative mean square electric radius is physical because net neutron charge is zero; not negative matter radius. Supersedes often-cited -0.1161(22).,PDG2025,input_experimental_evaluation,0.0017,,,fm^2,-0.1155
+2.79284734463(82),proton_magnetic_moment,输入：质子磁矩,,CODATA2022,input_experimental_adjustment,8.2e-10,,,mu_N,2.79284734463
+-1.91304276(45),neutron_magnetic_moment,输入：中子磁矩,,CODATA2022,input_experimental_adjustment,4.5e-07,,,mu_N,-1.91304276
+938.27208943(29),proton_mass_energy,输入：质子质量能量,Use only for external current correction. Do not overwrite EM500 original masses silently.,CODATA2022,input_experimental_adjustment,2.9e-07,,,MeV,938.27208943

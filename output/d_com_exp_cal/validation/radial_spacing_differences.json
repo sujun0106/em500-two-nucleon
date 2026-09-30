@@ -1,0 +1,16 @@
+{
+  "n192_r60_dr002": {
+    "coordinate_norm": -2.220446049250313e-15,
+    "point_radius_fm": -1.7763568394002505e-15,
+    "quadrupole_IA_fm2": -8.881784197001252e-16,
+    "asymptotic_s_fm_mhalf": 1.1620081452612396e-08,
+    "asymptotic_d_to_s": 1.9533092768253546e-08
+  },
+  "n192_r60_dr0005": {
+    "coordinate_norm": -1.1102230246251565e-15,
+    "point_radius_fm": 4.440892098500626e-16,
+    "quadrupole_IA_fm2": -1.2212453270876722e-15,
+    "asymptotic_s_fm_mhalf": -5.803529323777923e-09,
+    "asymptotic_d_to_s": -9.749636240702353e-09
+  }
+}

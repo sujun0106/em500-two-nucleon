@@ -1,0 +1,730 @@
+{
+  "schema": "exfor-tool/pp-cm-angular/v1",
+  "points": [
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 0,
+      "theta_cm_deg": 10.026,
+      "dsigma_cm_mb_sr": 854.9,
+      "error_mb_sr": 14.533299999999999,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 10.026,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 854.9,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"1.7\", \"unit\": \"PER-CENT\", \"value\": 1.7}, \"ERR-T\": {\"raw\": \"1.7\", \"unit\": \"PER-CENT\", \"value\": 1.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 1,
+      "theta_cm_deg": 12.031,
+      "dsigma_cm_mb_sr": 400.2,
+      "error_mb_sr": 4.002,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 12.031,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 400.2,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.9\", \"unit\": \"PER-CENT\", \"value\": 0.9}, \"ERR-T\": {\"raw\": \"1.0\", \"unit\": \"PER-CENT\", \"value\": 1.0}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 2,
+      "theta_cm_deg": 14.035,
+      "dsigma_cm_mb_sr": 219.2,
+      "error_mb_sr": 1.7536,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 14.035,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 219.2,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.6\", \"unit\": \"PER-CENT\", \"value\": 0.6}, \"ERR-T\": {\"raw\": \"0.8\", \"unit\": \"PER-CENT\", \"value\": 0.8}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 3,
+      "theta_cm_deg": 16.041,
+      "dsigma_cm_mb_sr": 138.8,
+      "error_mb_sr": 0.9716,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 16.041,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 138.8,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 4,
+      "theta_cm_deg": 18.046,
+      "dsigma_cm_mb_sr": 95.8,
+      "error_mb_sr": 0.6705999999999999,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 18.046,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 95.8,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 5,
+      "theta_cm_deg": 20.051,
+      "dsigma_cm_mb_sr": 75.5,
+      "error_mb_sr": 0.5285,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 20.051,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 75.5,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 6,
+      "theta_cm_deg": 22.055,
+      "dsigma_cm_mb_sr": 64.4,
+      "error_mb_sr": 0.4508,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 22.055,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 64.4,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 7,
+      "theta_cm_deg": 24.06,
+      "dsigma_cm_mb_sr": 58.1,
+      "error_mb_sr": 0.4067,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 24.06,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 58.1,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 8,
+      "theta_cm_deg": 26.064,
+      "dsigma_cm_mb_sr": 54.7,
+      "error_mb_sr": 0.3829,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 26.064,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.7,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 9,
+      "theta_cm_deg": 28.069,
+      "dsigma_cm_mb_sr": 53.1,
+      "error_mb_sr": 0.37170000000000003,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 28.069,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 53.1,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 10,
+      "theta_cm_deg": 30.074,
+      "dsigma_cm_mb_sr": 51.8,
+      "error_mb_sr": 0.3626,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 30.074,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.8,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 11,
+      "theta_cm_deg": 32.079,
+      "dsigma_cm_mb_sr": 51.8,
+      "error_mb_sr": 0.3626,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 32.079,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.8,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 12,
+      "theta_cm_deg": 34.083,
+      "dsigma_cm_mb_sr": 51.4,
+      "error_mb_sr": 0.35979999999999995,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 34.083,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.4,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 13,
+      "theta_cm_deg": 36.087,
+      "dsigma_cm_mb_sr": 51.0,
+      "error_mb_sr": 0.357,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 36.087,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.0,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 14,
+      "theta_cm_deg": 38.091,
+      "dsigma_cm_mb_sr": 51.7,
+      "error_mb_sr": 0.3619,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 38.091,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.7,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 15,
+      "theta_cm_deg": 40.091,
+      "dsigma_cm_mb_sr": 51.4,
+      "error_mb_sr": 0.30839999999999995,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 40.091,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 51.4,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.4\", \"unit\": \"PER-CENT\", \"value\": 0.4}, \"ERR-T\": {\"raw\": \"0.6\", \"unit\": \"PER-CENT\", \"value\": 0.6}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 16,
+      "theta_cm_deg": 44.103,
+      "dsigma_cm_mb_sr": 52.6,
+      "error_mb_sr": 0.3682,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 44.103,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 52.6,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 17,
+      "theta_cm_deg": 50.113,
+      "dsigma_cm_mb_sr": 53.1,
+      "error_mb_sr": 0.37170000000000003,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 50.113,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 53.1,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 18,
+      "theta_cm_deg": 54.12,
+      "dsigma_cm_mb_sr": 53.2,
+      "error_mb_sr": 0.3724,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 54.12,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 53.2,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 19,
+      "theta_cm_deg": 60.128,
+      "dsigma_cm_mb_sr": 53.9,
+      "error_mb_sr": 0.37729999999999997,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 60.128,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 53.9,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 20,
+      "theta_cm_deg": 64.133,
+      "dsigma_cm_mb_sr": 54.05,
+      "error_mb_sr": 0.37834999999999996,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 64.133,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.05,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 21,
+      "theta_cm_deg": 70.139,
+      "dsigma_cm_mb_sr": 54.1,
+      "error_mb_sr": 0.3787,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 70.139,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.1,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 22,
+      "theta_cm_deg": 76.144,
+      "dsigma_cm_mb_sr": 54.4,
+      "error_mb_sr": 0.38079999999999997,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 76.144,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.4,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 23,
+      "theta_cm_deg": 80.145,
+      "dsigma_cm_mb_sr": 54.4,
+      "error_mb_sr": 0.38079999999999997,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 80.145,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.4,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 24,
+      "theta_cm_deg": 86.148,
+      "dsigma_cm_mb_sr": 54.3,
+      "error_mb_sr": 0.3801,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 86.148,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.3,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    },
+    {
+      "energy_MeV": 9.69,
+      "accession": "A1216",
+      "subentry": "A1216002",
+      "table_index": 0,
+      "row_index": 25,
+      "theta_cm_deg": 90.148,
+      "dsigma_cm_mb_sr": 54.6,
+      "error_mb_sr": 0.3822,
+      "error_field": "ERR-T",
+      "flag": null,
+      "angle_header": "ANG-CM",
+      "angle_original_value": 90.148,
+      "angle_original_unit": "ADEG",
+      "data_header": "DATA-CM",
+      "data_original_value": 54.6,
+      "data_original_unit": "MB/SR",
+      "errors_original_json": "{\"ERR-1\": {\"raw\": \"0.5\", \"unit\": \"PER-CENT\", \"value\": 0.5}, \"ERR-T\": {\"raw\": \"0.7\", \"unit\": \"PER-CENT\", \"value\": 0.7}}",
+      "source_relative_path": "A12/A1216.x4",
+      "data_effective_unit": "MB/SR",
+      "unit_override_json": ""
+    }
+  ],
+  "excluded": [
+    {
+      "subentry": "A1047002",
+      "table": 0,
+      "reason": "No explicit CM field; no lab-to-CM transformation attempted."
+    },
+    {
+      "subentry": "C0047002",
+      "table": 0,
+      "reason": "No explicit CM field; no lab-to-CM transformation attempted."
+    }
+  ],
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "frame_policy": "Existing EXFOR tool policy: explicit -CM field denotes CM; angle must explicitly be ANG-CM or COS-CM. No kinematic transformation.",
+  "source_bibliography": [
+    {
+      "subentry": "A1047002",
+      "entry": {
+        "TITLE": [
+          "Proton-proton scattering at 9.690, 9.918 and 13.600 MeV"
+        ],
+        "AUTHOR": [
+          "(N.Jarmie,J.H.Jett,J.L.Detch,R.L.Hutson)"
+        ],
+        "REFERENCE": [
+          "(J,PRL,25,34,1970)"
+        ],
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "FACILITY": [
+          "(VDGT,1USALAS)"
+        ],
+        "METHOD": [
+          "(PHD)"
+        ],
+        "HISTORY": [
+          "(19810323C) Compilation produced by Arzamas RFNC-VNIIEF\n(19990115U)CNPD: corrected 4-dig. year and lower cases.\n(20240426A) SD: Corrections in all Subents."
+        ]
+      },
+      "subentry_bib": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-1) Relative error\n(ERR-2) The error in the absolute scale"
+        ],
+        "STATUS": [
+          "(TABLE,,N.Jarmie+,J,PRL,25,34,1970) Tables 1,2"
+        ],
+        "HISTORY": [
+          "(20240426A) SD: SF9=EXP deleted from REACTION code.\nDATA-ERR -> ERR-1; DATA-ERR1 -> ERR-2. Values were\nupdated according to the presentation in the table."
+        ]
+      }
+    },
+    {
+      "subentry": "A1216002",
+      "entry": {
+        "TITLE": [
+          "Proton-proton scattering at 10 MeV"
+        ],
+        "AUTHOR": [
+          "(L.H.Johnston,D.E.Joung)"
+        ],
+        "REFERENCE": [
+          "(J,PR,116,989,1959)"
+        ],
+        "INSTITUTE": [
+          "(1USAMIN)"
+        ],
+        "FACILITY": [
+          "(LINAC,1USAMIN) Minnesota proton linear accelerator"
+        ],
+        "SAMPLE": [
+          "Hydrogen gas target. The hydrogen pressure was\none-quarter atmosphere."
+        ],
+        "METHOD": [
+          "(BCINT)"
+        ],
+        "DETECTOR": [
+          "(TELES,NAICR)"
+        ],
+        "ADD-RES": [
+          "A typical set of phase shifts which fit the data is as\nfollows: 1-S-0=+54 degr, 3-P-0=+28.3 degr,\n3-P-1=-5.07 degr, 3-P-2=+2.22 degr, 1-D-2=+0.2 degr."
+        ],
+        "HISTORY": [
+          "(19840220C) Compilation produced by Arzamas RFNC-VNIIEF\n(19990305U)CNPD: corrected 4-dig. year and lower cases.\n(20250823A) SD: Corrections in all Subents."
+        ]
+      },
+      "subentry_bib": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Absolute probable error\n(ERR-1) Relative probable error"
+        ],
+        "STATUS": [
+          "(TABLE,,L.H.Johnston+,J,PR,116,989,1959) Table II"
+        ],
+        "HISTORY": [
+          "(20250823A) SD: SF9=EXP deleted from REACTION code.\nSTATUS updated. DATA-ERR -> ERR-T; DATA-ERR1 -> ERR-1.\nValues were corrected according to the table."
+        ]
+      }
+    },
+    {
+      "subentry": "C0047002",
+      "entry": {
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,3,10,197101)"
+        ],
+        "AUTHOR": [
+          "(N.Jarmie,J.H.Jett,J.L.Detch Jr,R.L.Hutson)"
+        ],
+        "TITLE": [
+          "Proton-Proton Elastic Scattering from 9.6 to 13.6 MeV"
+        ],
+        "FACILITY": [
+          "(VDGT,1USALAS)"
+        ],
+        "SAMPLE": [
+          "H gas target in brass cylinder, Havar entrance foil."
+        ],
+        "DETECTOR": [
+          "(TELES,SOLST) 3 silicon surface barrier E and DE\ndetectors."
+        ],
+        "STATUS": [
+          "Data taken from tables in article."
+        ],
+        "HISTORY": [
+          "(19960422C)\n(19980305A) BIB updated per Arzamas RFNC-VNIIEF\n(20020213A) Converted to new date formats."
+        ]
+      },
+      "subentry_bib": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Standard deviation, rms sum of relative and\nscale errors.\n(ERR-1) Relative error"
+        ]
+      }
+    }
+  ],
+  "unit_overrides": [],
+  "error_policy": "ERR-T, otherwise DATA-ERR/DATA-ERR1, otherwise ERR-S. Reported components preserved separately; no invented or quadrature-combined errors."
+}

@@ -1,0 +1,75 @@
+{
+  "package": "EM500 Fortran deuteron",
+  "version": "0.3.0",
+  "source_tool_commit": "8cf993e1b9c6f9f2f2ad57fbc6b235b995c5356b",
+  "two_body_baseline_commit": "57713f32c18f0bebb840c027e081c096fdac22cc",
+  "upstream": {
+    "repository": "https://github.com/seanbsm/Tic-tac",
+    "commit": "30338ac0eaf968b6db2edfa8380410651a56267b",
+    "files": [
+      {
+        "upstream_path": "LICENSE",
+        "file": "LICENSE",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/LICENSE"
+      },
+      {
+        "upstream_path": "CPP/Interactions/chiral_Idaho_N3LO.h",
+        "file": "chiral_Idaho_N3LO.h",
+        "sha256": "a208a430996265c2862c526bb9d4690d50bd3de1339065d9001db19d6c5b663d",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/Interactions/chiral_Idaho_N3LO.h"
+      },
+      {
+        "upstream_path": "CPP/Interactions/chp/chiral-twobody-potentials.f90",
+        "file": "chiral-twobody-potentials.f90",
+        "sha256": "0ff2baaa9565b264f357d9305c290ca98427445199a251cae7f4e24580657de0",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/Interactions/chp/chiral-twobody-potentials.f90"
+      },
+      {
+        "upstream_path": "CPP/Interactions/chp/chp-set.f90",
+        "file": "chp-set.f90",
+        "sha256": "7df51694a0a8994174667e57368182e1d770735ddb5e536ba9de7c7de864b90f",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/Interactions/chp/chp-set.f90"
+      },
+      {
+        "upstream_path": "CPP/Interactions/chiral_twobody.cpp",
+        "file": "chiral_twobody.cpp",
+        "sha256": "4b8c30f053cd40c809b5f1b0afe8076543f0dd082acc0c6b26b8d24fdcb53557",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/Interactions/chiral_twobody.cpp"
+      },
+      {
+        "upstream_path": "CPP/constants.h",
+        "file": "constants.h",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/constants.h",
+        "sha256": "85188df59068f6a93f296d2841644663c02696e38d7bf7c3f4002ffb40f17dd1"
+      },
+      {
+        "upstream_path": "CPP/Interactions/chiral_Idaho_N3LO.cpp",
+        "file": "chiral_Idaho_N3LO.cpp",
+        "url": "https://raw.githubusercontent.com/seanbsm/Tic-tac/30338ac0eaf968b6db2edfa8380410651a56267b/CPP/Interactions/chiral_Idaho_N3LO.cpp",
+        "sha256": "75659f6d73cc87a05cada4e0b4700b9b82483ae81e3ee8ac714258bb48a3cdb8"
+      }
+    ]
+  },
+  "vendor_sources_unchanged": true,
+  "vendor_sha256": {
+    "chiral-twobody-potentials.f90": "0ff2baaa9565b264f357d9305c290ca98427445199a251cae7f4e24580657de0",
+    "chp-set.f90": "7df51694a0a8994174667e57368182e1d770735ddb5e536ba9de7c7de864b90f",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "config_sha256": "6c1e4abd7b26e51a9b8b86a625897e24783c58eca3ede5e2474c1e9af99a8e55",
+  "scope": "Direct Fortran EM500 deuteron and np elastic scattering, including full spin/angular reconstruction; no Python/C++ runtime required.",
+  "ownership": "User explicitly requested self-contained source and inputs/outputs in this project/code directory; frozen original Tool remains unchanged.",
+  "previous_version": "0.2.1",
+  "layout": {
+    "source": "app/",
+    "documentation": "docs/",
+    "development_only": "other/",
+    "input": "input.nml",
+    "results": "output/<completion_time_UTC>/",
+    "compilation_products": "app/",
+    "executable": "app/fewbody.x"
+  },
+  "numerical_algorithm_changed": false,
+  "np_migration_source_tool_commit": "026aef24f4cc0d57fbabf6f4f9f5c4e23fda58a5"
+}

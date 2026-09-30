@@ -1,0 +1,6 @@
+{
+  "source": "/home/sujun/Assistant/projects/\u542b\u65f6\u91cf\u5b50\u591a\u4f53\u8c03\u7814/code/output/d_com_exp_cal/fortran_runs/20260929_151731_UTC/deuteron_wavefunction.csv",
+  "method": "Gauss-Legendre barycentric derivative; r2=hbarc2 integral[dp p2 psi_prime2 + dp L(L+1) psi2]",
+  "point_radius_fm": 1.9744965106774908,
+  "relative_radius_squared_fm2": 15.594545882710344
+}

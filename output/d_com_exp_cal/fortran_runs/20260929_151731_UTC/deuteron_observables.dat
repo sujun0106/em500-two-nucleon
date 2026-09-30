@@ -1,0 +1,32 @@
+# Fixed EM500; point-particle/equal-mass one-body observables. No charge-density folding or two-body currents.
+# charge_radius_estimate: finite nucleon sizes + Darwin-Foldy only; omits spin-orbit/boost/two-body terms.
+# Coordinate integrals are NOT renormalized; norm_difference diagnoses transform/tail errors.
+# D-state probability is representation dependent, not an experimental observable.
+n_radial_intervals = 6000
+rmax_relative_fm =   6.0000000000000000E+001
+dr_relative_fm =   1.0000000000000000E-002
+binding_MeV =   2.2245752804237751E+000
+gamma_fm_inverse =   2.3160659408791173E-001
+momentum_norm =   9.9999999999999656E-001
+coordinate_norm =   9.9999999999855982E-001
+norm_difference =  -1.4367396161674151E-012
+momentum_d_probability =   4.5141567290324008E-002
+coordinate_d_probability =   4.5141567290322732E-002
+relative_radius_fm =   3.9489930206513870E+000
+point_radius_fm =   1.9744965103256935E+000
+quadrupole_IA_fm2 =   2.7495113756696898E-001
+magnetic_moment_IA_muN =   8.5408712330862713E-001
+charge_radius_estimate_fm =   2.1267744160096989E+000
+proton_mu_muN =   2.7928473446300002E+000
+neutron_mu_muN =  -1.9130427600000000E+000
+proton_charge_radius_fm =   8.4075000000000000E-001
+neutron_charge_radius_squared_fm2 =  -1.1550000000000001E-001
+proton_mass_for_DF_MeV =   9.3827208943000005E+002
+darwin_foldy_fm2 =   3.3172384805053370E-002
+tail_fit_available = T
+asymptotic_s_fm_mhalf =   8.8430287650253958E-001
+asymptotic_d_to_s =   2.5580730315840069E-002
+tail_fit_rmin_fm =   2.0000000000000000E+001
+tail_fit_rmax_fm =   2.5000000000000000E+001
+tail_fit_s_relative_spread =   8.3276101646465289E-006
+tail_fit_d_relative_spread =   4.7432539245982375E-004

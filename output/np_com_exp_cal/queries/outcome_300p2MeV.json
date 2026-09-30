@@ -1,0 +1,85 @@
+{
+  "details": {
+    "excluded": [
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "10592002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "11036002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "11128002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "20296003"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "20296004"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "20296005"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "21365002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "21367002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "21367003"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "21367004"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "21815002"
+      },
+      {
+        "reason": "incident energy was requested but EXFOR has no EN column",
+        "subentry": "22207002"
+      }
+    ],
+    "matched_subentries": 137
+  },
+  "normalized_query": {
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 300.2
+    },
+    "kinematics": {},
+    "observable": "differential_cross_section",
+    "reaction": {
+      "channel": "EL",
+      "outgoing_particle": null,
+      "product": null,
+      "projectile": "N",
+      "target": "1-H-1"
+    }
+  },
+  "provenance": {
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall"
+  },
+  "search_scope": {
+    "process_code": "EL",
+    "projectile_code": "N",
+    "quantity_code": "DA",
+    "target_code": "1-H-1"
+  },
+  "status": "no_match"
+}

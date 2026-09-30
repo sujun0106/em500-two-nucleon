@@ -1,0 +1,29 @@
+# Shared explicit runtime list; source after changing to the package root.
+runtime_files=(
+  run_input.nml
+  run_status.txt
+  deuteron_status.txt
+  deuteron_input.nml
+  deuteron_summary.txt
+  deuteron_wavefunction.csv
+  deuteron_matrices.csv
+  deuteron_observables.dat
+  deuteron_coordinate_wavefunction.csv
+  np_input.nml
+  np_summary.txt
+  np_partial_waves.csv
+  np_on_shell.csv
+  np_angular_distribution.csv
+  np_spin_amplitudes.csv
+  np_j_convergence.csv
+  pp_input.nml
+  pp_summary.txt
+  pp_partial_waves.csv
+  pp_nuclear_s.csv
+  pp_angular_distribution.csv
+  pp_spin_amplitudes.csv
+  pp_j_convergence.csv
+  run.log
+  run_metadata.txt
+  job.pid
+)

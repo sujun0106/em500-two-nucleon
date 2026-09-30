@@ -1,0 +1,7 @@
+energy_MeV,accession,subentry,table_index,row_index,theta_cm_deg,dsigma_cm_mb_sr,error_mb_sr,error_field,flag,angle_header,angle_original_value,angle_original_unit,data_header,data_original_value,data_original_unit,errors_original_json,source_relative_path,data_effective_unit,unit_override_json
+10.04,13782,13782002,0,0,180.0,78.06,0.65,ERR-T,,ANG-CM,180.0,ADEG,DATA-CM,78.06,MB/SR,"{""ERR-T"": {""raw"": ""0.65"", ""unit"": ""MB/SR"", ""value"": 0.65}}",137/13782.x4,MB/SR,
+10.04,13782,13782002,0,1,155.94,76.93,0.39,ERR-T,,ANG-CM,155.94,ADEG,DATA-CM,76.93,MB/SR,"{""ERR-T"": {""raw"": ""0.39"", ""unit"": ""MB/SR"", ""value"": 0.39}}",137/13782.x4,MB/SR,
+10.04,13782,13782002,0,2,131.89,76.2,0.4,ERR-T,,ANG-CM,131.89,ADEG,DATA-CM,76.2,MB/SR,"{""ERR-T"": {""raw"": ""0.40"", ""unit"": ""MB/SR"", ""value"": 0.4}}",137/13782.x4,MB/SR,
+10.04,13782,13782002,0,3,107.86,75.36,0.42,ERR-T,,ANG-CM,107.86,ADEG,DATA-CM,75.36,MB/SR,"{""ERR-T"": {""raw"": ""0.42"", ""unit"": ""MB/SR"", ""value"": 0.42}}",137/13782.x4,MB/SR,
+10.04,13782,13782002,0,4,83.85,73.75,0.45,ERR-T,,ANG-CM,83.85,ADEG,DATA-CM,73.75,MB/SR,"{""ERR-T"": {""raw"": ""0.45"", ""unit"": ""MB/SR"", ""value"": 0.45}}",137/13782.x4,MB/SR,
+10.04,13782,13782002,0,5,59.87,73.15,1.23,ERR-T,,ANG-CM,59.87,ADEG,DATA-CM,73.15,MB/SR,"{""ERR-T"": {""raw"": ""1.23"", ""unit"": ""MB/SR"", ""value"": 1.23}}",137/13782.x4,MB/SR,

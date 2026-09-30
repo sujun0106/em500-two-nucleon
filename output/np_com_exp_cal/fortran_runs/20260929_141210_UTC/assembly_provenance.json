@@ -1,0 +1,5 @@
+{
+  "reused_first_eight_from": "fortran_runs/20260929_140332_UTC",
+  "new_calculation": "300p2MeV",
+  "reason": "User replaces 284 MeV with 300.2 MeV"
+}

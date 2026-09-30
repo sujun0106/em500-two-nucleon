@@ -1,0 +1,7 @@
+observable,name_zh,calculation,unit,experimental_value,experimental_display,difference,relative_difference_percent,approximation,experimental_source
+binding_energy,结合能,2.224575280423775,MeV,2.2245662,2.2245662(4),9.08042377512075e-06,0.00040818851672064227,fixed-force bound-state eigenvalue; historical fit,AME2020
+charge_radius,电荷半径估计,2.126774416009699,fm,2.12778,2.12778(27),-0.001005583990301151,-0.04725977264101733,finite nucleon sizes + Darwin-Foldy; omits additional charge operators,CODATA2022
+quadrupole,电四极矩,0.274951137566969,fm^2,0.285699,0.285699(15)(18),-0.010747862433030997,-3.761953116052563,one-body impulse approximation,Puchalski2020
+magnetic_moment,磁矩,0.8540871233086271,mu_N,0.8574382335,0.8574382335(22),-0.003351110191372908,-0.39082817402413816,one-body impulse approximation,CODATA2022
+asymptotic_s,S波渐近系数,0.8843028765025396,fm^-1/2,0.8845,0.8845(8),-0.00019712349746037194,-0.02228643272587094,"fit r=20..25fm, gamma fixed by binding",deSwart1995
+asymptotic_ds_ratio,渐近D/S比,0.02558073031584007,1,0.0256,0.0256(4),-1.926968415993241e-05,-0.0752722037497322,ratio of fitted asymptotic amplitudes,Rodning1990;deSwart1995

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "energies": 9,
+  "experimental_points": 190,
+  "computed_angles_per_energy": 719,
+  "maxima": {
+    "maximum_residual_relative": 4.031564269852048e-15,
+    "maximum_reciprocity_error_relative": 1.6156261867855777e-15,
+    "maximum_unitarity_error": 9.992007221626409e-16,
+    "theta_reflection_relative_error": 1.2543361114196052e-15,
+    "J24_to_J32_max_relative_change_at_10_30_60_90_150deg": 4.539883608086351e-05
+  },
+  "sensitivity": [
+    {
+      "case": "high_N112",
+      "energy_MeV": 286.7,
+      "max_relative_difference_full_719_angles": 2.0138595410138914e-14
+    },
+    {
+      "case": "high_R12",
+      "energy_MeV": 286.7,
+      "max_relative_difference_full_719_angles": 3.1464832231460265e-06
+    },
+    {
+      "case": "low_R12",
+      "energy_MeV": 3.037,
+      "max_relative_difference_full_719_angles": 2.0168408797087955e-06
+    }
+  ],
+  "model_includes_pp_charge_specific_force": true,
+  "empirical_renormalization": false,
+  "pp_full_angle_total_not_claimed": true,
+  "portable_build_run_archive_passed": true,
+  "final_binary_rebuild_identical": true,
+  "old_deuteron_np_regression_passed": true,
+  "pp_solver_and_observables_checks_passed": true
+}

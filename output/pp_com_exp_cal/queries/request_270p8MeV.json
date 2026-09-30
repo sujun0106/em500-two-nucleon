@@ -1,0 +1,16 @@
+{
+  "reaction": {
+    "projectile": "proton",
+    "target": "1H",
+    "channel": "EL"
+  },
+  "observable": "differential_cross_section",
+  "incident_energy": {
+    "mode": "exact",
+    "value": 270.8,
+    "unit": "MeV"
+  },
+  "selection": {
+    "dataset_policy": "all"
+  }
+}

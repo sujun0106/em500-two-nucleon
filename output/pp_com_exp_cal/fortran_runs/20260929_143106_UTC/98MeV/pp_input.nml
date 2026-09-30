@@ -1,0 +1,17 @@
+&CALCULATION_INPUT
+ CALCULATION="pp_scattering                                                   ",
+ SYSTEM="pp                                                              ",
+ INTERACTION="EM500                                                           ",
+ N_GRID=160        ,
+ PMAX_MEV=  1000.0000000000000     ,
+ WRITE_MATRICES=F,
+ ENERGY_LAB_MEV=  98.000000000000000     ,
+ KINEMATICS="relativistic                                                    ",
+ JMAX=32         ,
+ THETA_MIN_DEG= 0.25000000000000000     ,
+ THETA_MAX_DEG=  179.75000000000000     ,
+ N_ANGLES=719        ,
+ WRITE_AMPLITUDES=T,
+ COULOMB_RADIUS_FM=  16.000000000000000     ,
+ N_COULOMB_POINTS=192        ,
+ /

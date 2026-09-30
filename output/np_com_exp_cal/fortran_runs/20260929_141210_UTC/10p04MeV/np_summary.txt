@@ -1,0 +1,30 @@
+EM500 Fortran np elastic scattering v0.3.0
+calculation = np_scattering
+system = neutron incident on stationary proton
+interaction = bare EM2003 Idaho N3LO500; NN-only; no inelastic channels
+kinematics = relativistic
+energy_lab_MeV =   1.0039999999999999E+001
+q_MeV =   6.8630337444232154E+001
+LS_energy_parameter_MeV =   5.0165426492204306E+000
+mass_parameter_MeV =   9.3891820464062562E+002
+hbarc_MeV_fm =   1.9732700000000000E+002
+pmax_MeV =   1.0000000000000000E+003
+n_grid = 96
+J_max = 32
+number_of_blocks = 98
+total_elastic_mb =   9.4077395259489651E+002
+optical_total_mb =   9.4077395259489640E+002
+angular_integral_mb =   9.4077395259489583E+002
+angular_integral_relative_error =   7.2506368235241943E-016
+optical_relative_error =   1.2084394705873659E-016
+maximum_residual_relative =   6.7050696606418969E-015
+maximum_reciprocity_error_relative =   1.3537426337292901E-015
+maximum_unitarity_error =   6.6613381477509392E-016
+angle_definition = outgoing neutron, center-of-mass frame
+on_shell_basis = radial_rephased; amplitudes convert by U_L=i^L to plain momentum
+phase_definition = principal eigenphases modulo 180 deg; channel-1 dominated first
+single-channel L2=-1; phase2=0 and mixing=0 are unused placeholders
+relativistic kinematics changes q only, not the LS interaction or dynamics
+unitarity/optical checks do not establish grid/J convergence or physical model accuracy
+Compiler = GCC version 11.4.0
+Compiler options = -I app -mtune=generic -march=x86-64 -O2 -fno-fast-math -ffp-contract=off -ffree-line-length-none -frecursive -J app -fpre-include=/usr/include/finclude/math-vector-fortran.h

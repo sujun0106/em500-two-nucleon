@@ -1,0 +1,16 @@
+{
+  "name": "COUL90",
+  "author": "A. R. Barnett",
+  "source_url": "https://www.fresco.org.uk/functions/barnett/COUL90.FOR",
+  "author_software_page": "https://www.fresco.org.uk/functions/barnett/index.htm",
+  "download_date": "2026-09-29",
+  "local_file": "coul90.f",
+  "sha256": "50ad795901114080ded8f63ebe3895b8460865f10fd3e59ff39d60e48456d13f",
+  "modifications": "None; byte-for-byte copy of downloaded upstream source, including original comments.",
+  "language": "Fortran 77 (double precision)",
+  "paper": "A. R. Barnett, CPC 27 (1982) 147-166; updated COUL90, 1991/1995",
+  "license_note": "Upstream file and download page contain no explicit modern license statement; no additional license is asserted by this project.",
+  "distribution": "The COUL90 source is not included in this public repository. fetch_external.sh downloads the pinned source directly from source_url on the user machine, or accepts a checksum-verified offline copy.",
+  "local_file_ignored_by_git": true,
+  "download_date_note": "download_date identifies the original source snapshot used for validation; it is not the current installation time."
+}

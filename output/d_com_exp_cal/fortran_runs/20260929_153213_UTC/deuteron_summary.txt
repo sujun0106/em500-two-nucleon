@@ -1,0 +1,28 @@
+EM500 Fortran deuteron v0.5.0
+calculation = deuteron_bound_state
+system = np
+interaction = EM500
+Interaction description = bare EM2003 Idaho N3LO500, fixed NN-only parameters
+n_grid_per_channel = 192
+hamiltonian_dimension = 384
+pmax_MeV =   1.0000000000000000E+003
+mass_parameter_MeV =   9.3891820464062562E+002
+hbarc_MeV_fm =   1.9732700000000000E+002
+energy_MeV =  -2.2245752804237751E+000
+binding_MeV =   2.2245752804237751E+000
+probability_S =   9.5485843270967230E-001
+probability_D =   4.5141567290324008E-002
+normalization =   9.9999999999999634E-001
+kinetic_MeV =   1.4629061391216444E+001
+potential_MeV =  -1.6853636671640007E+001
+residual_MeV =   1.1170852457908926E-012
+potential_asymmetry_MeV_inverse2 =   8.4703294725430034E-022
+potential_relative_asymmetry =   1.7613638684494829E-016
+hamiltonian_asymmetry_MeV =   7.2146217266707934E-015
+measure = integral dp p^2; no additional 2/pi
+phase = upstream radial_rephased; first S component positive
+wavefunction = psi_L(p); reduced u_L(p)=p*psi_L(p) also exported
+D probability is representation-dependent, not an experimental observable.
+Deuteron binding energy was used in interaction calibration.
+Compiler = GCC version 11.4.0
+Compiler options = -I app -mtune=generic -march=x86-64 -O2 -fno-fast-math -ffp-contract=off -ffree-line-length-none -frecursive -J app -fpre-include=/usr/include/finclude/math-vector-fortran.h

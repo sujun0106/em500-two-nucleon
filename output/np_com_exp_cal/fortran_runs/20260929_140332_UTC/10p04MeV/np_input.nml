@@ -1,0 +1,15 @@
+&CALCULATION_INPUT
+ CALCULATION="np_scattering                                                   ",
+ SYSTEM="np                                                              ",
+ INTERACTION="EM500                                                           ",
+ N_GRID=96         ,
+ PMAX_MEV=  1000.0000000000000     ,
+ WRITE_MATRICES=F,
+ ENERGY_LAB_MEV=  10.039999999999999     ,
+ KINEMATICS="relativistic                                                    ",
+ JMAX=32         ,
+ THETA_MIN_DEG=  0.0000000000000000     ,
+ THETA_MAX_DEG=  180.00000000000000     ,
+ N_ANGLES=721        ,
+ WRITE_AMPLITUDES=T,
+ /

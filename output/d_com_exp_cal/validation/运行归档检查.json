@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "archive": "runs/deuteron_observables_2026-09-29/integration/archive_case/output/20260929_153122_UTC",
+  "new_outputs_archived": true,
+  "root_outputs_cleared": true,
+  "input_snapshot_matches": true,
+  "package_version": "0.5.0",
+  "archived_checksum_validation": "passed"
+}

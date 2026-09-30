@@ -1,0 +1,903 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 10.04
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "13782",
+      "subentry": "13782002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total estimated uncertainty\nSee Table II in main reference for list of major\nuncertainties."
+        ],
+        "MISC-COL": [
+          "Mean angle in CM system. The central center-of-mass\nANG-CM angle is defined as the angle for the neutrons\nin the center-of-mass system for a proton striking the\ncenter of the detector. For all angles except the\n0 deg proton telescope, these angles are close to\nthe mean angles."
+        ],
+        "STATUS": [
+          "(TABLE) Data taken from Table 1 in PR/C 82."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Measurement of the n-p elastic scattering angular\ndistribution at En=10 MeV"
+        ],
+        "AUTHOR": [
+          "(N.Boukharouba,F.B.Bateman,C.E.Brient,A.D.Carlson,\nS.M.Grimes,R.C.Haight,T.N.Massey,O.A.Wasson)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,65,014004,2001) Main reference.\n#doi:10.1103/PhysRevC.65.014004\n(J,PR/C,82,039901,2010) Erratum to main reference.\n#doi:10.1103/PhysRevC.82.039901\n(C,99OSAKA,,431,2001) Preliminary results."
+        ],
+        "INSTITUTE": [
+          "(1USAOHO,1USALAS,1USANIS)"
+        ],
+        "FACILITY": [
+          "(VDGT,1USAOHO)"
+        ],
+        "INC-SOURCE": [
+          "(D-D) 7.27-MeV deuteron beam on deuterium-filled gas\ncell."
+        ],
+        "SAMPLE": [
+          "CH2 targets, bonded to tantalum backing with ethyl\ncyanoacrylate. Thin sample (1.4 mg/cm2 used at all\nangles. Thick sample (3.8 mg/cm2) used for all angles\nbut 60 degrees."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(TELES) 11 telescopes consisting of DE-E silicon\nsurface barrier detectors."
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,DA) Normalized to Breit-Hopkins\ntotal cross section value after radiative capture\ncorrection (negligible)."
+        ],
+        "MONIT-REF": [
+          "(,J.C.Hopkins+,J,ND/A,9,137,1971)"
+        ],
+        "CORRECTION": [
+          "Corrected for finite-size effects and background\nusing MC program."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by A. Carlson, 2004/5/11."
+        ],
+        "HISTORY": [
+          "(20020215C)\n(20040511A) Author approval, BIB, energy updates.\n(20101113A) S.H. Data in sub.2 corrected according\nto PR/C 82, added sub. 3.\n(20160830A) BP: Updated references, doi."
+        ]
+      },
+      "source": {
+        "relative_path": "137/13782.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "MISC",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "180.00",
+                "value": 180.0
+              },
+              {
+                "raw": "175.24",
+                "value": 175.24
+              },
+              {
+                "raw": "78.06",
+                "value": 78.06
+              },
+              {
+                "raw": "0.65",
+                "value": 0.65
+              }
+            ],
+            [
+              {
+                "raw": "155.94",
+                "value": 155.94
+              },
+              {
+                "raw": "155.49",
+                "value": 155.49
+              },
+              {
+                "raw": "76.93",
+                "value": 76.93
+              },
+              {
+                "raw": "0.39",
+                "value": 0.39
+              }
+            ],
+            [
+              {
+                "raw": "131.89",
+                "value": 131.89
+              },
+              {
+                "raw": "131.70",
+                "value": 131.7
+              },
+              {
+                "raw": "76.20",
+                "value": 76.2
+              },
+              {
+                "raw": "0.40",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "107.86",
+                "value": 107.86
+              },
+              {
+                "raw": "107.76",
+                "value": 107.76
+              },
+              {
+                "raw": "75.36",
+                "value": 75.36
+              },
+              {
+                "raw": "0.42",
+                "value": 0.42
+              }
+            ],
+            [
+              {
+                "raw": "83.85",
+                "value": 83.85
+              },
+              {
+                "raw": "83.84",
+                "value": 83.84
+              },
+              {
+                "raw": "73.75",
+                "value": 73.75
+              },
+              {
+                "raw": "0.45",
+                "value": 0.45
+              }
+            ],
+            [
+              {
+                "raw": "59.87",
+                "value": 59.87
+              },
+              {
+                "raw": "59.83",
+                "value": 59.83
+              },
+              {
+                "raw": "73.15",
+                "value": 73.15
+              },
+              {
+                "raw": "1.23",
+                "value": 1.23
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            10.04,
+            10.04,
+            10.04,
+            10.04,
+            10.04,
+            10.04
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "MONIT"
+              ],
+              "units": [
+                "MEV",
+                "KEV",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "10.04",
+                    "value": 10.04
+                  },
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  },
+                  {
+                    "raw": "943.2",
+                    "value": 943.2
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "13782",
+      "subentry": "13782003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,,LEG)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,,LEG)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total estimated uncertainty"
+        ],
+        "STATUS": [
+          "(TABLE) Data taken from tab. 1 of PR/C 82\n(DEP,13782002)"
+        ],
+        "HISTORY": [
+          "(20101113C) Compiled by S.H."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Measurement of the n-p elastic scattering angular\ndistribution at En=10 MeV"
+        ],
+        "AUTHOR": [
+          "(N.Boukharouba,F.B.Bateman,C.E.Brient,A.D.Carlson,\nS.M.Grimes,R.C.Haight,T.N.Massey,O.A.Wasson)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,65,014004,2001) Main reference.\n#doi:10.1103/PhysRevC.65.014004\n(J,PR/C,82,039901,2010) Erratum to main reference.\n#doi:10.1103/PhysRevC.82.039901\n(C,99OSAKA,,431,2001) Preliminary results."
+        ],
+        "INSTITUTE": [
+          "(1USAOHO,1USALAS,1USANIS)"
+        ],
+        "FACILITY": [
+          "(VDGT,1USAOHO)"
+        ],
+        "INC-SOURCE": [
+          "(D-D) 7.27-MeV deuteron beam on deuterium-filled gas\ncell."
+        ],
+        "SAMPLE": [
+          "CH2 targets, bonded to tantalum backing with ethyl\ncyanoacrylate. Thin sample (1.4 mg/cm2 used at all\nangles. Thick sample (3.8 mg/cm2) used for all angles\nbut 60 degrees."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(TELES) 11 telescopes consisting of DE-E silicon\nsurface barrier detectors."
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,DA) Normalized to Breit-Hopkins\ntotal cross section value after radiative capture\ncorrection (negligible)."
+        ],
+        "MONIT-REF": [
+          "(,J.C.Hopkins+,J,ND/A,9,137,1971)"
+        ],
+        "CORRECTION": [
+          "Corrected for finite-size effects and background\nusing MC program."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by A. Carlson, 2004/5/11."
+        ],
+        "HISTORY": [
+          "(20020215C)\n(20040511A) Author approval, BIB, energy updates.\n(20101113A) S.H. Data in sub.2 corrected according\nto PR/C 82, added sub. 3.\n(20160830A) BP: Updated references, doi."
+        ]
+      },
+      "source": {
+        "relative_path": "137/13782.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "NUMBER-CM",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "0.0",
+                "value": 0.0
+              },
+              {
+                "raw": "74.36",
+                "value": 74.36
+              },
+              {
+                "raw": "0.48",
+                "value": 0.48
+              }
+            ],
+            [
+              {
+                "raw": "1.0",
+                "value": 1.0
+              },
+              {
+                "raw": "2.83",
+                "value": 2.83
+              },
+              {
+                "raw": "0.58",
+                "value": 0.58
+              }
+            ],
+            [
+              {
+                "raw": "2.0",
+                "value": 2.0
+              },
+              {
+                "raw": "0.29",
+                "value": 0.29
+              },
+              {
+                "raw": "0.70",
+                "value": 0.7
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            10.04,
+            10.04,
+            10.04
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "MONIT"
+              ],
+              "units": [
+                "MEV",
+                "KEV",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "10.04",
+                    "value": 10.04
+                  },
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  },
+                  {
+                    "raw": "943.2",
+                    "value": 943.2
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "13782",
+      "subentry": "13782002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total estimated uncertainty\nSee Table II in main reference for list of major\nuncertainties."
+        ],
+        "MISC-COL": [
+          "Mean angle in CM system. The central center-of-mass\nANG-CM angle is defined as the angle for the neutrons\nin the center-of-mass system for a proton striking the\ncenter of the detector. For all angles except the\n0 deg proton telescope, these angles are close to\nthe mean angles."
+        ],
+        "STATUS": [
+          "(TABLE) Data taken from Table 1 in PR/C 82."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Measurement of the n-p elastic scattering angular\ndistribution at En=10 MeV"
+        ],
+        "AUTHOR": [
+          "(N.Boukharouba,F.B.Bateman,C.E.Brient,A.D.Carlson,\nS.M.Grimes,R.C.Haight,T.N.Massey,O.A.Wasson)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,65,014004,2001) Main reference.\n#doi:10.1103/PhysRevC.65.014004\n(J,PR/C,82,039901,2010) Erratum to main reference.\n#doi:10.1103/PhysRevC.82.039901\n(C,99OSAKA,,431,2001) Preliminary results."
+        ],
+        "INSTITUTE": [
+          "(1USAOHO,1USALAS,1USANIS)"
+        ],
+        "FACILITY": [
+          "(VDGT,1USAOHO)"
+        ],
+        "INC-SOURCE": [
+          "(D-D) 7.27-MeV deuteron beam on deuterium-filled gas\ncell."
+        ],
+        "SAMPLE": [
+          "CH2 targets, bonded to tantalum backing with ethyl\ncyanoacrylate. Thin sample (1.4 mg/cm2 used at all\nangles. Thick sample (3.8 mg/cm2) used for all angles\nbut 60 degrees."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(TELES) 11 telescopes consisting of DE-E silicon\nsurface barrier detectors."
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,DA) Normalized to Breit-Hopkins\ntotal cross section value after radiative capture\ncorrection (negligible)."
+        ],
+        "MONIT-REF": [
+          "(,J.C.Hopkins+,J,ND/A,9,137,1971)"
+        ],
+        "CORRECTION": [
+          "Corrected for finite-size effects and background\nusing MC program."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by A. Carlson, 2004/5/11."
+        ],
+        "HISTORY": [
+          "(20020215C)\n(20040511A) Author approval, BIB, energy updates.\n(20101113A) S.H. Data in sub.2 corrected according\nto PR/C 82, added sub. 3.\n(20160830A) BP: Updated references, doi."
+        ]
+      },
+      "source": {
+        "relative_path": "137/13782.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "MISC",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "180.00",
+                "value": 180.0
+              },
+              {
+                "raw": "175.24",
+                "value": 175.24
+              },
+              {
+                "raw": "78.06",
+                "value": 78.06
+              },
+              {
+                "raw": "0.65",
+                "value": 0.65
+              }
+            ],
+            [
+              {
+                "raw": "155.94",
+                "value": 155.94
+              },
+              {
+                "raw": "155.49",
+                "value": 155.49
+              },
+              {
+                "raw": "76.93",
+                "value": 76.93
+              },
+              {
+                "raw": "0.39",
+                "value": 0.39
+              }
+            ],
+            [
+              {
+                "raw": "131.89",
+                "value": 131.89
+              },
+              {
+                "raw": "131.70",
+                "value": 131.7
+              },
+              {
+                "raw": "76.20",
+                "value": 76.2
+              },
+              {
+                "raw": "0.40",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "107.86",
+                "value": 107.86
+              },
+              {
+                "raw": "107.76",
+                "value": 107.76
+              },
+              {
+                "raw": "75.36",
+                "value": 75.36
+              },
+              {
+                "raw": "0.42",
+                "value": 0.42
+              }
+            ],
+            [
+              {
+                "raw": "83.85",
+                "value": 83.85
+              },
+              {
+                "raw": "83.84",
+                "value": 83.84
+              },
+              {
+                "raw": "73.75",
+                "value": 73.75
+              },
+              {
+                "raw": "0.45",
+                "value": 0.45
+              }
+            ],
+            [
+              {
+                "raw": "59.87",
+                "value": 59.87
+              },
+              {
+                "raw": "59.83",
+                "value": 59.83
+              },
+              {
+                "raw": "73.15",
+                "value": 73.15
+              },
+              {
+                "raw": "1.23",
+                "value": 1.23
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            10.04,
+            10.04,
+            10.04,
+            10.04,
+            10.04,
+            10.04
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "MONIT"
+              ],
+              "units": [
+                "MEV",
+                "KEV",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "10.04",
+                    "value": 10.04
+                  },
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  },
+                  {
+                    "raw": "943.2",
+                    "value": 943.2
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "13782",
+      "subentry": "13782003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,,LEG)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,,LEG)"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total estimated uncertainty"
+        ],
+        "STATUS": [
+          "(TABLE) Data taken from tab. 1 of PR/C 82\n(DEP,13782002)"
+        ],
+        "HISTORY": [
+          "(20101113C) Compiled by S.H."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Measurement of the n-p elastic scattering angular\ndistribution at En=10 MeV"
+        ],
+        "AUTHOR": [
+          "(N.Boukharouba,F.B.Bateman,C.E.Brient,A.D.Carlson,\nS.M.Grimes,R.C.Haight,T.N.Massey,O.A.Wasson)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,65,014004,2001) Main reference.\n#doi:10.1103/PhysRevC.65.014004\n(J,PR/C,82,039901,2010) Erratum to main reference.\n#doi:10.1103/PhysRevC.82.039901\n(C,99OSAKA,,431,2001) Preliminary results."
+        ],
+        "INSTITUTE": [
+          "(1USAOHO,1USALAS,1USANIS)"
+        ],
+        "FACILITY": [
+          "(VDGT,1USAOHO)"
+        ],
+        "INC-SOURCE": [
+          "(D-D) 7.27-MeV deuteron beam on deuterium-filled gas\ncell."
+        ],
+        "SAMPLE": [
+          "CH2 targets, bonded to tantalum backing with ethyl\ncyanoacrylate. Thin sample (1.4 mg/cm2 used at all\nangles. Thick sample (3.8 mg/cm2) used for all angles\nbut 60 degrees."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(TELES) 11 telescopes consisting of DE-E silicon\nsurface barrier detectors."
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,DA) Normalized to Breit-Hopkins\ntotal cross section value after radiative capture\ncorrection (negligible)."
+        ],
+        "MONIT-REF": [
+          "(,J.C.Hopkins+,J,ND/A,9,137,1971)"
+        ],
+        "CORRECTION": [
+          "Corrected for finite-size effects and background\nusing MC program."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by A. Carlson, 2004/5/11."
+        ],
+        "HISTORY": [
+          "(20020215C)\n(20040511A) Author approval, BIB, energy updates.\n(20101113A) S.H. Data in sub.2 corrected according\nto PR/C 82, added sub. 3.\n(20160830A) BP: Updated references, doi."
+        ]
+      },
+      "source": {
+        "relative_path": "137/13782.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "NUMBER-CM",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "0.0",
+                "value": 0.0
+              },
+              {
+                "raw": "74.36",
+                "value": 74.36
+              },
+              {
+                "raw": "0.48",
+                "value": 0.48
+              }
+            ],
+            [
+              {
+                "raw": "1.0",
+                "value": 1.0
+              },
+              {
+                "raw": "2.83",
+                "value": 2.83
+              },
+              {
+                "raw": "0.58",
+                "value": 0.58
+              }
+            ],
+            [
+              {
+                "raw": "2.0",
+                "value": 2.0
+              },
+              {
+                "raw": "0.29",
+                "value": 0.29
+              },
+              {
+                "raw": "0.70",
+                "value": 0.7
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            10.04,
+            10.04,
+            10.04
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR",
+                "MONIT"
+              ],
+              "units": [
+                "MEV",
+                "KEV",
+                "MB"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "10.04",
+                    "value": 10.04
+                  },
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  },
+                  {
+                    "raw": "943.2",
+                    "value": 943.2
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 2,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

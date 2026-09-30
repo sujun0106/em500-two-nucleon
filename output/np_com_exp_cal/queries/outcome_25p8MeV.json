@@ -1,0 +1,1149 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 25.8
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "10355",
+      "subentry": "10355002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "SAMPLE": [
+          "Wedge shape scintillating target cut from 2.54 cm cube\nof NE102A."
+        ],
+        "METHOD": [
+          "(TOF,PHD) For each forward event, recoil proton pulse\nheight in scintillating target, incident time of\nflight, scattered neutron time-of-flight, and neutron\npulse height were recorded.\nPrecision 3%."
+        ],
+        "DETECTOR": [
+          "(SCIN) 4 NE102A scintillators; one remained fixed as\na monitor."
+        ],
+        "HISTORY": [
+          "(19770921A) Data from Phys.Rev./C 16,49 (1977) coded\nBIB recoded."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USADAV)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,16,499,1977)\n(J,PRL,31,640,1973)"
+        ],
+        "AUTHOR": [
+          "(T.C.Montgomery,F.P.Brady,B.E.Bonner,W.B.Broste,\nM.W.Mc Naughton)"
+        ],
+        "TITLE": [
+          "Neutron-proton differential cross section measurements\nat 25.8 and 50.0 MeV"
+        ],
+        "FACILITY": [
+          "(ISOCY,1USADAV) Crocker Nuclear Laboratory Isochronous\nCyclotron."
+        ],
+        "INC-SOURCE": [
+          "(P-LI7)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,SIG) Normalization obtained by a\npreliminary fit integrated to total cross section.\nForward and backward data renormalized to agree at\nangles of overlap."
+        ],
+        "MONIT-REF": [
+          "(,F.P.Brady+,J,PRL,25,1628,1970)"
+        ],
+        "CORRECTION": [
+          "Corrected for:\n. detector efficiency uncertainty,\n. neutron attenuation (up to 0.5%),\n. peak losses from nuclear interaction in target\ndetectors (<0.5%),\n. deadtime,\n. finite angle size."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes uncertainties in:\n. counting statistics (0.4-1%),\n. beam and peak energy cuts (up to 1%),\n. corrections for peak losses from nuclear interaction\nin target and detectors (<0.5%),\nUncertainty in neutron detector efficiency (estimated\n3%) and normalization uncertainty not included."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by F.P. Brady, 29 November 1977."
+        ],
+        "HISTORY": [
+          "(19731031C)\n(19770921A) Complete BIB update. Energy deleted from\nsubentry 1 COMMON.\n(19830422A) Reaction corrected.\n(20011120A) Converted to new date formats, lower case.\n(20050627C) DR Reference corrected"
+        ]
+      },
+      "source": {
+        "relative_path": "103/10355.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "20.15",
+                "value": 20.15
+              },
+              {
+                "raw": "29.97",
+                "value": 29.97
+              },
+              {
+                "raw": "0.90",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "30.22",
+                "value": 30.22
+              },
+              {
+                "raw": "29.29",
+                "value": 29.29
+              },
+              {
+                "raw": "0.88",
+                "value": 0.88
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "40.28",
+                "value": 40.28
+              },
+              {
+                "raw": "27.81",
+                "value": 27.81
+              },
+              {
+                "raw": "0.83",
+                "value": 0.83
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "50.34",
+                "value": 50.34
+              },
+              {
+                "raw": "27.37",
+                "value": 27.37
+              },
+              {
+                "raw": "0.82",
+                "value": 0.82
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "60.38",
+                "value": 60.38
+              },
+              {
+                "raw": "27.21",
+                "value": 27.21
+              },
+              {
+                "raw": "0.82",
+                "value": 0.82
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "70.42",
+                "value": 70.42
+              },
+              {
+                "raw": "27.02",
+                "value": 27.02
+              },
+              {
+                "raw": "0.81",
+                "value": 0.81
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "80.45",
+                "value": 80.45
+              },
+              {
+                "raw": "27.94",
+                "value": 27.94
+              },
+              {
+                "raw": "0.84",
+                "value": 0.84
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "90.47",
+                "value": 90.47
+              },
+              {
+                "raw": "28.42",
+                "value": 28.42
+              },
+              {
+                "raw": "0.85",
+                "value": 0.85
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.1",
+                    "value": 0.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "10355",
+      "subentry": "10355003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "SAMPLE": [
+          "Polyethylene sample."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(SOLST) Recoil protons detected by 3 dE-E telescopes;\n1 fixed at 30 degrees for use as monitor."
+        ],
+        "PART-DET": [
+          "(P) protons"
+        ],
+        "CORRECTION": [
+          "Corrected for background events from C(n,p), measured\nusing carbon targets of appropriate thickness.\nPrecision 2%."
+        ],
+        "HISTORY": [
+          "(19770921A) Data for 25.8 MeV added. BIB recoded."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USADAV)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,16,499,1977)\n(J,PRL,31,640,1973)"
+        ],
+        "AUTHOR": [
+          "(T.C.Montgomery,F.P.Brady,B.E.Bonner,W.B.Broste,\nM.W.Mc Naughton)"
+        ],
+        "TITLE": [
+          "Neutron-proton differential cross section measurements\nat 25.8 and 50.0 MeV"
+        ],
+        "FACILITY": [
+          "(ISOCY,1USADAV) Crocker Nuclear Laboratory Isochronous\nCyclotron."
+        ],
+        "INC-SOURCE": [
+          "(P-LI7)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,SIG) Normalization obtained by a\npreliminary fit integrated to total cross section.\nForward and backward data renormalized to agree at\nangles of overlap."
+        ],
+        "MONIT-REF": [
+          "(,F.P.Brady+,J,PRL,25,1628,1970)"
+        ],
+        "CORRECTION": [
+          "Corrected for:\n. detector efficiency uncertainty,\n. neutron attenuation (up to 0.5%),\n. peak losses from nuclear interaction in target\ndetectors (<0.5%),\n. deadtime,\n. finite angle size."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes uncertainties in:\n. counting statistics (0.4-1%),\n. beam and peak energy cuts (up to 1%),\n. corrections for peak losses from nuclear interaction\nin target and detectors (<0.5%),\nUncertainty in neutron detector efficiency (estimated\n3%) and normalization uncertainty not included."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by F.P. Brady, 29 November 1977."
+        ],
+        "HISTORY": [
+          "(19731031C)\n(19770921A) Complete BIB update. Energy deleted from\nsubentry 1 COMMON.\n(19830422A) Reaction corrected.\n(20011120A) Converted to new date formats, lower case.\n(20050627C) DR Reference corrected"
+        ]
+      },
+      "source": {
+        "relative_path": "103/10355.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "89.54",
+                "value": 89.54
+              },
+              {
+                "raw": "28.42",
+                "value": 28.42
+              },
+              {
+                "raw": "0.93",
+                "value": 0.93
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "99.54",
+                "value": 99.54
+              },
+              {
+                "raw": "28.97",
+                "value": 28.97
+              },
+              {
+                "raw": "0.91",
+                "value": 0.91
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "119.58",
+                "value": 119.58
+              },
+              {
+                "raw": "29.09",
+                "value": 29.09
+              },
+              {
+                "raw": "0.54",
+                "value": 0.54
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "129.06",
+                "value": 129.06
+              },
+              {
+                "raw": "30.06",
+                "value": 30.06
+              },
+              {
+                "raw": "0.33",
+                "value": 0.33
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "135.60",
+                "value": 135.6
+              },
+              {
+                "raw": "29.99",
+                "value": 29.99
+              },
+              {
+                "raw": "0.61",
+                "value": 0.61
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "139.60",
+                "value": 139.6
+              },
+              {
+                "raw": "30.57",
+                "value": 30.57
+              },
+              {
+                "raw": "0.38",
+                "value": 0.38
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "159.56",
+                "value": 159.56
+              },
+              {
+                "raw": "33.16",
+                "value": 33.16
+              },
+              {
+                "raw": "0.47",
+                "value": 0.47
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "178.00",
+                "value": 178.0
+              },
+              {
+                "raw": "32.71",
+                "value": 32.71
+              },
+              {
+                "raw": "1.31",
+                "value": 1.31
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.1",
+                    "value": 0.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "10355",
+      "subentry": "10355002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "SAMPLE": [
+          "Wedge shape scintillating target cut from 2.54 cm cube\nof NE102A."
+        ],
+        "METHOD": [
+          "(TOF,PHD) For each forward event, recoil proton pulse\nheight in scintillating target, incident time of\nflight, scattered neutron time-of-flight, and neutron\npulse height were recorded.\nPrecision 3%."
+        ],
+        "DETECTOR": [
+          "(SCIN) 4 NE102A scintillators; one remained fixed as\na monitor."
+        ],
+        "HISTORY": [
+          "(19770921A) Data from Phys.Rev./C 16,49 (1977) coded\nBIB recoded."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USADAV)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,16,499,1977)\n(J,PRL,31,640,1973)"
+        ],
+        "AUTHOR": [
+          "(T.C.Montgomery,F.P.Brady,B.E.Bonner,W.B.Broste,\nM.W.Mc Naughton)"
+        ],
+        "TITLE": [
+          "Neutron-proton differential cross section measurements\nat 25.8 and 50.0 MeV"
+        ],
+        "FACILITY": [
+          "(ISOCY,1USADAV) Crocker Nuclear Laboratory Isochronous\nCyclotron."
+        ],
+        "INC-SOURCE": [
+          "(P-LI7)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,SIG) Normalization obtained by a\npreliminary fit integrated to total cross section.\nForward and backward data renormalized to agree at\nangles of overlap."
+        ],
+        "MONIT-REF": [
+          "(,F.P.Brady+,J,PRL,25,1628,1970)"
+        ],
+        "CORRECTION": [
+          "Corrected for:\n. detector efficiency uncertainty,\n. neutron attenuation (up to 0.5%),\n. peak losses from nuclear interaction in target\ndetectors (<0.5%),\n. deadtime,\n. finite angle size."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes uncertainties in:\n. counting statistics (0.4-1%),\n. beam and peak energy cuts (up to 1%),\n. corrections for peak losses from nuclear interaction\nin target and detectors (<0.5%),\nUncertainty in neutron detector efficiency (estimated\n3%) and normalization uncertainty not included."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by F.P. Brady, 29 November 1977."
+        ],
+        "HISTORY": [
+          "(19731031C)\n(19770921A) Complete BIB update. Energy deleted from\nsubentry 1 COMMON.\n(19830422A) Reaction corrected.\n(20011120A) Converted to new date formats, lower case.\n(20050627C) DR Reference corrected"
+        ]
+      },
+      "source": {
+        "relative_path": "103/10355.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "20.15",
+                "value": 20.15
+              },
+              {
+                "raw": "29.97",
+                "value": 29.97
+              },
+              {
+                "raw": "0.90",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "30.22",
+                "value": 30.22
+              },
+              {
+                "raw": "29.29",
+                "value": 29.29
+              },
+              {
+                "raw": "0.88",
+                "value": 0.88
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "40.28",
+                "value": 40.28
+              },
+              {
+                "raw": "27.81",
+                "value": 27.81
+              },
+              {
+                "raw": "0.83",
+                "value": 0.83
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "50.34",
+                "value": 50.34
+              },
+              {
+                "raw": "27.37",
+                "value": 27.37
+              },
+              {
+                "raw": "0.82",
+                "value": 0.82
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "60.38",
+                "value": 60.38
+              },
+              {
+                "raw": "27.21",
+                "value": 27.21
+              },
+              {
+                "raw": "0.82",
+                "value": 0.82
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "70.42",
+                "value": 70.42
+              },
+              {
+                "raw": "27.02",
+                "value": 27.02
+              },
+              {
+                "raw": "0.81",
+                "value": 0.81
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "80.45",
+                "value": 80.45
+              },
+              {
+                "raw": "27.94",
+                "value": 27.94
+              },
+              {
+                "raw": "0.84",
+                "value": 0.84
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "90.47",
+                "value": 90.47
+              },
+              {
+                "raw": "28.42",
+                "value": 28.42
+              },
+              {
+                "raw": "0.85",
+                "value": 0.85
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.1",
+                    "value": 0.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "10355",
+      "subentry": "10355003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "SAMPLE": [
+          "Polyethylene sample."
+        ],
+        "METHOD": [
+          "(EDE)"
+        ],
+        "DETECTOR": [
+          "(SOLST) Recoil protons detected by 3 dE-E telescopes;\n1 fixed at 30 degrees for use as monitor."
+        ],
+        "PART-DET": [
+          "(P) protons"
+        ],
+        "CORRECTION": [
+          "Corrected for background events from C(n,p), measured\nusing carbon targets of appropriate thickness.\nPrecision 2%."
+        ],
+        "HISTORY": [
+          "(19770921A) Data for 25.8 MeV added. BIB recoded."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(1USADAV)"
+        ],
+        "REFERENCE": [
+          "(J,PR/C,16,499,1977)\n(J,PRL,31,640,1973)"
+        ],
+        "AUTHOR": [
+          "(T.C.Montgomery,F.P.Brady,B.E.Bonner,W.B.Broste,\nM.W.Mc Naughton)"
+        ],
+        "TITLE": [
+          "Neutron-proton differential cross section measurements\nat 25.8 and 50.0 MeV"
+        ],
+        "FACILITY": [
+          "(ISOCY,1USADAV) Crocker Nuclear Laboratory Isochronous\nCyclotron."
+        ],
+        "INC-SOURCE": [
+          "(P-LI7)"
+        ],
+        "MONITOR": [
+          "(1-H-1(N,EL)1-H-1,,SIG) Normalization obtained by a\npreliminary fit integrated to total cross section.\nForward and backward data renormalized to agree at\nangles of overlap."
+        ],
+        "MONIT-REF": [
+          "(,F.P.Brady+,J,PRL,25,1628,1970)"
+        ],
+        "CORRECTION": [
+          "Corrected for:\n. detector efficiency uncertainty,\n. neutron attenuation (up to 0.5%),\n. peak losses from nuclear interaction in target\ndetectors (<0.5%),\n. deadtime,\n. finite angle size."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR) Includes uncertainties in:\n. counting statistics (0.4-1%),\n. beam and peak energy cuts (up to 1%),\n. corrections for peak losses from nuclear interaction\nin target and detectors (<0.5%),\nUncertainty in neutron detector efficiency (estimated\n3%) and normalization uncertainty not included."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by F.P. Brady, 29 November 1977."
+        ],
+        "HISTORY": [
+          "(19731031C)\n(19770921A) Complete BIB update. Energy deleted from\nsubentry 1 COMMON.\n(19830422A) Reaction corrected.\n(20011120A) Converted to new date formats, lower case.\n(20050627C) DR Reference corrected"
+        ]
+      },
+      "source": {
+        "relative_path": "103/10355.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "89.54",
+                "value": 89.54
+              },
+              {
+                "raw": "28.42",
+                "value": 28.42
+              },
+              {
+                "raw": "0.93",
+                "value": 0.93
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "99.54",
+                "value": 99.54
+              },
+              {
+                "raw": "28.97",
+                "value": 28.97
+              },
+              {
+                "raw": "0.91",
+                "value": 0.91
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "119.58",
+                "value": 119.58
+              },
+              {
+                "raw": "29.09",
+                "value": 29.09
+              },
+              {
+                "raw": "0.54",
+                "value": 0.54
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "129.06",
+                "value": 129.06
+              },
+              {
+                "raw": "30.06",
+                "value": 30.06
+              },
+              {
+                "raw": "0.33",
+                "value": 0.33
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "135.60",
+                "value": 135.6
+              },
+              {
+                "raw": "29.99",
+                "value": 29.99
+              },
+              {
+                "raw": "0.61",
+                "value": 0.61
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "139.60",
+                "value": 139.6
+              },
+              {
+                "raw": "30.57",
+                "value": 30.57
+              },
+              {
+                "raw": "0.38",
+                "value": 0.38
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "159.56",
+                "value": 159.56
+              },
+              {
+                "raw": "33.16",
+                "value": 33.16
+              },
+              {
+                "raw": "0.47",
+                "value": 0.47
+              }
+            ],
+            [
+              {
+                "raw": "25.8",
+                "value": 25.8
+              },
+              {
+                "raw": "178.00",
+                "value": 178.0
+              },
+              {
+                "raw": "32.71",
+                "value": 32.71
+              },
+              {
+                "raw": "1.31",
+                "value": 1.31
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8,
+            25.8
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.1",
+                    "value": 0.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 2,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "coordinate_csv_rows": 6001,
+  "density_spherical_integral_trapezoid": 1.99999999999712,
+  "radial_probability_integral_trapezoid": 0.9999999999985598,
+  "momentum_coordinate_radius_difference_fm": 3.5179725799139305e-10,
+  "density_nonnegative_finite": true,
+  "all_observables_from_Fortran": true,
+  "experimental_density_points_used": false,
+  "independent_scientific_review": "passed",
+  "external_expert_review": false,
+  "pdf_pages": 3
+}

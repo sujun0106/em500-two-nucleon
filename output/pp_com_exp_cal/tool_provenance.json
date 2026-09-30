@@ -1,0 +1,20 @@
+{
+  "tool": "EXFOR",
+  "canonical_path": "tools/EXFOR",
+  "project_baseline_commit": "67ce097093bc236c328546f79783dcea6dd007bb",
+  "modified_source_notice": "pp_angular_grid.py is a local extension; snapshot SHA256 hashes below identify the actual plotting/query source, not the baseline commit alone.",
+  "data_commit": "211d7b5195fa426b40d29393b642975f75a0542a",
+  "data_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+  "source_sha256": {
+    "exfor_tool/__init__.py": "db8601c63545392b293f4a3e7d26d37eac08c6f1dfb9af9644132da10d806cbe",
+    "exfor_tool/__main__.py": "360124c85ad26e93f697e6155e44c9f1871d9000363f816f7b1639b8544ec933",
+    "exfor_tool/angular_grid.py": "7ae977a5743ec9b9398c64987e51d949498d329b7a816f208c618c1080765b2c",
+    "exfor_tool/index.py": "c520273239032eeb0cddd3e1069d36371724eb66e84dab7fa0c13a6eb1163e55",
+    "exfor_tool/model.py": "1f05c4bcccefe888ab40d9a610e459a42a9c86ee5d9bde856bf2950322ac055a",
+    "exfor_tool/parser.py": "9e609a90313399491e30251da21a0f7b001cbdb991d02f6f97ae2456b9cf91ea",
+    "exfor_tool/pp_angular_grid.py": "863abecbcf3e1396bb6f3910d4e2ade7d6504f702ffd38a2609b9bc23f103888",
+    "exfor_tool/query.py": "4a36a68e99502ea01ef73d7568256d582fe41db2455e8995043151b0988fc00c",
+    "exfor_tool/render.py": "2ca587ecd96cc2cb585afe7fe2e7fb7ea3f066e8d225988e10a966d6aa864825"
+  },
+  "plot_y_scale": "log"
+}

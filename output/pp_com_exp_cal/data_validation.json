@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "n_panels": 9,
+  "n_points": 190,
+  "panels": [
+    {
+      "energy_MeV": 3.037,
+      "n_points": 16,
+      "theta_min_deg": 12.0,
+      "theta_max_deg": 120.0,
+      "subentries": [
+        "C0935003"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 9.69,
+      "n_points": 26,
+      "theta_min_deg": 10.026,
+      "theta_max_deg": 90.148,
+      "subentries": [
+        "A1216002"
+      ],
+      "excluded": [
+        {
+          "subentry": "A1047002",
+          "table": 0,
+          "reason": "No explicit CM field; no lab-to-CM transformation attempted."
+        },
+        {
+          "subentry": "C0047002",
+          "table": 0,
+          "reason": "No explicit CM field; no lab-to-CM transformation attempted."
+        }
+      ]
+    },
+    {
+      "energy_MeV": 14.16,
+      "n_points": 17,
+      "theta_min_deg": 18.07,
+      "theta_max_deg": 114.19,
+      "subentries": [
+        "E2038004"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 50.06,
+      "n_points": 24,
+      "theta_min_deg": 14.0,
+      "theta_max_deg": 90.0,
+      "subentries": [
+        "A0637002"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 98.0,
+      "n_points": 19,
+      "theta_min_deg": 10.2,
+      "theta_max_deg": 81.4,
+      "subentries": [
+        "F1169002"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 142.0,
+      "n_points": 32,
+      "theta_min_deg": 5.19,
+      "theta_max_deg": 90.0,
+      "subentries": [
+        "F1169002",
+        "F1169003"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 239.9,
+      "n_points": 17,
+      "theta_min_deg": 57.0,
+      "theta_max_deg": 89.0,
+      "subentries": [
+        "O1203002"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 270.8,
+      "n_points": 19,
+      "theta_min_deg": 53.0,
+      "theta_max_deg": 89.0,
+      "subentries": [
+        "O1203002"
+      ],
+      "excluded": []
+    },
+    {
+      "energy_MeV": 286.7,
+      "n_points": 20,
+      "theta_min_deg": 51.0,
+      "theta_max_deg": 89.0,
+      "subentries": [
+        "O1203002"
+      ],
+      "excluded": []
+    }
+  ],
+  "checks": [
+    "Every panel has an exact laboratory incident energy.",
+    "Every plotted angle has explicit ANG-CM or COS-CM.",
+    "All compatible CM records are retained; LAB records are recorded as exclusions.",
+    "Native units only: B/SR to MB/SR via factor 1000; no empirical unit overrides.",
+    "No identical-particle factor 2 or half-factor applied to experimental data.",
+    "No mirror copies, interpolation, or dataset normalization fits.",
+    "8 existing np/new pp angular extraction unit tests passed.",
+    "Experimental 3x3 PNG visually inspected."
+  ]
+}

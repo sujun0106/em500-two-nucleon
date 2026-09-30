@@ -1,0 +1,12 @@
+! Deuteron bound state, coordinate density and impulse-approximation observables.
+&calculation_input
+ calculation='deuteron_bound_state'
+ system='np'
+ interaction='EM500'
+ n_grid=192
+ pmax_MeV=1000.0
+ write_matrices=.false.
+ write_coordinate=.true.
+ coordinate_rmax_fm=60.0
+ coordinate_n_intervals=6000
+/

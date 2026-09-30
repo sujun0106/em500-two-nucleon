@@ -1,0 +1,11 @@
+version=0.4.0
+calculation=pp_scattering
+system=pp
+interaction=EM500
+started_date=20260929
+started_time=163313.423
+started_zone=+0200
+finished_date=20260929
+finished_time=163332.068
+finished_zone=+0200
+status=completed

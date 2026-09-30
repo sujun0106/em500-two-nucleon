@@ -1,0 +1,5 @@
+Energy E_d (MeV)    =     -2.224575280424
+Binding B_d (MeV)   =      2.224575280424
+D probability      =      0.045141567290
+Eigen residual MeV =   1.117085E-12
+Outputs: deuteron_summary.txt, deuteron_wavefunction.csv, deuteron_input.nml

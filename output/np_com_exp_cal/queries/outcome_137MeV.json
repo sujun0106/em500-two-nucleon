@@ -1,0 +1,1627 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 137.0
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "21800",
+      "subentry": "21800002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          "(TABLE) .Table 2 from PRS/A,229,492,1955"
+        ],
+        "HISTORY": [
+          "(20181001A) SD: STATUS was updated. Data from\nSubent 003 were added."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK HAR) Experimental site.\n(2UK OXF) All three authors."
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.Thresher,R.G.P.Voss,R.Wilson)"
+        ],
+        "TITLE": [
+          "Neutron-proton scattering at small angles"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "INC-SOURCE": [
+          "(P-BE)"
+        ],
+        "INC-SPECT": [
+          "(EN-RSL) represents about 20% full width at\nhalf-maximum. This was due to the spread in energy of\nthe incident neutron beam.\n.Effective neutron energy deduced from a measurement\nof absorption in carbon, assuming the total cross\nsection of Taylor and Wood (see REL-REF).\n(ANG-RSL-FW) Full width at half maximum angular\nresolution."
+        ],
+        "REL-REF": [
+          "(M,,A.E.Taylor+,J,PM,44,95,1953)"
+        ],
+        "SAMPLE": [
+          ".Liquid hydrogen in rectangular copper container."
+        ],
+        "METHOD": [
+          ".Absolute differential cross section measured from\n1) count rate for unscattered beam.\n2) Count rate for scattered beam at a given angle."
+        ],
+        "DETECTOR": [
+          "(SCIN) Benzene with 4.0 g/litre terphenyl and\n10 milli-g/litre diphenylhexatriene liquid\nscintillator. Steel sheet to stop recoil protons.\n(BF3) Neutron beam monitor."
+        ],
+        "CORRECTION": [
+          ".Background counts.\n.Neutrons scattered in sample container.\n.Variation of detector efficiency with energy."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-1) Relative error\n(ERR-T)   Total error."
+        ],
+        "HISTORY": [
+          "(19821123C) A.P.T.\n(20181001A) SD:Updated to new date formats,lower case.\nYear of publ.corrected. Subents 002,003 merged.\nSubent 003 deleted. ERR-ANALYS was updated.\nEN-ERR -> EN-RSL. ANG-RSL -> ANG-RSL-FW."
+        ]
+      },
+      "source": {
+        "relative_path": "218/21800.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "EN-ERR",
+            "ANG-CM",
+            "ANG-RSL-FW",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "MEV",
+            "MEV",
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "6.3",
+                "value": 6.3
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "8.9",
+                "value": 8.9
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "10.6",
+                "value": 10.6
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "8.0",
+                "value": 8.0
+              },
+              {
+                "raw": "0.6",
+                "value": 0.6
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "20.7",
+                "value": 20.7
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "6.9",
+                "value": 6.9
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "31.0",
+                "value": 31.0
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "5.85",
+                "value": 5.85
+              },
+              {
+                "raw": "0.35",
+                "value": 0.35
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "41.3",
+                "value": 41.3
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "4.38",
+                "value": 4.38
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "51.6",
+                "value": 51.6
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "2.86",
+                "value": 2.86
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "61.8",
+                "value": 61.8
+              },
+              {
+                "raw": "4.5",
+                "value": 4.5
+              },
+              {
+                "raw": "2.70",
+                "value": 2.7
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "ERR-1"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "6.",
+                    "value": 6.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "21800",
+      "subentry": "21800003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          ".TABLE 2."
+        ],
+        "HISTORY": [
+          "(821123C) A.P.T.\n(830111E)"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK HAR) Experimental site.\n(2UK OXF) All three authors."
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.Thresher,R.G.P.Voss,R.Wilson)"
+        ],
+        "TITLE": [
+          "Neutron-proton scattering at small angles"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "INC-SOURCE": [
+          "(P-BE)"
+        ],
+        "INC-SPECT": [
+          "(EN-RSL) represents about 20% full width at\nhalf-maximum. This was due to the spread in energy of\nthe incident neutron beam.\n.Effective neutron energy deduced from a measurement\nof absorption in carbon, assuming the total cross\nsection of Taylor and Wood (see REL-REF).\n(ANG-RSL-FW) Full width at half maximum angular\nresolution."
+        ],
+        "REL-REF": [
+          "(M,,A.E.Taylor+,J,PM,44,95,1953)"
+        ],
+        "SAMPLE": [
+          ".Liquid hydrogen in rectangular copper container."
+        ],
+        "METHOD": [
+          ".Absolute differential cross section measured from\n1) count rate for unscattered beam.\n2) Count rate for scattered beam at a given angle."
+        ],
+        "DETECTOR": [
+          "(SCIN) Benzene with 4.0 g/litre terphenyl and\n10 milli-g/litre diphenylhexatriene liquid\nscintillator. Steel sheet to stop recoil protons.\n(BF3) Neutron beam monitor."
+        ],
+        "CORRECTION": [
+          ".Background counts.\n.Neutrons scattered in sample container.\n.Variation of detector efficiency with energy."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-1) Relative error\n(ERR-T)   Total error."
+        ],
+        "HISTORY": [
+          "(19821123C) A.P.T.\n(20181001A) SD:Updated to new date formats,lower case.\nYear of publ.corrected. Subents 002,003 merged.\nSubent 003 deleted. ERR-ANALYS was updated.\nEN-ERR -> EN-RSL. ANG-RSL -> ANG-RSL-FW."
+        ]
+      },
+      "source": {
+        "relative_path": "218/21800.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "ANG-RSL",
+            "DATA",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "6.3000E+00",
+                "value": 6.3
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "8.9000E+00",
+                "value": 8.9
+              },
+              {
+                "raw": "1.0000E+00",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "1.0600E+01",
+                "value": 10.6
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "8.0000E+00",
+                "value": 8.0
+              },
+              {
+                "raw": "6.0000E-01",
+                "value": 0.6
+              }
+            ],
+            [
+              {
+                "raw": "2.0700E+01",
+                "value": 20.7
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "6.9000E+00",
+                "value": 6.9
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "3.1000E+01",
+                "value": 31.0
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "5.8500E+00",
+                "value": 5.85
+              },
+              {
+                "raw": "3.5000E-01",
+                "value": 0.35
+              }
+            ],
+            [
+              {
+                "raw": "4.1300E+01",
+                "value": 41.3
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "4.3800E+00",
+                "value": 4.38
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "5.1600E+01",
+                "value": 51.6
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "2.8600E+00",
+                "value": 2.86
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "6.1800E+01",
+                "value": 61.8
+              },
+              {
+                "raw": "4.5000E+00",
+                "value": 4.5
+              },
+              {
+                "raw": "2.7000E+00",
+                "value": 2.7
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.3700E+02",
+                    "value": 137.0
+                  },
+                  {
+                    "raw": "5.0000E+00",
+                    "value": 5.0
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "ERR-1"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "6.",
+                    "value": 6.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "22542",
+      "subentry": "22542003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,,SPA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,,SPA)"
+        ],
+        "ERR-ANALYS": [
+          "DATA-ERR GIVEN IS STATISTICAL ERROR ONLY"
+        ],
+        "HISTORY": [
+          "(19991214T)  Converted from SUBENT 60856003"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK OXF)"
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.THRESHER,R.G.P.VOSS,R.WILSON)"
+        ],
+        "TITLE": [
+          "NEUTRON-PROTON SCATTERING AT SMALL ANGLES."
+        ],
+        "INC-SPECT": [
+          "BROAD SPECTRUM."
+        ],
+        "DETECTOR": [
+          "(SCIN)     LIQUID SCINTILLATION COUNTER"
+        ],
+        "STATUS": [
+          "(SCSRS)"
+        ],
+        "HISTORY": [
+          "(19820331C)  COMPILED BY NNDC\n(19991214T)  Converted by S.M."
+        ]
+      },
+      "source": {
+        "relative_path": "225/22542.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "ERR-S"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "9.9400E-01",
+                "value": 0.994
+              },
+              {
+                "raw": "8.9000E+00",
+                "value": 8.9
+              },
+              {
+                "raw": "1.0000E+01",
+                "value": 10.0
+              }
+            ],
+            [
+              {
+                "raw": "9.8200E-01",
+                "value": 0.982
+              },
+              {
+                "raw": "8.0000E+00",
+                "value": 8.0
+              },
+              {
+                "raw": "6.0000E+00",
+                "value": 6.0
+              }
+            ],
+            [
+              {
+                "raw": "9.3500E-01",
+                "value": 0.935
+              },
+              {
+                "raw": "6.9000E+00",
+                "value": 6.9
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ],
+            [
+              {
+                "raw": "8.5700E-01",
+                "value": 0.857
+              },
+              {
+                "raw": "5.8500E+00",
+                "value": 5.85
+              },
+              {
+                "raw": "3.5000E+01",
+                "value": 35.0
+              }
+            ],
+            [
+              {
+                "raw": "7.5100E-01",
+                "value": 0.751
+              },
+              {
+                "raw": "4.3800E+00",
+                "value": 4.38
+              },
+              {
+                "raw": "4.0000E+01",
+                "value": 40.0
+              }
+            ],
+            [
+              {
+                "raw": "6.2100E-01",
+                "value": 0.621
+              },
+              {
+                "raw": "2.8600E+00",
+                "value": 2.86
+              },
+              {
+                "raw": "4.0000E+01",
+                "value": 40.0
+              }
+            ],
+            [
+              {
+                "raw": "4.7300E-01",
+                "value": 0.473
+              },
+              {
+                "raw": "2.7000E+00",
+                "value": 2.7
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.3700E+02",
+                    "value": 137.0
+                  },
+                  {
+                    "raw": "5.0000E+00",
+                    "value": 5.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "21800",
+      "subentry": "21800002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          "(TABLE) .Table 2 from PRS/A,229,492,1955"
+        ],
+        "HISTORY": [
+          "(20181001A) SD: STATUS was updated. Data from\nSubent 003 were added."
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK HAR) Experimental site.\n(2UK OXF) All three authors."
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.Thresher,R.G.P.Voss,R.Wilson)"
+        ],
+        "TITLE": [
+          "Neutron-proton scattering at small angles"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "INC-SOURCE": [
+          "(P-BE)"
+        ],
+        "INC-SPECT": [
+          "(EN-RSL) represents about 20% full width at\nhalf-maximum. This was due to the spread in energy of\nthe incident neutron beam.\n.Effective neutron energy deduced from a measurement\nof absorption in carbon, assuming the total cross\nsection of Taylor and Wood (see REL-REF).\n(ANG-RSL-FW) Full width at half maximum angular\nresolution."
+        ],
+        "REL-REF": [
+          "(M,,A.E.Taylor+,J,PM,44,95,1953)"
+        ],
+        "SAMPLE": [
+          ".Liquid hydrogen in rectangular copper container."
+        ],
+        "METHOD": [
+          ".Absolute differential cross section measured from\n1) count rate for unscattered beam.\n2) Count rate for scattered beam at a given angle."
+        ],
+        "DETECTOR": [
+          "(SCIN) Benzene with 4.0 g/litre terphenyl and\n10 milli-g/litre diphenylhexatriene liquid\nscintillator. Steel sheet to stop recoil protons.\n(BF3) Neutron beam monitor."
+        ],
+        "CORRECTION": [
+          ".Background counts.\n.Neutrons scattered in sample container.\n.Variation of detector efficiency with energy."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-1) Relative error\n(ERR-T)   Total error."
+        ],
+        "HISTORY": [
+          "(19821123C) A.P.T.\n(20181001A) SD:Updated to new date formats,lower case.\nYear of publ.corrected. Subents 002,003 merged.\nSubent 003 deleted. ERR-ANALYS was updated.\nEN-ERR -> EN-RSL. ANG-RSL -> ANG-RSL-FW."
+        ]
+      },
+      "source": {
+        "relative_path": "218/21800.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "EN-ERR",
+            "ANG-CM",
+            "ANG-RSL-FW",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "MEV",
+            "MEV",
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "6.3",
+                "value": 6.3
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "8.9",
+                "value": 8.9
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "10.6",
+                "value": 10.6
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "8.0",
+                "value": 8.0
+              },
+              {
+                "raw": "0.6",
+                "value": 0.6
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "20.7",
+                "value": 20.7
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "6.9",
+                "value": 6.9
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "31.0",
+                "value": 31.0
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "5.85",
+                "value": 5.85
+              },
+              {
+                "raw": "0.35",
+                "value": 0.35
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "41.3",
+                "value": 41.3
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "4.38",
+                "value": 4.38
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "51.6",
+                "value": 51.6
+              },
+              {
+                "raw": "3.5",
+                "value": 3.5
+              },
+              {
+                "raw": "2.86",
+                "value": 2.86
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "137.",
+                "value": 137.0
+              },
+              {
+                "raw": "5.",
+                "value": 5.0
+              },
+              {
+                "raw": "61.8",
+                "value": 61.8
+              },
+              {
+                "raw": "4.5",
+                "value": 4.5
+              },
+              {
+                "raw": "2.70",
+                "value": 2.7
+              },
+              {
+                "raw": "0.4",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "ERR-1"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "6.",
+                    "value": 6.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "21800",
+      "subentry": "21800003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "STATUS": [
+          ".TABLE 2."
+        ],
+        "HISTORY": [
+          "(821123C) A.P.T.\n(830111E)"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK HAR) Experimental site.\n(2UK OXF) All three authors."
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.Thresher,R.G.P.Voss,R.Wilson)"
+        ],
+        "TITLE": [
+          "Neutron-proton scattering at small angles"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "INC-SOURCE": [
+          "(P-BE)"
+        ],
+        "INC-SPECT": [
+          "(EN-RSL) represents about 20% full width at\nhalf-maximum. This was due to the spread in energy of\nthe incident neutron beam.\n.Effective neutron energy deduced from a measurement\nof absorption in carbon, assuming the total cross\nsection of Taylor and Wood (see REL-REF).\n(ANG-RSL-FW) Full width at half maximum angular\nresolution."
+        ],
+        "REL-REF": [
+          "(M,,A.E.Taylor+,J,PM,44,95,1953)"
+        ],
+        "SAMPLE": [
+          ".Liquid hydrogen in rectangular copper container."
+        ],
+        "METHOD": [
+          ".Absolute differential cross section measured from\n1) count rate for unscattered beam.\n2) Count rate for scattered beam at a given angle."
+        ],
+        "DETECTOR": [
+          "(SCIN) Benzene with 4.0 g/litre terphenyl and\n10 milli-g/litre diphenylhexatriene liquid\nscintillator. Steel sheet to stop recoil protons.\n(BF3) Neutron beam monitor."
+        ],
+        "CORRECTION": [
+          ".Background counts.\n.Neutrons scattered in sample container.\n.Variation of detector efficiency with energy."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-1) Relative error\n(ERR-T)   Total error."
+        ],
+        "HISTORY": [
+          "(19821123C) A.P.T.\n(20181001A) SD:Updated to new date formats,lower case.\nYear of publ.corrected. Subents 002,003 merged.\nSubent 003 deleted. ERR-ANALYS was updated.\nEN-ERR -> EN-RSL. ANG-RSL -> ANG-RSL-FW."
+        ]
+      },
+      "source": {
+        "relative_path": "218/21800.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "ANG-RSL",
+            "DATA",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "ADEG",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "6.3000E+00",
+                "value": 6.3
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "8.9000E+00",
+                "value": 8.9
+              },
+              {
+                "raw": "1.0000E+00",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "1.0600E+01",
+                "value": 10.6
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "8.0000E+00",
+                "value": 8.0
+              },
+              {
+                "raw": "6.0000E-01",
+                "value": 0.6
+              }
+            ],
+            [
+              {
+                "raw": "2.0700E+01",
+                "value": 20.7
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "6.9000E+00",
+                "value": 6.9
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "3.1000E+01",
+                "value": 31.0
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "5.8500E+00",
+                "value": 5.85
+              },
+              {
+                "raw": "3.5000E-01",
+                "value": 0.35
+              }
+            ],
+            [
+              {
+                "raw": "4.1300E+01",
+                "value": 41.3
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "4.3800E+00",
+                "value": 4.38
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "5.1600E+01",
+                "value": 51.6
+              },
+              {
+                "raw": "3.5000E+00",
+                "value": 3.5
+              },
+              {
+                "raw": "2.8600E+00",
+                "value": 2.86
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ],
+            [
+              {
+                "raw": "6.1800E+01",
+                "value": 61.8
+              },
+              {
+                "raw": "4.5000E+00",
+                "value": 4.5
+              },
+              {
+                "raw": "2.7000E+00",
+                "value": 2.7
+              },
+              {
+                "raw": "4.0000E-01",
+                "value": 0.4
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.3700E+02",
+                    "value": 137.0
+                  },
+                  {
+                    "raw": "5.0000E+00",
+                    "value": 5.0
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "ERR-1"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "6.",
+                    "value": 6.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "22542",
+      "subentry": "22542003",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,,SPA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,,SPA)"
+        ],
+        "ERR-ANALYS": [
+          "DATA-ERR GIVEN IS STATISTICAL ERROR ONLY"
+        ],
+        "HISTORY": [
+          "(19991214T)  Converted from SUBENT 60856003"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2UK OXF)"
+        ],
+        "REFERENCE": [
+          "(J,PRS/A,229,492,1955)"
+        ],
+        "AUTHOR": [
+          "(J.J.THRESHER,R.G.P.VOSS,R.WILSON)"
+        ],
+        "TITLE": [
+          "NEUTRON-PROTON SCATTERING AT SMALL ANGLES."
+        ],
+        "INC-SPECT": [
+          "BROAD SPECTRUM."
+        ],
+        "DETECTOR": [
+          "(SCIN)     LIQUID SCINTILLATION COUNTER"
+        ],
+        "STATUS": [
+          "(SCSRS)"
+        ],
+        "HISTORY": [
+          "(19820331C)  COMPILED BY NNDC\n(19991214T)  Converted by S.M."
+        ]
+      },
+      "source": {
+        "relative_path": "225/22542.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "ERR-S"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "9.9400E-01",
+                "value": 0.994
+              },
+              {
+                "raw": "8.9000E+00",
+                "value": 8.9
+              },
+              {
+                "raw": "1.0000E+01",
+                "value": 10.0
+              }
+            ],
+            [
+              {
+                "raw": "9.8200E-01",
+                "value": 0.982
+              },
+              {
+                "raw": "8.0000E+00",
+                "value": 8.0
+              },
+              {
+                "raw": "6.0000E+00",
+                "value": 6.0
+              }
+            ],
+            [
+              {
+                "raw": "9.3500E-01",
+                "value": 0.935
+              },
+              {
+                "raw": "6.9000E+00",
+                "value": 6.9
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ],
+            [
+              {
+                "raw": "8.5700E-01",
+                "value": 0.857
+              },
+              {
+                "raw": "5.8500E+00",
+                "value": 5.85
+              },
+              {
+                "raw": "3.5000E+01",
+                "value": 35.0
+              }
+            ],
+            [
+              {
+                "raw": "7.5100E-01",
+                "value": 0.751
+              },
+              {
+                "raw": "4.3800E+00",
+                "value": 4.38
+              },
+              {
+                "raw": "4.0000E+01",
+                "value": 40.0
+              }
+            ],
+            [
+              {
+                "raw": "6.2100E-01",
+                "value": 0.621
+              },
+              {
+                "raw": "2.8600E+00",
+                "value": 2.86
+              },
+              {
+                "raw": "4.0000E+01",
+                "value": 40.0
+              }
+            ],
+            [
+              {
+                "raw": "4.7300E-01",
+                "value": 0.473
+              },
+              {
+                "raw": "2.7000E+00",
+                "value": 2.7
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0,
+            137.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-RSL"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "1.3700E+02",
+                    "value": 137.0
+                  },
+                  {
+                    "raw": "5.0000E+00",
+                    "value": 5.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 3,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+Completed np J=0; blocks=2
+Completed np J=1; blocks=5
+Completed np J=2; blocks=8
+Completed np J=3; blocks=11
+Completed np J=4; blocks=14
+Completed np J=5; blocks=17
+Completed np J=6; blocks=20
+Completed np J=7; blocks=23
+Completed np J=8; blocks=26
+Completed np J=9; blocks=29
+Completed np J=10; blocks=32
+Completed np J=11; blocks=35
+Completed np J=12; blocks=38
+Completed np J=13; blocks=41
+Completed np J=14; blocks=44
+Completed np J=15; blocks=47
+Completed np J=16; blocks=50
+Completed np J=17; blocks=53
+Completed np J=18; blocks=56
+Completed np J=19; blocks=59
+Completed np J=20; blocks=62
+Completed np J=21; blocks=65
+Completed np J=22; blocks=68
+Completed np J=23; blocks=71
+Completed np J=24; blocks=74
+Completed np J=25; blocks=77
+Completed np J=26; blocks=80
+Completed np J=27; blocks=83
+Completed np J=28; blocks=86
+Completed np J=29; blocks=89
+Completed np J=30; blocks=92
+Completed np J=31; blocks=95
+Completed np J=32; blocks=98
+Neutron lab energy MeV =      284.000000000
+Total elastic mb      =       35.039559236
+Angular closure error =   6.083490E-16
+Outputs: np_summary.txt, np_angular_distribution.csv, np_on_shell.csv, np_partial_waves.csv

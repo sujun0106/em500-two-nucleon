@@ -1,0 +1,797 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "P",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 14.16
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "E2038",
+      "subentry": "E2038004",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "EN-SEC": [
+          "ANG-CM is polar angle between beam and proton in\ncenter of mass system"
+        ],
+        "STATUS": [
+          "(TABLE) Taken from Table IV, p15 in reference"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Elastic scattering of 14 MeV protons by deuterons and\nby protons"
+        ],
+        "AUTHOR": [
+          "(S.Kikuchi, J.Sanada, S.Suwa, I.Hayashi, K.Nisimura,\nK.Fukunaga)"
+        ],
+        "INSTITUTE": [
+          "(2JPNTOK) Institute for Nuclear Study\n(2JPNKTO) Department of Physics, Faculty of Science"
+        ],
+        "REFERENCE": [
+          "(J,JPJ,15,(1),9,196001)"
+        ],
+        "PART-DET": [
+          "(P,D)"
+        ],
+        "INC-SPECT": [
+          "[EN-RSL] HWHM"
+        ],
+        "SAMPLE": [
+          "- Chemical-form of target is element.\n- Physical-form of target is gas."
+        ],
+        "FACILITY": [
+          "(CYCLO,2JPNTOK) Institute for Nuclear Study"
+        ],
+        "DETECTOR": [
+          "(SCIN) To detect scattered protons and recoil\ndeuterons"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total uncertainty"
+        ],
+        "HISTORY": [
+          "(20070318C) On + Yt"
+        ]
+      },
+      "source": {
+        "relative_path": "E20/E2038.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "MB/SR",
+            "PER-CENT"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "18.07",
+                "value": 18.07
+              },
+              {
+                "raw": "48.2",
+                "value": 48.2
+              },
+              {
+                "raw": "9.8",
+                "value": 9.8
+              }
+            ],
+            [
+              {
+                "raw": "20.07",
+                "value": 20.07
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "5.4",
+                "value": 5.4
+              }
+            ],
+            [
+              {
+                "raw": "22.08",
+                "value": 22.08
+              },
+              {
+                "raw": "37.3",
+                "value": 37.3
+              },
+              {
+                "raw": "6.4",
+                "value": 6.4
+              }
+            ],
+            [
+              {
+                "raw": "24.09",
+                "value": 24.09
+              },
+              {
+                "raw": "35.3",
+                "value": 35.3
+              },
+              {
+                "raw": "4.6",
+                "value": 4.6
+              }
+            ],
+            [
+              {
+                "raw": "26.09",
+                "value": 26.09
+              },
+              {
+                "raw": "34.1",
+                "value": 34.1
+              },
+              {
+                "raw": "5.1",
+                "value": 5.1
+              }
+            ],
+            [
+              {
+                "raw": "30.11",
+                "value": 30.11
+              },
+              {
+                "raw": "33.4",
+                "value": 33.4
+              },
+              {
+                "raw": "2.0",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "36.13",
+                "value": 36.13
+              },
+              {
+                "raw": "33.8",
+                "value": 33.8
+              },
+              {
+                "raw": "1.3",
+                "value": 1.3
+              }
+            ],
+            [
+              {
+                "raw": "40.14",
+                "value": 40.14
+              },
+              {
+                "raw": "34.5",
+                "value": 34.5
+              },
+              {
+                "raw": "0.9",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "45.15",
+                "value": 45.15
+              },
+              {
+                "raw": "34.9",
+                "value": 34.9
+              },
+              {
+                "raw": "1.4",
+                "value": 1.4
+              }
+            ],
+            [
+              {
+                "raw": "50.17",
+                "value": 50.17
+              },
+              {
+                "raw": "35.0",
+                "value": 35.0
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "60.18",
+                "value": 60.18
+              },
+              {
+                "raw": "35.3",
+                "value": 35.3
+              },
+              {
+                "raw": "0.9",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "70.20",
+                "value": 70.2
+              },
+              {
+                "raw": "35.8",
+                "value": 35.8
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "80.21",
+                "value": 80.21
+              },
+              {
+                "raw": "35.9",
+                "value": 35.9
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ],
+            [
+              {
+                "raw": "90.21",
+                "value": 90.21
+              },
+              {
+                "raw": "36.2",
+                "value": 36.2
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ],
+            [
+              {
+                "raw": "108.20",
+                "value": 108.2
+              },
+              {
+                "raw": "35.7",
+                "value": 35.7
+              },
+              {
+                "raw": "1.3",
+                "value": 1.3
+              }
+            ],
+            [
+              {
+                "raw": "110.20",
+                "value": 110.2
+              },
+              {
+                "raw": "35.6",
+                "value": 35.6
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "114.19",
+                "value": 114.19
+              },
+              {
+                "raw": "35.4",
+                "value": 35.4
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "14.16",
+                    "value": 14.16
+                  },
+                  {
+                    "raw": "0.07",
+                    "value": 0.07
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "EN-RSL"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.5",
+                    "value": 0.5
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "E2038",
+      "subentry": "E2038004",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "EN-SEC": [
+          "ANG-CM is polar angle between beam and proton in\ncenter of mass system"
+        ],
+        "STATUS": [
+          "(TABLE) Taken from Table IV, p15 in reference"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Elastic scattering of 14 MeV protons by deuterons and\nby protons"
+        ],
+        "AUTHOR": [
+          "(S.Kikuchi, J.Sanada, S.Suwa, I.Hayashi, K.Nisimura,\nK.Fukunaga)"
+        ],
+        "INSTITUTE": [
+          "(2JPNTOK) Institute for Nuclear Study\n(2JPNKTO) Department of Physics, Faculty of Science"
+        ],
+        "REFERENCE": [
+          "(J,JPJ,15,(1),9,196001)"
+        ],
+        "PART-DET": [
+          "(P,D)"
+        ],
+        "INC-SPECT": [
+          "[EN-RSL] HWHM"
+        ],
+        "SAMPLE": [
+          "- Chemical-form of target is element.\n- Physical-form of target is gas."
+        ],
+        "FACILITY": [
+          "(CYCLO,2JPNTOK) Institute for Nuclear Study"
+        ],
+        "DETECTOR": [
+          "(SCIN) To detect scattered protons and recoil\ndeuterons"
+        ],
+        "ERR-ANALYS": [
+          "(ERR-T) Total uncertainty"
+        ],
+        "HISTORY": [
+          "(20070318C) On + Yt"
+        ]
+      },
+      "source": {
+        "relative_path": "E20/E2038.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "ANG-CM",
+            "DATA-CM",
+            "ERR-T"
+          ],
+          "units": [
+            "ADEG",
+            "MB/SR",
+            "PER-CENT"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "18.07",
+                "value": 18.07
+              },
+              {
+                "raw": "48.2",
+                "value": 48.2
+              },
+              {
+                "raw": "9.8",
+                "value": 9.8
+              }
+            ],
+            [
+              {
+                "raw": "20.07",
+                "value": 20.07
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "5.4",
+                "value": 5.4
+              }
+            ],
+            [
+              {
+                "raw": "22.08",
+                "value": 22.08
+              },
+              {
+                "raw": "37.3",
+                "value": 37.3
+              },
+              {
+                "raw": "6.4",
+                "value": 6.4
+              }
+            ],
+            [
+              {
+                "raw": "24.09",
+                "value": 24.09
+              },
+              {
+                "raw": "35.3",
+                "value": 35.3
+              },
+              {
+                "raw": "4.6",
+                "value": 4.6
+              }
+            ],
+            [
+              {
+                "raw": "26.09",
+                "value": 26.09
+              },
+              {
+                "raw": "34.1",
+                "value": 34.1
+              },
+              {
+                "raw": "5.1",
+                "value": 5.1
+              }
+            ],
+            [
+              {
+                "raw": "30.11",
+                "value": 30.11
+              },
+              {
+                "raw": "33.4",
+                "value": 33.4
+              },
+              {
+                "raw": "2.0",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "36.13",
+                "value": 36.13
+              },
+              {
+                "raw": "33.8",
+                "value": 33.8
+              },
+              {
+                "raw": "1.3",
+                "value": 1.3
+              }
+            ],
+            [
+              {
+                "raw": "40.14",
+                "value": 40.14
+              },
+              {
+                "raw": "34.5",
+                "value": 34.5
+              },
+              {
+                "raw": "0.9",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "45.15",
+                "value": 45.15
+              },
+              {
+                "raw": "34.9",
+                "value": 34.9
+              },
+              {
+                "raw": "1.4",
+                "value": 1.4
+              }
+            ],
+            [
+              {
+                "raw": "50.17",
+                "value": 50.17
+              },
+              {
+                "raw": "35.0",
+                "value": 35.0
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "60.18",
+                "value": 60.18
+              },
+              {
+                "raw": "35.3",
+                "value": 35.3
+              },
+              {
+                "raw": "0.9",
+                "value": 0.9
+              }
+            ],
+            [
+              {
+                "raw": "70.20",
+                "value": 70.2
+              },
+              {
+                "raw": "35.8",
+                "value": 35.8
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "80.21",
+                "value": 80.21
+              },
+              {
+                "raw": "35.9",
+                "value": 35.9
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ],
+            [
+              {
+                "raw": "90.21",
+                "value": 90.21
+              },
+              {
+                "raw": "36.2",
+                "value": 36.2
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ],
+            [
+              {
+                "raw": "108.20",
+                "value": 108.2
+              },
+              {
+                "raw": "35.7",
+                "value": 35.7
+              },
+              {
+                "raw": "1.3",
+                "value": 1.3
+              }
+            ],
+            [
+              {
+                "raw": "110.20",
+                "value": 110.2
+              },
+              {
+                "raw": "35.6",
+                "value": 35.6
+              },
+              {
+                "raw": "1.0",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "114.19",
+                "value": 114.19
+              },
+              {
+                "raw": "35.4",
+                "value": 35.4
+              },
+              {
+                "raw": "1.2",
+                "value": 1.2
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16,
+            14.16
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN",
+                "EN-ERR"
+              ],
+              "units": [
+                "MEV",
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "14.16",
+                    "value": 14.16
+                  },
+                  {
+                    "raw": "0.07",
+                    "value": 0.07
+                  }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                "EN-RSL"
+              ],
+              "units": [
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "0.5",
+                    "value": 0.5
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 54,
+    "returned_subentries": 1,
+    "excluded": [
+      {
+        "subentry": "E1830002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

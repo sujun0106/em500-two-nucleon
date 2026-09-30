@@ -1,0 +1,19 @@
+{
+  "reaction": {
+    "projectile": "n",
+    "target": "H-1",
+    "channel": "EL"
+  },
+  "observable": "differential_cross_section",
+  "incident_energy": {
+    "value": 50.0,
+    "unit": "MeV",
+    "mode": "exact"
+  },
+  "selection": {
+    "dataset_policy": "all"
+  },
+  "presentation": {
+    "table": true
+  }
+}

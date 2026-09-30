@@ -1,0 +1,1197 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "P",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 98.0
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "F1169",
+      "subentry": "F1169002",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "INC-SOURCE": [
+          "Unpolarized beam."
+        ],
+        "FLAG": [
+          "(1.) Small angle telescope was used.\n(2.) Large angle telescope was used."
+        ],
+        "STATUS": [
+          "(TABLE) Tbl.1,2."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Proton-proton scattering at 98 and 142 MeV."
+        ],
+        "AUTHOR": [
+          "(A.E.Taylor,E.Wood,L.Bird)"
+        ],
+        "INSTITUTE": [
+          "(2UK HAR)"
+        ],
+        "REFERENCE": [
+          "(J,NP,16,320,1960)"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "SAMPLE": [
+          "Two liquid hydrogen targets were used which had total\nsurface  densities of 1.31 and 1.11 g/cm2. The\nevaporation rate from the target was about 10 cm3 of\nliquid hydrogen per hour when most of the ortho-\nparahydrogen conversion had taken place."
+        ],
+        "DETECTOR": [
+          "(TELES) A triple coincidence range telescope was used\nto detect the scattered protons and the telescope\nabsorber was changed in order to maintain constant\nefficiency of detection for the different scattering\nangles. The counter telescope was mounted on an arm\nwhich could be swung from side to side of the beam\ndirection and whose pivot was carefully set in the\ncentre of the collimated beam."
+        ],
+        "CORRECTION": [
+          "To obtain the true efficiency for any scattering\nangle a small correction was added to the measured\nvalue for those protons which were lost before being\ndetected by the telescope. This correction was\nslightly energy sensitive amounting to 0.2% at 10 degr.\nand 0.6% at 40 degrees for the 98 MeV determination."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR1) Absolute scale error\n(DATA-ERR2) Total relative error\n(ERR-1)  Counting errors\n(ERR-2)  Uncertainty in measurement of the detector\nefficiency\n(ERR-3)  Possible deviation from an angle cosecant\ndependence\n(ERR-4)  Fluctuation in the ionization chamber\ncalibration\n(ERR-5)  Uncertainty in the corrections applied to the\nmeasured detector efficiency\n(DATA-ERR3,3.,4.)The relative error between the\nabsolute scales of the separate determinations"
+        ],
+        "HISTORY": [
+          "(20121010C)"
+        ]
+      },
+      "source": {
+        "relative_path": "F11/F1169.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR",
+            "FLAG"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR",
+            "NO-DIM"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "10.2",
+                "value": 10.2
+              },
+              {
+                "raw": "12.40",
+                "value": 12.4
+              },
+              {
+                "raw": "0.30",
+                "value": 0.3
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "12.3",
+                "value": 12.3
+              },
+              {
+                "raw": "5.23",
+                "value": 5.23
+              },
+              {
+                "raw": "0.13",
+                "value": 0.13
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "14.3",
+                "value": 14.3
+              },
+              {
+                "raw": "3.53",
+                "value": 3.53
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "16.4",
+                "value": 16.4
+              },
+              {
+                "raw": "3.28",
+                "value": 3.28
+              },
+              {
+                "raw": "0.08",
+                "value": 0.08
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "18.5",
+                "value": 18.5
+              },
+              {
+                "raw": "3.28",
+                "value": 3.28
+              },
+              {
+                "raw": "0.08",
+                "value": 0.08
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "20.5",
+                "value": 20.5
+              },
+              {
+                "raw": "3.62",
+                "value": 3.62
+              },
+              {
+                "raw": "0.15",
+                "value": 0.15
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "20.5",
+                "value": 20.5
+              },
+              {
+                "raw": "3.71",
+                "value": 3.71
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "22.6",
+                "value": 22.6
+              },
+              {
+                "raw": "3.72",
+                "value": 3.72
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "22.6",
+                "value": 22.6
+              },
+              {
+                "raw": "3.86",
+                "value": 3.86
+              },
+              {
+                "raw": "0.09",
+                "value": 0.09
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "25.6",
+                "value": 25.6
+              },
+              {
+                "raw": "4.05",
+                "value": 4.05
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "25.6",
+                "value": 25.6
+              },
+              {
+                "raw": "3.93",
+                "value": 3.93
+              },
+              {
+                "raw": "0.12",
+                "value": 0.12
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "30.7",
+                "value": 30.7
+              },
+              {
+                "raw": "4.27",
+                "value": 4.27
+              },
+              {
+                "raw": "0.13",
+                "value": 0.13
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "30.7",
+                "value": 30.7
+              },
+              {
+                "raw": "3.97",
+                "value": 3.97
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "4.47",
+                "value": 4.47
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "4.21",
+                "value": 4.21
+              },
+              {
+                "raw": "0.19",
+                "value": 0.19
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "51.1",
+                "value": 51.1
+              },
+              {
+                "raw": "4.46",
+                "value": 4.46
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "61.3",
+                "value": 61.3
+              },
+              {
+                "raw": "4.45",
+                "value": 4.45
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "71.4",
+                "value": 71.4
+              },
+              {
+                "raw": "4.46",
+                "value": 4.46
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "81.4",
+                "value": 81.4
+              },
+              {
+                "raw": "4.39",
+                "value": 4.39
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "DATA-ERR1",
+                "DATA-ERR2",
+                "ERR-1",
+                "ERR-2",
+                "ERR-3",
+                "ERR-4",
+                "ERR-5"
+              ],
+              "units": [
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "4.5",
+                    "value": 4.5
+                  },
+                  {
+                    "raw": "2.",
+                    "value": 2.0
+                  },
+                  {
+                    "raw": "0.5",
+                    "value": 0.5
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "F1169",
+      "subentry": "F1169002",
+      "reaction": {
+        "raw_code": "(1-H-1(P,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "P",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(P,EL)1-H-1,,DA)"
+        ],
+        "INC-SOURCE": [
+          "Unpolarized beam."
+        ],
+        "FLAG": [
+          "(1.) Small angle telescope was used.\n(2.) Large angle telescope was used."
+        ],
+        "STATUS": [
+          "(TABLE) Tbl.1,2."
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "Proton-proton scattering at 98 and 142 MeV."
+        ],
+        "AUTHOR": [
+          "(A.E.Taylor,E.Wood,L.Bird)"
+        ],
+        "INSTITUTE": [
+          "(2UK HAR)"
+        ],
+        "REFERENCE": [
+          "(J,NP,16,320,1960)"
+        ],
+        "FACILITY": [
+          "(CYCLO,2UK HAR)"
+        ],
+        "SAMPLE": [
+          "Two liquid hydrogen targets were used which had total\nsurface  densities of 1.31 and 1.11 g/cm2. The\nevaporation rate from the target was about 10 cm3 of\nliquid hydrogen per hour when most of the ortho-\nparahydrogen conversion had taken place."
+        ],
+        "DETECTOR": [
+          "(TELES) A triple coincidence range telescope was used\nto detect the scattered protons and the telescope\nabsorber was changed in order to maintain constant\nefficiency of detection for the different scattering\nangles. The counter telescope was mounted on an arm\nwhich could be swung from side to side of the beam\ndirection and whose pivot was carefully set in the\ncentre of the collimated beam."
+        ],
+        "CORRECTION": [
+          "To obtain the true efficiency for any scattering\nangle a small correction was added to the measured\nvalue for those protons which were lost before being\ndetected by the telescope. This correction was\nslightly energy sensitive amounting to 0.2% at 10 degr.\nand 0.6% at 40 degrees for the 98 MeV determination."
+        ],
+        "ERR-ANALYS": [
+          "(DATA-ERR1) Absolute scale error\n(DATA-ERR2) Total relative error\n(ERR-1)  Counting errors\n(ERR-2)  Uncertainty in measurement of the detector\nefficiency\n(ERR-3)  Possible deviation from an angle cosecant\ndependence\n(ERR-4)  Fluctuation in the ionization chamber\ncalibration\n(ERR-5)  Uncertainty in the corrections applied to the\nmeasured detector efficiency\n(DATA-ERR3,3.,4.)The relative error between the\nabsolute scales of the separate determinations"
+        ],
+        "HISTORY": [
+          "(20121010C)"
+        ]
+      },
+      "source": {
+        "relative_path": "F11/F1169.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "ANG-CM",
+            "DATA-CM",
+            "DATA-ERR",
+            "FLAG"
+          ],
+          "units": [
+            "MEV",
+            "ADEG",
+            "MB/SR",
+            "MB/SR",
+            "NO-DIM"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "10.2",
+                "value": 10.2
+              },
+              {
+                "raw": "12.40",
+                "value": 12.4
+              },
+              {
+                "raw": "0.30",
+                "value": 0.3
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "12.3",
+                "value": 12.3
+              },
+              {
+                "raw": "5.23",
+                "value": 5.23
+              },
+              {
+                "raw": "0.13",
+                "value": 0.13
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "14.3",
+                "value": 14.3
+              },
+              {
+                "raw": "3.53",
+                "value": 3.53
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "16.4",
+                "value": 16.4
+              },
+              {
+                "raw": "3.28",
+                "value": 3.28
+              },
+              {
+                "raw": "0.08",
+                "value": 0.08
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "18.5",
+                "value": 18.5
+              },
+              {
+                "raw": "3.28",
+                "value": 3.28
+              },
+              {
+                "raw": "0.08",
+                "value": 0.08
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "20.5",
+                "value": 20.5
+              },
+              {
+                "raw": "3.62",
+                "value": 3.62
+              },
+              {
+                "raw": "0.15",
+                "value": 0.15
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "20.5",
+                "value": 20.5
+              },
+              {
+                "raw": "3.71",
+                "value": 3.71
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "22.6",
+                "value": 22.6
+              },
+              {
+                "raw": "3.72",
+                "value": 3.72
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "22.6",
+                "value": 22.6
+              },
+              {
+                "raw": "3.86",
+                "value": 3.86
+              },
+              {
+                "raw": "0.09",
+                "value": 0.09
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "25.6",
+                "value": 25.6
+              },
+              {
+                "raw": "4.05",
+                "value": 4.05
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "25.6",
+                "value": 25.6
+              },
+              {
+                "raw": "3.93",
+                "value": 3.93
+              },
+              {
+                "raw": "0.12",
+                "value": 0.12
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "30.7",
+                "value": 30.7
+              },
+              {
+                "raw": "4.27",
+                "value": 4.27
+              },
+              {
+                "raw": "0.13",
+                "value": 0.13
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "30.7",
+                "value": 30.7
+              },
+              {
+                "raw": "3.97",
+                "value": 3.97
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "4.47",
+                "value": 4.47
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "40.9",
+                "value": 40.9
+              },
+              {
+                "raw": "4.21",
+                "value": 4.21
+              },
+              {
+                "raw": "0.19",
+                "value": 0.19
+              },
+              {
+                "raw": "1.",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "51.1",
+                "value": 51.1
+              },
+              {
+                "raw": "4.46",
+                "value": 4.46
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "61.3",
+                "value": 61.3
+              },
+              {
+                "raw": "4.45",
+                "value": 4.45
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "71.4",
+                "value": 71.4
+              },
+              {
+                "raw": "4.46",
+                "value": 4.46
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "98.",
+                "value": 98.0
+              },
+              {
+                "raw": "81.4",
+                "value": 81.4
+              },
+              {
+                "raw": "4.39",
+                "value": 4.39
+              },
+              {
+                "raw": "0.10",
+                "value": 0.1
+              },
+              {
+                "raw": "2.",
+                "value": 2.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0,
+            98.0
+          ],
+          "common": [
+            {
+              "headers": [
+                "DATA-ERR1",
+                "DATA-ERR2",
+                "ERR-1",
+                "ERR-2",
+                "ERR-3",
+                "ERR-4",
+                "ERR-5"
+              ],
+              "units": [
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT",
+                "PER-CENT"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "4.5",
+                    "value": 4.5
+                  },
+                  {
+                    "raw": "2.",
+                    "value": 2.0
+                  },
+                  {
+                    "raw": "0.5",
+                    "value": 0.5
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  },
+                  {
+                    "raw": "1.",
+                    "value": 1.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 54,
+    "returned_subentries": 1,
+    "excluded": [
+      {
+        "subentry": "E1830002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

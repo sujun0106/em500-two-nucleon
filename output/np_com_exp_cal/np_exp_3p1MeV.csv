@@ -1,0 +1,7 @@
+energy_MeV,accession,subentry,table_index,row_index,theta_cm_deg,dsigma_cm_mb_sr,error_mb_sr,error_field,flag,angle_header,angle_original_value,angle_original_unit,data_header,data_original_value,data_original_unit,errors_original_json,source_relative_path,data_effective_unit,unit_override_json
+3.1,20319,20319002,0,0,43.99998353182686,166.0,22.0,DATA-ERR,1.0,COS-CM,0.71934,NO-DIM,DATA,166.0,MB/SR,"{""DATA-ERR"": {""raw"": ""2.2000E+01"", ""unit"": ""MB/SR"", ""value"": 22.0}}",203/20319.x4,MB/SR,
+3.1,20319,20319002,0,1,43.99998353182686,146.0,17.0,DATA-ERR,3.0,COS-CM,0.71934,NO-DIM,DATA,146.0,MB/SR,"{""DATA-ERR"": {""raw"": ""1.7000E+01"", ""unit"": ""MB/SR"", ""value"": 17.0}}",203/20319.x4,MB/SR,
+3.1,20319,20319002,0,2,43.99998353182686,159.0,19.0,DATA-ERR,6.0,COS-CM,0.71934,NO-DIM,DATA,159.0,MB/SR,"{""DATA-ERR"": {""raw"": ""1.9000E+01"", ""unit"": ""MB/SR"", ""value"": 19.0}}",203/20319.x4,MB/SR,
+3.1,20319,20319002,0,3,66.00041664001174,153.0,20.0,DATA-ERR,2.0,COS-CM,0.40673,NO-DIM,DATA,153.0,MB/SR,"{""DATA-ERR"": {""raw"": ""2.0000E+01"", ""unit"": ""MB/SR"", ""value"": 20.0}}",203/20319.x4,MB/SR,
+3.1,20319,20319002,0,4,66.00041664001174,157.0,19.0,DATA-ERR,5.0,COS-CM,0.40673,NO-DIM,DATA,157.0,MB/SR,"{""DATA-ERR"": {""raw"": ""1.9000E+01"", ""unit"": ""MB/SR"", ""value"": 19.0}}",203/20319.x4,MB/SR,
+3.1,20319,20319002,0,5,86.00037182387615,136.0,19.0,DATA-ERR,4.0,COS-CM,0.06975,NO-DIM,DATA,136.0,MB/SR,"{""DATA-ERR"": {""raw"": ""1.9000E+01"", ""unit"": ""MB/SR"", ""value"": 19.0}}",203/20319.x4,MB/SR,

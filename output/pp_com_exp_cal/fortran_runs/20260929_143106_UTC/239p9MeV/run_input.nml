@@ -1,0 +1,18 @@
+! Proton beam on stationary proton; CM outgoing-proton angles.
+! EM500 strong pp interaction + point Coulomb, no experimental refit.
+&calculation_input
+ calculation = 'pp_scattering'
+ system = 'pp'
+ interaction = 'EM500'
+ energy_lab_MeV = 239.9
+ kinematics = 'relativistic'
+ n_grid = 160
+ pmax_MeV = 1000.0
+ jmax = 32
+ coulomb_radius_fm = 16.0
+ n_coulomb_points = 192
+ theta_min_deg = 0.25
+ theta_max_deg = 179.75
+ n_angles = 719
+ write_amplitudes = .true.
+/

@@ -1,0 +1,24 @@
+{
+  "energies_MeV": [
+    3.037,
+    9.69,
+    14.16,
+    50.06,
+    98.0,
+    142.0,
+    239.9,
+    270.8,
+    286.7
+  ],
+  "outcomes": [
+    "queries/outcome_3p037MeV.json",
+    "queries/outcome_9p69MeV.json",
+    "queries/outcome_14p16MeV.json",
+    "queries/outcome_50p06MeV.json",
+    "queries/outcome_98MeV.json",
+    "queries/outcome_142MeV.json",
+    "queries/outcome_239p9MeV.json",
+    "queries/outcome_270p8MeV.json",
+    "queries/outcome_286p7MeV.json"
+  ]
+}

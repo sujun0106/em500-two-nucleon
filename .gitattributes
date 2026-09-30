@@ -1,0 +1,2 @@
+# Preserve exact upstream source and numerical-reference bytes on every platform.
+* -text

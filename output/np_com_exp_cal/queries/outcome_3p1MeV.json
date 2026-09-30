@@ -1,0 +1,1035 @@
+{
+  "status": "result",
+  "normalized_query": {
+    "reaction": {
+      "projectile": "N",
+      "target": "1-H-1",
+      "channel": "EL",
+      "product": null,
+      "outgoing_particle": null
+    },
+    "observable": "differential_cross_section",
+    "incident_energy": {
+      "mode": "exact",
+      "unit": "MeV",
+      "value": 3.1
+    },
+    "kinematics": {}
+  },
+  "selection": {
+    "dataset_policy": "all",
+    "yield_definition": null
+  },
+  "records": [
+    {
+      "accession": "14159",
+      "subentry": "14159023",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,P)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,P)"
+        ],
+        "SAMPLE": [
+          "The target thickness was only approximated measured\n(the target was CH2, which is pretty uniform\ngenerally, so this may not be a big issue)."
+        ],
+        "STATUS": [
+          "(TABLE) Authors data."
+        ],
+        "HISTORY": [
+          "(20210422C) BP"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "6Li(n,t)alpha angular distribution measurements for\n0.2 < En < 10MeV at LANSCE/WNR."
+        ],
+        "AUTHOR": [
+          "(M.Devlin,T.N.Taddeucci,G.M.Hale,R.C.Haight,\nJ.M.O'Donnell)"
+        ],
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "REFERENCE": [
+          "(S,AIP-1090,215,2009) Main reference.\n#doi:10.1063/1.3087015\n(C,2007NICE,2,1243,2007) First publication.\n#doi:10.1051/ndata:07563"
+        ],
+        "FACILITY": [
+          "(LINAC,1USALAS)Los Alamos Neutron Science Center/\nWeapons Neutron Research (LANSCE/WNR) spallation\nneutron source. The WNR neutron source at a 30-degree\nproduction angle provided the continuous-in-energy\nsource of neutrons."
+        ],
+        "INC-SOURCE": [
+          "(SPALL) Neutron beam was produced by spallation\nfollowing the bombardment of a tungsten target by\n800 MeV protons at the weapons neutron research\nfacility (WNR) of the Los Alamos Neutron Science"
+        ],
+        "DETECTOR": [
+          "(TELES,PROPC,SIBAR,CSICR) Four three-stage particle\ntelescopes, which  were variously positioned at eight\nscattering angles during the experiment. Each telescope\nconsisted of a de gas detector (20 torr of p-10 gas,\n10% methane in 90% argon), followed by a Si de detector\n500 mu-m thick, and finally by a CsI detector. Reaction\nproducts were stopped in Si detector."
+        ],
+        "METHOD": [
+          "(TOF) incident neutron energy was determined using\nthe time-of-flight technique, corrected for the\ntime-of-flight of the subsequent reaction product\ndetected.\n(EDE) Used for reaction product identification"
+        ],
+        "MONITOR": [
+          "(92-U-235(N,F),,SIG) Fission chamber located\n16.32 meters from the source."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) Counting statistics including fission chamber.\n(ERR-1) Systematic uncertainty for each lab angle\n[rms, N-1 weight]: from proton averages: rms = 4.0%\nfrom alpha averages: rms = 5.4% from triton averages:\nrms = 5.4% ( <= 60 deg) rms = 6.0% ( 70 - 90 deg) rms\n= 10.3% (120 - 135 deg)\n(ERR-2,2.,3.) An overall target thickness uncertainty\nof a few percent or so - the target was dissolved in\nacid and put though mass spect to determine the total\nmass, but there are still uncertainties in the beam\nand target overlap, as both are not entirely uniform."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by Matt Devlin on April 26, 2021."
+        ],
+        "HISTORY": [
+          "(20080117C) Compiled by S.H.\n(20100321A) Reference to Koln conference and subs 18 -\n21 added, status of subs 2-17 edited.\n(20120814U) SD: vol. and page were added to the ref.\nof 2007Nice.\n(20210422A) BP: Added the final data from authors for\n6Li, included data for (n,p) subentries\n22-26, corrected order of references,\nadded doi."
+        ]
+      },
+      "source": {
+        "relative_path": "141/14159.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "DATA",
+            "ERR-S",
+            "ERR-1"
+          ],
+          "units": [
+            "MEV",
+            "B/SR",
+            "B/SR",
+            "B/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "3.100",
+                "value": 3.1
+              },
+              {
+                "raw": "7.11E-01",
+                "value": 0.711
+              },
+              {
+                "raw": "7.80E-03",
+                "value": 0.0078
+              },
+              {
+                "raw": "6.17E-03",
+                "value": 0.00617
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "ANG"
+              ],
+              "units": [
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "14159",
+      "subentry": "14159024",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,P)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,P)"
+        ],
+        "SAMPLE": [
+          "The target thickness was only approximated measured\n(the target was CH2, which is pretty uniform\ngenerally, so this may not be a big issue)."
+        ],
+        "STATUS": [
+          "(TABLE) Authors data."
+        ],
+        "HISTORY": [
+          "(20210422C) BP"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "6Li(n,t)alpha angular distribution measurements for\n0.2 < En < 10MeV at LANSCE/WNR."
+        ],
+        "AUTHOR": [
+          "(M.Devlin,T.N.Taddeucci,G.M.Hale,R.C.Haight,\nJ.M.O'Donnell)"
+        ],
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "REFERENCE": [
+          "(S,AIP-1090,215,2009) Main reference.\n#doi:10.1063/1.3087015\n(C,2007NICE,2,1243,2007) First publication.\n#doi:10.1051/ndata:07563"
+        ],
+        "FACILITY": [
+          "(LINAC,1USALAS)Los Alamos Neutron Science Center/\nWeapons Neutron Research (LANSCE/WNR) spallation\nneutron source. The WNR neutron source at a 30-degree\nproduction angle provided the continuous-in-energy\nsource of neutrons."
+        ],
+        "INC-SOURCE": [
+          "(SPALL) Neutron beam was produced by spallation\nfollowing the bombardment of a tungsten target by\n800 MeV protons at the weapons neutron research\nfacility (WNR) of the Los Alamos Neutron Science"
+        ],
+        "DETECTOR": [
+          "(TELES,PROPC,SIBAR,CSICR) Four three-stage particle\ntelescopes, which  were variously positioned at eight\nscattering angles during the experiment. Each telescope\nconsisted of a de gas detector (20 torr of p-10 gas,\n10% methane in 90% argon), followed by a Si de detector\n500 mu-m thick, and finally by a CsI detector. Reaction\nproducts were stopped in Si detector."
+        ],
+        "METHOD": [
+          "(TOF) incident neutron energy was determined using\nthe time-of-flight technique, corrected for the\ntime-of-flight of the subsequent reaction product\ndetected.\n(EDE) Used for reaction product identification"
+        ],
+        "MONITOR": [
+          "(92-U-235(N,F),,SIG) Fission chamber located\n16.32 meters from the source."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) Counting statistics including fission chamber.\n(ERR-1) Systematic uncertainty for each lab angle\n[rms, N-1 weight]: from proton averages: rms = 4.0%\nfrom alpha averages: rms = 5.4% from triton averages:\nrms = 5.4% ( <= 60 deg) rms = 6.0% ( 70 - 90 deg) rms\n= 10.3% (120 - 135 deg)\n(ERR-2,2.,3.) An overall target thickness uncertainty\nof a few percent or so - the target was dissolved in\nacid and put though mass spect to determine the total\nmass, but there are still uncertainties in the beam\nand target overlap, as both are not entirely uniform."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by Matt Devlin on April 26, 2021."
+        ],
+        "HISTORY": [
+          "(20080117C) Compiled by S.H.\n(20100321A) Reference to Koln conference and subs 18 -\n21 added, status of subs 2-17 edited.\n(20120814U) SD: vol. and page were added to the ref.\nof 2007Nice.\n(20210422A) BP: Added the final data from authors for\n6Li, included data for (n,p) subentries\n22-26, corrected order of references,\nadded doi."
+        ]
+      },
+      "source": {
+        "relative_path": "141/14159.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "DATA",
+            "ERR-S",
+            "ERR-1"
+          ],
+          "units": [
+            "MEV",
+            "B/SR",
+            "B/SR",
+            "B/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "3.100",
+                "value": 3.1
+              },
+              {
+                "raw": "6.37E-01",
+                "value": 0.637
+              },
+              {
+                "raw": "6.60E-03",
+                "value": 0.0066
+              },
+              {
+                "raw": "1.74E-03",
+                "value": 0.00174
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "ANG"
+              ],
+              "units": [
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "30.0",
+                    "value": 30.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "20319",
+      "subentry": "20319002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "HISTORY": [
+          "(711010C)\n(740626E)"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2JPNOSA)"
+        ],
+        "REFERENCE": [
+          "(J,PR,80,469,5011)"
+        ],
+        "AUTHOR": [
+          "(Y.ODA, J.SANADA, S.YAMABE)"
+        ],
+        "TITLE": [
+          "-ON THE ANGULAR DISTRIBUTION OF 3.1 MEV NEUTRONS\nSCATTERED BY PROTONS-"
+        ],
+        "FACILITY": [
+          "(CCW  )    COCKCROFT-WALTON ACCELERATOR."
+        ],
+        "INC-SOURCE": [
+          "(D-D  )    HEAVY WATER ICE TARGET."
+        ],
+        "SAMPLE": [
+          ".PARAFFIN, WATER, RING SCATTERERS."
+        ],
+        "DETECTOR": [
+          "(PROPC)    IONIZATION CHAMBER FILLED WITH METHANE."
+        ],
+        "ANALYSIS": [
+          ".CROSS-SECTIONS OBTAINED BY SUBTRACTING THE\nCONTRIBUTION OF CARBON AND OXYGEN FROM THE CROSS-\nSECTIONS OF PARAFFIN AND WATER RESPECTIVELY."
+        ],
+        "MONITOR": [
+          ".THE ASSUMPTION WAS MADE THAT THE IONIZATION\nCURRENT IN THE IONIZATION CHAMBER PRODUCED\nBY NEUTRONS WHICH LOST THEIR ENERGY THROUGH\nTHE COLLISION WITH PROTONS, WAS PROPORTIONAL\nTO THE PRODUCT OF THE ENERGY AFTER COLLISION\nAND THE TOTAL SCATTERING CROSS SECTION OF\nNEUTRONS AT THAT ENERGY. THE TOTAL\nSCATTERING CROSS  SECTION = 2.224 +- 0.113\nBARN WAS USED, C.L.BAILEY ET AL., PHYS. REV.\n70(1946)583"
+        ],
+        "FLAG": [
+          "(1.) PARAFFIN SAMPLE,  50.7 GRAMS.\n(2.) PARAFFIN SAMPLE,  71.8 GRAMS.\n(3.) PARAFFIN SAMPLE,  94.9 GRAMS.\n(4.) PARAFFIN SAMPLE,  95.4 GRAMS.\n(5.) PARAFFIN SAMPLE, 141.4 GRAMS.\n(6.) WATER SAMPLE,     94.1 GRAMS."
+        ],
+        "STATUS": [
+          ".DATA FROM PHYS.REV.80,469."
+        ],
+        "HISTORY": [
+          "(711010C)\n(740626E)\n(840106U) A.P.T. JAPAN CODE CHANGED TO JPN\n(840106E)"
+        ],
+        "ERR-ANALYS": [
+          ".ERROR GIVEN MAINLY FROM ERROR  OF THE TOTAL CROSS-\nSECTION USED IN THE CALCULATION OF THE SENSITIVITY\nOF THE IONIZATION CHAMBER.\n.ANGULAR RESOLUTION(C.M.) = +-10 DEGREES."
+        ]
+      },
+      "source": {
+        "relative_path": "203/20319.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "DATA-ERR",
+            "FLAG"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR",
+            "NO-DIM"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.6600E+02",
+                "value": 166.0
+              },
+              {
+                "raw": "2.2000E+01",
+                "value": 22.0
+              },
+              {
+                "raw": "1.0000E+00",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.4600E+02",
+                "value": 146.0
+              },
+              {
+                "raw": "1.7000E+01",
+                "value": 17.0
+              },
+              {
+                "raw": "3.0000E+00",
+                "value": 3.0
+              }
+            ],
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.5900E+02",
+                "value": 159.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "6.0000E+00",
+                "value": 6.0
+              }
+            ],
+            [
+              {
+                "raw": "4.0673E-01",
+                "value": 0.40673
+              },
+              {
+                "raw": "1.5300E+02",
+                "value": 153.0
+              },
+              {
+                "raw": "2.0000E+01",
+                "value": 20.0
+              },
+              {
+                "raw": "2.0000E+00",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "4.0673E-01",
+                "value": 0.40673
+              },
+              {
+                "raw": "1.5700E+02",
+                "value": 157.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "5.0000E+00",
+                "value": 5.0
+              }
+            ],
+            [
+              {
+                "raw": "6.9750E-02",
+                "value": 0.06975
+              },
+              {
+                "raw": "1.3600E+02",
+                "value": 136.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "3.1000E+00",
+                    "value": 3.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "table_data": [
+    {
+      "accession": "14159",
+      "subentry": "14159023",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,P)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,P)"
+        ],
+        "SAMPLE": [
+          "The target thickness was only approximated measured\n(the target was CH2, which is pretty uniform\ngenerally, so this may not be a big issue)."
+        ],
+        "STATUS": [
+          "(TABLE) Authors data."
+        ],
+        "HISTORY": [
+          "(20210422C) BP"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "6Li(n,t)alpha angular distribution measurements for\n0.2 < En < 10MeV at LANSCE/WNR."
+        ],
+        "AUTHOR": [
+          "(M.Devlin,T.N.Taddeucci,G.M.Hale,R.C.Haight,\nJ.M.O'Donnell)"
+        ],
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "REFERENCE": [
+          "(S,AIP-1090,215,2009) Main reference.\n#doi:10.1063/1.3087015\n(C,2007NICE,2,1243,2007) First publication.\n#doi:10.1051/ndata:07563"
+        ],
+        "FACILITY": [
+          "(LINAC,1USALAS)Los Alamos Neutron Science Center/\nWeapons Neutron Research (LANSCE/WNR) spallation\nneutron source. The WNR neutron source at a 30-degree\nproduction angle provided the continuous-in-energy\nsource of neutrons."
+        ],
+        "INC-SOURCE": [
+          "(SPALL) Neutron beam was produced by spallation\nfollowing the bombardment of a tungsten target by\n800 MeV protons at the weapons neutron research\nfacility (WNR) of the Los Alamos Neutron Science"
+        ],
+        "DETECTOR": [
+          "(TELES,PROPC,SIBAR,CSICR) Four three-stage particle\ntelescopes, which  were variously positioned at eight\nscattering angles during the experiment. Each telescope\nconsisted of a de gas detector (20 torr of p-10 gas,\n10% methane in 90% argon), followed by a Si de detector\n500 mu-m thick, and finally by a CsI detector. Reaction\nproducts were stopped in Si detector."
+        ],
+        "METHOD": [
+          "(TOF) incident neutron energy was determined using\nthe time-of-flight technique, corrected for the\ntime-of-flight of the subsequent reaction product\ndetected.\n(EDE) Used for reaction product identification"
+        ],
+        "MONITOR": [
+          "(92-U-235(N,F),,SIG) Fission chamber located\n16.32 meters from the source."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) Counting statistics including fission chamber.\n(ERR-1) Systematic uncertainty for each lab angle\n[rms, N-1 weight]: from proton averages: rms = 4.0%\nfrom alpha averages: rms = 5.4% from triton averages:\nrms = 5.4% ( <= 60 deg) rms = 6.0% ( 70 - 90 deg) rms\n= 10.3% (120 - 135 deg)\n(ERR-2,2.,3.) An overall target thickness uncertainty\nof a few percent or so - the target was dissolved in\nacid and put though mass spect to determine the total\nmass, but there are still uncertainties in the beam\nand target overlap, as both are not entirely uniform."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by Matt Devlin on April 26, 2021."
+        ],
+        "HISTORY": [
+          "(20080117C) Compiled by S.H.\n(20100321A) Reference to Koln conference and subs 18 -\n21 added, status of subs 2-17 edited.\n(20120814U) SD: vol. and page were added to the ref.\nof 2007Nice.\n(20210422A) BP: Added the final data from authors for\n6Li, included data for (n,p) subentries\n22-26, corrected order of references,\nadded doi."
+        ]
+      },
+      "source": {
+        "relative_path": "141/14159.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "DATA",
+            "ERR-S",
+            "ERR-1"
+          ],
+          "units": [
+            "MEV",
+            "B/SR",
+            "B/SR",
+            "B/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "3.100",
+                "value": 3.1
+              },
+              {
+                "raw": "7.11E-01",
+                "value": 0.711
+              },
+              {
+                "raw": "7.80E-03",
+                "value": 0.0078
+              },
+              {
+                "raw": "6.17E-03",
+                "value": 0.00617
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "ANG"
+              ],
+              "units": [
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "20.0",
+                    "value": 20.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "14159",
+      "subentry": "14159024",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA,P)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA,P)"
+        ],
+        "SAMPLE": [
+          "The target thickness was only approximated measured\n(the target was CH2, which is pretty uniform\ngenerally, so this may not be a big issue)."
+        ],
+        "STATUS": [
+          "(TABLE) Authors data."
+        ],
+        "HISTORY": [
+          "(20210422C) BP"
+        ]
+      },
+      "entry_bibliography": {
+        "TITLE": [
+          "6Li(n,t)alpha angular distribution measurements for\n0.2 < En < 10MeV at LANSCE/WNR."
+        ],
+        "AUTHOR": [
+          "(M.Devlin,T.N.Taddeucci,G.M.Hale,R.C.Haight,\nJ.M.O'Donnell)"
+        ],
+        "INSTITUTE": [
+          "(1USALAS)"
+        ],
+        "REFERENCE": [
+          "(S,AIP-1090,215,2009) Main reference.\n#doi:10.1063/1.3087015\n(C,2007NICE,2,1243,2007) First publication.\n#doi:10.1051/ndata:07563"
+        ],
+        "FACILITY": [
+          "(LINAC,1USALAS)Los Alamos Neutron Science Center/\nWeapons Neutron Research (LANSCE/WNR) spallation\nneutron source. The WNR neutron source at a 30-degree\nproduction angle provided the continuous-in-energy\nsource of neutrons."
+        ],
+        "INC-SOURCE": [
+          "(SPALL) Neutron beam was produced by spallation\nfollowing the bombardment of a tungsten target by\n800 MeV protons at the weapons neutron research\nfacility (WNR) of the Los Alamos Neutron Science"
+        ],
+        "DETECTOR": [
+          "(TELES,PROPC,SIBAR,CSICR) Four three-stage particle\ntelescopes, which  were variously positioned at eight\nscattering angles during the experiment. Each telescope\nconsisted of a de gas detector (20 torr of p-10 gas,\n10% methane in 90% argon), followed by a Si de detector\n500 mu-m thick, and finally by a CsI detector. Reaction\nproducts were stopped in Si detector."
+        ],
+        "METHOD": [
+          "(TOF) incident neutron energy was determined using\nthe time-of-flight technique, corrected for the\ntime-of-flight of the subsequent reaction product\ndetected.\n(EDE) Used for reaction product identification"
+        ],
+        "MONITOR": [
+          "(92-U-235(N,F),,SIG) Fission chamber located\n16.32 meters from the source."
+        ],
+        "ERR-ANALYS": [
+          "(ERR-S) Counting statistics including fission chamber.\n(ERR-1) Systematic uncertainty for each lab angle\n[rms, N-1 weight]: from proton averages: rms = 4.0%\nfrom alpha averages: rms = 5.4% from triton averages:\nrms = 5.4% ( <= 60 deg) rms = 6.0% ( 70 - 90 deg) rms\n= 10.3% (120 - 135 deg)\n(ERR-2,2.,3.) An overall target thickness uncertainty\nof a few percent or so - the target was dissolved in\nacid and put though mass spect to determine the total\nmass, but there are still uncertainties in the beam\nand target overlap, as both are not entirely uniform."
+        ],
+        "STATUS": [
+          "(APRVD) Approved by Matt Devlin on April 26, 2021."
+        ],
+        "HISTORY": [
+          "(20080117C) Compiled by S.H.\n(20100321A) Reference to Koln conference and subs 18 -\n21 added, status of subs 2-17 edited.\n(20120814U) SD: vol. and page were added to the ref.\nof 2007Nice.\n(20210422A) BP: Added the final data from authors for\n6Li, included data for (n,p) subentries\n22-26, corrected order of references,\nadded doi."
+        ]
+      },
+      "source": {
+        "relative_path": "141/14159.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "EN",
+            "DATA",
+            "ERR-S",
+            "ERR-1"
+          ],
+          "units": [
+            "MEV",
+            "B/SR",
+            "B/SR",
+            "B/SR"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "3.100",
+                "value": 3.1
+              },
+              {
+                "raw": "6.37E-01",
+                "value": 0.637
+              },
+              {
+                "raw": "6.60E-03",
+                "value": 0.0066
+              },
+              {
+                "raw": "1.74E-03",
+                "value": 0.00174
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "ANG"
+              ],
+              "units": [
+                "ADEG"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "30.0",
+                    "value": 30.0
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "accession": "20319",
+      "subentry": "20319002",
+      "reaction": {
+        "raw_code": "(1-H-1(N,EL)1-H-1,,DA)",
+        "target_code": "1-H-1",
+        "projectile_code": "N",
+        "process_code": "EL",
+        "product_code": "1-H-1",
+        "quantity_code": "DA",
+        "yield_code": null
+      },
+      "bibliography": {
+        "REACTION": [
+          "(1-H-1(N,EL)1-H-1,,DA)"
+        ],
+        "HISTORY": [
+          "(711010C)\n(740626E)"
+        ]
+      },
+      "entry_bibliography": {
+        "INSTITUTE": [
+          "(2JPNOSA)"
+        ],
+        "REFERENCE": [
+          "(J,PR,80,469,5011)"
+        ],
+        "AUTHOR": [
+          "(Y.ODA, J.SANADA, S.YAMABE)"
+        ],
+        "TITLE": [
+          "-ON THE ANGULAR DISTRIBUTION OF 3.1 MEV NEUTRONS\nSCATTERED BY PROTONS-"
+        ],
+        "FACILITY": [
+          "(CCW  )    COCKCROFT-WALTON ACCELERATOR."
+        ],
+        "INC-SOURCE": [
+          "(D-D  )    HEAVY WATER ICE TARGET."
+        ],
+        "SAMPLE": [
+          ".PARAFFIN, WATER, RING SCATTERERS."
+        ],
+        "DETECTOR": [
+          "(PROPC)    IONIZATION CHAMBER FILLED WITH METHANE."
+        ],
+        "ANALYSIS": [
+          ".CROSS-SECTIONS OBTAINED BY SUBTRACTING THE\nCONTRIBUTION OF CARBON AND OXYGEN FROM THE CROSS-\nSECTIONS OF PARAFFIN AND WATER RESPECTIVELY."
+        ],
+        "MONITOR": [
+          ".THE ASSUMPTION WAS MADE THAT THE IONIZATION\nCURRENT IN THE IONIZATION CHAMBER PRODUCED\nBY NEUTRONS WHICH LOST THEIR ENERGY THROUGH\nTHE COLLISION WITH PROTONS, WAS PROPORTIONAL\nTO THE PRODUCT OF THE ENERGY AFTER COLLISION\nAND THE TOTAL SCATTERING CROSS SECTION OF\nNEUTRONS AT THAT ENERGY. THE TOTAL\nSCATTERING CROSS  SECTION = 2.224 +- 0.113\nBARN WAS USED, C.L.BAILEY ET AL., PHYS. REV.\n70(1946)583"
+        ],
+        "FLAG": [
+          "(1.) PARAFFIN SAMPLE,  50.7 GRAMS.\n(2.) PARAFFIN SAMPLE,  71.8 GRAMS.\n(3.) PARAFFIN SAMPLE,  94.9 GRAMS.\n(4.) PARAFFIN SAMPLE,  95.4 GRAMS.\n(5.) PARAFFIN SAMPLE, 141.4 GRAMS.\n(6.) WATER SAMPLE,     94.1 GRAMS."
+        ],
+        "STATUS": [
+          ".DATA FROM PHYS.REV.80,469."
+        ],
+        "HISTORY": [
+          "(711010C)\n(740626E)\n(840106U) A.P.T. JAPAN CODE CHANGED TO JPN\n(840106E)"
+        ],
+        "ERR-ANALYS": [
+          ".ERROR GIVEN MAINLY FROM ERROR  OF THE TOTAL CROSS-\nSECTION USED IN THE CALCULATION OF THE SENSITIVITY\nOF THE IONIZATION CHAMBER.\n.ANGULAR RESOLUTION(C.M.) = +-10 DEGREES."
+        ]
+      },
+      "source": {
+        "relative_path": "203/20319.x4",
+        "subentry_status": "active"
+      },
+      "data": [
+        {
+          "headers": [
+            "COS-CM",
+            "DATA",
+            "DATA-ERR",
+            "FLAG"
+          ],
+          "units": [
+            "NO-DIM",
+            "MB/SR",
+            "MB/SR",
+            "NO-DIM"
+          ],
+          "rows": [
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.6600E+02",
+                "value": 166.0
+              },
+              {
+                "raw": "2.2000E+01",
+                "value": 22.0
+              },
+              {
+                "raw": "1.0000E+00",
+                "value": 1.0
+              }
+            ],
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.4600E+02",
+                "value": 146.0
+              },
+              {
+                "raw": "1.7000E+01",
+                "value": 17.0
+              },
+              {
+                "raw": "3.0000E+00",
+                "value": 3.0
+              }
+            ],
+            [
+              {
+                "raw": "7.1934E-01",
+                "value": 0.71934
+              },
+              {
+                "raw": "1.5900E+02",
+                "value": 159.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "6.0000E+00",
+                "value": 6.0
+              }
+            ],
+            [
+              {
+                "raw": "4.0673E-01",
+                "value": 0.40673
+              },
+              {
+                "raw": "1.5300E+02",
+                "value": 153.0
+              },
+              {
+                "raw": "2.0000E+01",
+                "value": 20.0
+              },
+              {
+                "raw": "2.0000E+00",
+                "value": 2.0
+              }
+            ],
+            [
+              {
+                "raw": "4.0673E-01",
+                "value": 0.40673
+              },
+              {
+                "raw": "1.5700E+02",
+                "value": 157.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "5.0000E+00",
+                "value": 5.0
+              }
+            ],
+            [
+              {
+                "raw": "6.9750E-02",
+                "value": 0.06975
+              },
+              {
+                "raw": "1.3600E+02",
+                "value": 136.0
+              },
+              {
+                "raw": "1.9000E+01",
+                "value": 19.0
+              },
+              {
+                "raw": "4.0000E+00",
+                "value": 4.0
+              }
+            ]
+          ],
+          "incident_energy_mev": [
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            3.1
+          ],
+          "common": [
+            {
+              "headers": [
+                "EN"
+              ],
+              "units": [
+                "MEV"
+              ],
+              "rows": [
+                [
+                  {
+                    "raw": "3.1000E+00",
+                    "value": 3.1
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plot_data": null,
+  "provenance": {
+    "index_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "queried_source_root": "/home/sujun/Assistant/tools/EXFOR/external/exfor-git/exforall",
+    "git_remote": "https://github.com/IAEA-NDS/exfor_master.git",
+    "git_branch": "main",
+    "git_commit": "211d7b5195fa426b40d29393b642975f75a0542a"
+  },
+  "details": {
+    "matched_subentries": 137,
+    "returned_subentries": 3,
+    "excluded": [
+      {
+        "subentry": "10592002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11036002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "11128002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "20296005",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21365002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367003",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21367004",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "21815002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      },
+      {
+        "subentry": "22207002",
+        "reason": "incident energy was requested but EXFOR has no EN column"
+      }
+    ]
+  }
+}

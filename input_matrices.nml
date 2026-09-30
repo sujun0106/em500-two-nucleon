@@ -1,0 +1,9 @@
+! Small matrix-output example; H has dimension 2*n_grid=80.
+&calculation_input
+  calculation = 'deuteron_bound_state'
+  system = 'np'
+  interaction = 'EM500'
+  n_grid = 40
+  pmax_MeV = 1000.0
+  write_matrices = .true.
+/

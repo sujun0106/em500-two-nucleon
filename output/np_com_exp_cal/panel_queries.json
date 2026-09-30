@@ -1,0 +1,27 @@
+{
+  "outcomes": [
+    "queries/outcome_3p1MeV.json",
+    "queries/outcome_10p04MeV.json",
+    "queries/outcome_25p8MeV.json",
+    "queries/outcome_50MeV.json",
+    "queries/outcome_96MeV.json",
+    "queries/outcome_137MeV.json",
+    "queries/outcome_150MeV.json",
+    "queries/outcome_200MeV.json",
+    "queries/outcome_300p2MeV.json"
+  ],
+  "energies_MeV": [
+    3.1,
+    10.04,
+    25.8,
+    50.0,
+    96.0,
+    137.0,
+    150.0,
+    200.0,
+    300.2
+  ],
+  "prepared_panels": {
+    "300.2": "franz_300p2/prepared_panel.json"
+  }
+}

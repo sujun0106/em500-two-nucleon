@@ -1,0 +1,15 @@
+! Fixed EM500 NN-only. Neutron lab energy; CM outgoing-neutron angles.
+&calculation_input
+ calculation = 'np_scattering'
+ system = 'np'
+ interaction = 'EM500'
+ energy_lab_MeV = 137.0
+ kinematics = 'relativistic'
+ n_grid = 96
+ pmax_MeV = 1000.0
+ jmax = 32
+ theta_min_deg = 0.0
+ theta_max_deg = 180.0
+ n_angles = 721
+ write_amplitudes = .true.
+/
